@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link rel="icon" href="data:,">
+		<title>Palavras Cruzadas</title>
+		<style>
+			body { font-family: system-ui, sans-serif; margin: 24px; }
+			.top { display:flex; align-items:center; gap:12px; margin-bottom:12px; }
+			button { padding: 6px 10px; }
+			.grid {
+				display: grid;
+				grid-template-columns: repeat(10, 34px);
+				grid-auto-rows: 34px;
+				gap: 2px;
+				width: max-content;
+				user-select: none;
+			}
+			.cellwrap{
+				position: relative;
+				width: 34px;
+				height: 34px;
+			}	
+			.num{
+				position: absolute;
+				top: 2px;
+				left: 3px;
+				font-size: 10px;
+				line-height: 10px;
+				color: #555;
+				pointer-events: none;
+			}
+
+			.cell{
+				width: 100%;
+				height: 100%;
+				border: 1px solid #bbb;
+				padding: 0;
+				text-align: center;
+				font-size: 18px;
+				text-transform: uppercase;
+				outline: none;
+			}    
+			.cell:focus { border-color: #333; }
+			.cell.block {
+				background: #111;
+				border-color: #111;
+			}
+
+			.layout{
+				display: flex;
+				gap: 16px;
+				align-items: flex-start;
+			}
+			.clues{
+				min-width: 260px;
+				display: flex;
+				flex-direction: row;
+				gap: 32px;		
+			}
+			.clues  h2{
+				margin: 0 0 12px 0;
+				font-size: 14px;		
+			}
+			.cell.hl { 
+				background: #ffeaa7; 
+			}
+			.cell.active { 
+				border-color: #000; 
+			}
+			.cell.block { 
+				background:#111; 
+				border-color:#111; 
+			}
+			.clue-item{ padding:2px 6px; border-radius:6px; }
+			.clue-item.active{ background:#ffeaa7; font-weight:600; }
+			.clue-item.done{
+				text-decoration: line-through;
+				opacity: 0.6;
+			}			
+		</style>
+	</head>
+	<body>
+		<div class="top">
+			<div id="title" style="font-size:18px;">Template 1</div>
+			<button id="nextBtn" type="button">Trocar template</button>
+			<button id="solveBtn" type="button">Preencher</button>
+		</div>
+
+		<div class="layout">
+			<div id="grid"  class="grid" aria-label="Grid de palavras cruzadas"></div>
+			<aside class="clues">
+				<section>
+					<h2>Horizontais</h2>
+					<div id="hor" class="hor" aria-label="Horizontais"></div>
+				</section>
+				<section>
+					<h2>Verticais</h2>
+					<div id="ver" class="ver" aria-label="Verticais"></div>
+				</section>
+			</aside>
+		</div>
+
+		<script type="module" src="./main.js"></script>
+	</body>
+</html>
+
