@@ -1,7 +1,27 @@
+/*
+ * slotsAll: list of all slots (in both across/down) 
+ *           each element contains:
+ *           - id, direction, slot number, lenght and a list of the cells it occupies
+ *
+ * clueMap: dictionary of the clues (in across/down directions)
+ *          the map is done via the slot number .num (e.g. across.num)
+ *          and cointains the HTML element in the list of clues
+ *
+ * across/down: list for the words in the across/down direction 
+ *              each element cointais { num: nums[r][c], r, c, len }
+ *              containing the number of the word/clue, the position and the lenght
+ *
+ * assignment: map of the word of each slot, mapped into slot.id -> word
+ *
+ *
+ */
+
 export function createApp({ gridEl, horEl, verEl, titleEl, nextBtn, solveBtn }) {
 
-	const SIZE = 10;
+	let  SIZE = 10;
 
+	let intersections = null;
+	let slotById = null;
 	let wordStore = null;
 	let slotsAll = [];
 	let state = null;              // 2D: "#" | "" | "A"...
@@ -29,52 +49,65 @@ export function createApp({ gridEl, horEl, verEl, titleEl, nextBtn, solveBtn }) 
 	};
 
 	const TEMPLATES = [
-	  [
-		"......#...",
-		"......#...",
-		"..........",
-		"....#.....",
-		"...#......",
-		"###.....##",
-		"#......#..",
-		"..........",
-		"....#.....",
-		"....#.....",
-	  ],
-	  [
-		"......#...",
-		"......#...",
-		"..........",
-		"##........",
-		"####.....#",
-		"###.....##",
-		"#.....####",
-		"..........",
-		"....#.....",
-		"...##.....",
-	  ],
-	  [
-		"###....###",
-		"##......##",
-		"#........#",
-		"......#...",
-		".....#....",
-		"....#.....",
-		"...#......",
-		"#........#",
-		"##......##",
-		"###....###",
-	  ],
+		[
+			"....#....#",
+			"...##.....",
+			"..........",
+			".....#....",
+			"......####",
+			"....#.....",
+			"###.#.....",
+			"....#.....",
+			".........#",
+			".....#####",
+		],
+		[
+			"###....###",
+			"##......##",
+			"#........#",
+			"......#...",
+			".....#....",
+			"....#.....",
+			"...#......",
+			"#........#",
+			"##......##",
+			"###....###",
+		],
+		[
+			"......#....#...",
+			"......#....#...",
+			"......#........",
+			"...#...#.......",
+			"###.....#...###",
+			".....#...##....",
+			"..........#....",
+			"...##.....##...",
+			"....#..........",
+			"....##...#.....",
+			"###...#.....###",
+			".......#...#...",
+			"........#......",
+			"...#....#......",
+			"...#....#......",
+		],
+		[
+			"...............",
+			"...............",
+			"...............",
+			"...............",
+			"...............",
+			"...............",
+			"...............",
+			"...............",
+			"...............",
+			"...............",
+			"...............",
+			"...............",
+			"...............",
+			"...............",
+			"...............",		
+		],
 	];
-
-	/*async function loadWordlist() {
-		//const r = await fetch("./words_by_len_tier.json");
-		//wordsByLen = await r.json();
-		const r = await fetch("./words_by_len_tier.json");
-		const data = await r.json();
-		wordStore = buildWordStore(data);		
-		console.log("wordlist carregada");
-	}*/
 
 	async function loadWordlist() {
 		const r = await fetch("./words_by_len_tier.json");
@@ -89,6 +122,23 @@ export function createApp({ gridEl, horEl, verEl, titleEl, nextBtn, solveBtn }) 
 			}
 		} catch {}
 	}	
+
+	function forwardCheck(changedSlot) {
+		const neigh = intersections?.get(changedSlot.id) || [];
+		const seen = new Set();
+
+		for (const { otherId } of neigh) {
+			if (seen.has(otherId)) continue;
+			seen.add(otherId);
+
+			if (assignment.has(otherId)) continue;
+			const otherSlot = slotById.get(otherId);
+			if (!otherSlot) continue;
+
+			if (candidatesForSlot(otherSlot).length === 0) return false;
+		}
+		return true;
+	}
 
 	function shuffleInPlace(a) {
 		for (let i = a.length - 1; i > 0; i--) {
@@ -174,29 +224,53 @@ export function createApp({ gridEl, horEl, verEl, titleEl, nextBtn, solveBtn }) 
 			slotTier === "medium" ? ["medium", "easy"] :
 			["easy"];
 
-		// opcional: em puzzle "hard", não desce até easy
 		return puzzleLevel === "hard" ? full.slice(0, 2) : full;
 	}
 
-	function candidatesFromEntry(entry, pat) {
+	const MAX_CANDS = 600; // ajuste (200–1500)
+
+	function limitCandidatesRandomInPlace(arr, k) {
+		if (arr.length <= k) return arr;
+		for (let i = 0; i < k; i++) {
+			const j = i + ((Math.random() * (arr.length - i)) | 0);
+			[arr[i], arr[j]] = [arr[j], arr[i]];
+		}
+		arr.length = k;
+		return arr;
+	}
+
+	function candidatesFromEntry(entry, pat, jitterWindow = 6) {
 		const cons = [];
 		for (let i = 0; i < pat.length; i++) if (pat[i] !== ".") cons.push([i, pat[i]]);
 
 		let base = entry.list;
 		if (cons.length) {
 			cons.sort((a, b) =>
-				(entry.idx[a[0]][a[1]]?.length ?? 1e9) - (entry.idx[b[0]][b[1]]?.length ?? 1e9)
+				((entry.idx[a[0]]?.[a[1]]?.length ?? 1e9) - (entry.idx[b[0]]?.[b[1]]?.length ?? 1e9))
 			);
 			const [p0, ch0] = cons.shift();
-			base = entry.idx[p0][ch0] || [];
+			base = entry.idx[p0]?.[ch0] || [];
 		}
 
-		return base.filter(w => {
+		const out = base.filter(w => {
 			if (usedWords.has(w)) return false;
 			for (const [pos, ch] of cons) if (w[pos] !== ch) return false;
 			return true;
 		});
+
+		// jitter: troca com um item próximo (variação sem “embaralhar tudo”)
+		const win = Math.max(0, jitterWindow | 0);
+		if (win > 0 && out.length > 1) {
+			for (let i = 0; i < out.length - 1; i++) {
+				const span = Math.min(win, out.length - i);
+				const j = i + ((Math.random() * span) | 0);
+				if (j !== i) [out[i], out[j]] = [out[j], out[i]];
+			}
+		}
+
+		return out;
 	}
+
 
 	function candidatesForSlot(slot) {
 		if (!wordStore) return [];
@@ -208,15 +282,12 @@ export function createApp({ gridEl, horEl, verEl, titleEl, nextBtn, solveBtn }) 
 		for (const t of tiers) {
 			const entry = wordStore[lenKey]?.[t];
 			if (!entry) continue;
-
-			// slot completo: valida em O(1), mas com fallback de tier
 			if (!pat.includes(".")) {
 				if (entry.set.has(pat) && !usedWords.has(pat)) return [pat];
 				continue;
 			}
-
-			const c = candidatesFromEntry(entry, pat);
-			if (c.length) return c; // achou no tier atual; se vazio, cai pro próximo tier
+			const c = candidatesFromEntry(entry, pat, 8);
+			if (c.length) return c;
 		}
 
 		return [];
@@ -305,13 +376,7 @@ export function createApp({ gridEl, horEl, verEl, titleEl, nextBtn, solveBtn }) 
 		for (const slot of slotsAll) {
 			const el = clueMap[slot.dir]?.get(slot.num);
 			if (!el) continue;
-
 			const word = assignment.get(slot.id);
-			if (!word) {
-				el.textContent = `${slot.num}. (${slot.len})`;
-				continue;
-			}
-
 			const clue = cluesByWord?.[word] || "(sem dica)";
 			el.textContent = `${slot.num}. (${slot.len}) ${clue}`;
 		}
@@ -321,7 +386,6 @@ export function createApp({ gridEl, horEl, verEl, titleEl, nextBtn, solveBtn }) 
 		for (const slot of slotsAll) {
 			const el = clueMap[slot.dir]?.get(slot.num);
 			if (!el) continue;
-
 			const word = assignment.get(slot.id);
 			el.textContent = word
 				? `${slot.num}. (${slot.len}) ${word}`
@@ -369,18 +433,14 @@ export function createApp({ gridEl, horEl, verEl, titleEl, nextBtn, solveBtn }) 
 
 		for (const slot of slotsAll) {
 			if (assignment.has(slot.id)) continue;
-			//if (isSlotComplete(slot)) continue;
-
 			const cands = candidatesForSlot(slot);
 			if (cands.length === 0) return { slot, cands };
-
 			if (!best || cands.length < bestCands.length) {
 				best = slot;
 				bestCands = cands;
 				if (bestCands.length === 1) break;
 			}
 		}
-
 		return best ? { slot: best, cands: bestCands } : null;
 	}
 
@@ -389,23 +449,22 @@ export function createApp({ gridEl, horEl, verEl, titleEl, nextBtn, solveBtn }) 
 		if (pick === null) return true; // tudo ok
 		const { slot, cands } = pick;
 		if (cands.length === 0) return false;
-		shuffleInPlace(cands);
-
+		limitCandidatesRandomInPlace(cands, MAX_CANDS);
 		for (const w of cands) {
 			const changes = placeWord(slot, w);
 			if (!changes) continue;
-
+			if (!forwardCheck(slot)) {
+				undoPlace(slot, w, changes);
+				continue;
+			}
 			if (solveBacktrack()) return true;
-
 			undoPlace(slot, w, changes);
 		}
 		return false;
 	}
 
 	function buildIntersections(slots) {
-		// cell -> [{ slotId, pos }]
 		const cellMap = new Map();
-
 		for (const slot of slots) {
 			slot.cells.forEach(({ r, c }, pos) => {
 				const key = `${r},${c}`;
@@ -413,13 +472,10 @@ export function createApp({ gridEl, horEl, verEl, titleEl, nextBtn, solveBtn }) 
 				cellMap.get(key).push({ slotId: slot.id, pos });
 			});
 		}
-
-		// slotId -> [{ otherId, posThis, posOther, r, c }]
 		const adj = new Map();
 		for (const s of slots) adj.set(s.id, []);
-
 		for (const [key, list] of cellMap.entries()) {
-			if (list.length < 2) continue; // sem cruzamento
+			if (list.length < 2) continue;
 			const [r, c] = key.split(",").map(Number);
 
 			for (let i = 0; i < list.length; i++) {
@@ -434,7 +490,6 @@ export function createApp({ gridEl, horEl, verEl, titleEl, nextBtn, solveBtn }) 
 				}
 			}
 		}
-
 		return adj;
 	}
 
@@ -481,11 +536,9 @@ export function createApp({ gridEl, horEl, verEl, titleEl, nextBtn, solveBtn }) 
 		if (!isWritable(r, c)) return [];
 		const [dr, dc] = (dir === "down") ? [1, 0] : [0, 1];
 
-		// volta até o começo da palavra
 		let sr = r, sc = c;
 		while (isWritable(sr - dr, sc - dc)) { sr -= dr; sc -= dc; }
 
-		// coleta até o fim
 		const cells = [];
 		let cr = sr, cc = sc;
 		while (isWritable(cr, cc)) {
@@ -504,18 +557,15 @@ export function createApp({ gridEl, horEl, verEl, titleEl, nextBtn, solveBtn }) 
 		if (toggleIfSame && same) {
 			currentDir = (currentDir === "across") ? "down" : "across";
 		} else if (!activePos) {
-			// primeiro highlight sempre horizontal
 			currentDir = "across";
 		}
 
 		activePos = { r, c };
 
-		// aplica highlight
 		for (const el of highlighted) el.classList.remove("hl");
 		highlighted = collectWordCells(r, c, currentDir);
 		for (const el of highlighted) el.classList.add("hl");
 
-		// marca célula ativa
 		if (activeEl) activeEl.classList.remove("active");
 		activeEl = getCell(r, c);
 		activeEl.classList.add("active");
@@ -574,7 +624,6 @@ export function createApp({ gridEl, horEl, verEl, titleEl, nextBtn, solveBtn }) 
 		};
 
 
-		//verticais: cima->baixo
 		for (let r = 0; r < SIZE; r++) {
 			for (let c = 0; c < SIZE; c++) {
 				if (!open(r, c)) continue;
@@ -587,7 +636,6 @@ export function createApp({ gridEl, horEl, verEl, titleEl, nextBtn, solveBtn }) 
 			}
 		}
 
-		//horizontais: esquerda->direita
 		for (let r = 0; r < SIZE; r++) {
 			for (let c = 0; c < SIZE; c++) {
 				if (!open(r, c)) continue;
@@ -662,7 +710,7 @@ export function createApp({ gridEl, horEl, verEl, titleEl, nextBtn, solveBtn }) 
 
 	function updateClueDone(slot) {
 		const expected = assignment.get(slot.id);
-		if (!expected) return; // se você ainda não tem respostas
+		if (!expected) return;
 
 		const got = readSlotFromDOM(slot);
 		const ok = (got.length === slot.len) && !got.includes("") && (got === expected);
@@ -694,6 +742,7 @@ export function createApp({ gridEl, horEl, verEl, titleEl, nextBtn, solveBtn }) 
 
 		titleEl.textContent = `Template ${index + 1}`;
 		gridEl.innerHTML = "";
+		gridEl.style.setProperty("--n", SIZE);
 
 		for (let r = 0; r < SIZE; r++) {
 			for (let c = 0; c < SIZE; c++) {
@@ -816,18 +865,29 @@ export function createApp({ gridEl, horEl, verEl, titleEl, nextBtn, solveBtn }) 
 		}
 
 		focusFirstWritable();
-
 		slotsAll = [...slotsAcross, ...slotsDown];
 		assignSlotTiers(slotsAll, puzzleLevel);
-		const intersections = buildIntersections(slotsAll);
-
+		intersections = buildIntersections(slotsAll);
+		slotById = new Map(slotsAll.map(s => [s.id, s]));
 		state = makeState(rows);
-		//usedWords = new Set();
-		//assignment = new Map();
+	}
 
-		console.log("slots total:", slotsAll.length);
-		console.log("exemplo cruzamentos do primeiro slot:", slotsAll[0].id, intersections.get(slotsAll[0].id));
+	function getTemplateSize(tpl) {
+		const rows = tpl.length;
+		const cols = tpl[0]?.length ?? 0;
+		if (!cols || !tpl.every(r => r.length === cols)) {
+			throw new Error("Template inválido (linhas com tamanhos diferentes)");
+		}
+		return { rows, cols };
+	}
 
+	function selectTemplate(tplIndex) {
+		const tpl = TEMPLATES[tplIndex];
+		const { rows, cols } = getTemplateSize(tpl);
+
+		SIZE = rows;
+
+		renderTemplate(tplIndex);
 	}
 
 	function bindUI() {
@@ -847,9 +907,9 @@ export function createApp({ gridEl, horEl, verEl, titleEl, nextBtn, solveBtn }) 
 
 		nextBtn.addEventListener("click", () => {
 			tplIndex = (tplIndex + 1) % TEMPLATES.length;
-			renderTemplate(tplIndex);
+			selectTemplate(tplIndex);
 		});
 	}
 
-	return { loadWordlist, renderTemplate, bindUI };
+	return { loadWordlist, selectTemplate, bindUI };
 }

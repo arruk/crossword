@@ -11,5 +11,5 @@ const app = createApp({
 
 await app.loadWordlist();
 app.bindUI();
-app.renderTemplate(0);
+app.selectTemplate(0);
 

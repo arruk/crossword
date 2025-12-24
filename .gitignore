@@ -5,4 +5,6 @@ words.txt
 words_by_len.json
 words_by_len_clean.json
 words_removed.json
-
+generate_pregen.py
+generate_pregen_v3.py
+prune_report.json

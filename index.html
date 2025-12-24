@@ -9,14 +9,15 @@
 			body { font-family: system-ui, sans-serif; margin: 24px; }
 			.top { display:flex; align-items:center; gap:12px; margin-bottom:12px; }
 			button { padding: 6px 10px; }
-			.grid {
+			.grid{
+				--n: 10;
 				display: grid;
-				grid-template-columns: repeat(10, 34px);
+				grid-template-columns: repeat(var(--n), 34px);
 				grid-auto-rows: 34px;
 				gap: 2px;
 				width: max-content;
 				user-select: none;
-			}
+			}			
 			.cellwrap{
 				position: relative;
 				width: 34px;
