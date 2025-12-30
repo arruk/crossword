@@ -110,12 +110,12 @@ export function createApp({ gridEl, horEl, verEl, titleEl, nextBtn, solveBtn }) 
 	];
 
 	async function loadWordlist() {
-		const r = await fetch("./words_by_len_tier.json");
+		const r = await fetch("./data/jsons/words_by_len_tier.json");
 		const data = await r.json();
 		wordStore = buildWordStore(data);
 
 		try {
-			const rc = await fetch("./clues.json");
+			const rc = await fetch("./data/jsons/clues.json");
 			if (rc.ok) {
 				const cdata = await rc.json();
 				cluesByWord = cdata.clues || cdata; // suporta ambos formatos
