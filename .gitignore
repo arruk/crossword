@@ -4,3 +4,5 @@ data/jsons/*
 !data/jsons/words.json
 !data/jsons/clues.json
 !data/jsons/tmpl.json
+__pycache__/*
+copy_of_crossword.js

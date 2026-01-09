@@ -4,6 +4,8 @@ from fnmatch import fnmatchcase
 from math import inf
 import json
 import random
+import copy
+import time
 
 @dataclass
 class Slot:
@@ -13,6 +15,7 @@ class Slot:
     word:   str = ""
     change: dict[tuple[int, int], str] | None = None
     fits:   set[str] = field(default_factory=set)
+    cells:  list[tuple[int,int]] = field(default_factory=list)
 
 
 @dataclass
@@ -28,35 +31,39 @@ class Game:
 
     def __init__(self, size: int = 10):
         self.size = size
-        self.grid = self.get_template(size)
+        self.templ = self.get_template(size)
+        self.grid =  self.templ.copy()
         self.slots = self._get_slots()
         self.words = set()
 
     def get_template(self, size: int = 7):
         try:
-            with open("data/jsons/tmpl.json", 'r') as file:
+            with open("data/jsons/tmpl.json", "r", encoding="utf-8") as file:
                 json_file = json.load(file)
-        except Exception as e:
-            print(type(e).__name__, e)
-    
-        templates = json_file.get("templates")
+        except Exception:
+            raise
+
+        templates = json_file.get("templates", [])
         for t in templates:
-            if t["size"] == size:
-                return t["grid"]
+            if t.get("size") == size:
+                return t.get("grid")
+        return None
 
     def _slots_down(self, template, r, c):
         count = 0
-        while template[r+count][c] != '#':
+        cells = [(r,c)]
+        while r+count+1 < self.size and template[r+count+1][c] != '#':
             count += 1
-            if len(template) == r+count: return count
-        return count
+            cells.append((r+count, c))
+        return count+1, cells
 
     def _slots_horz(self, template, r, c):
         count = 0
-        while template[r][c+count] != '#':
+        cells = [(r,c)]
+        while c+count+1 < self.size and template[r][c+count+1] != '#':
             count += 1
-            if len(template[r]) == c+count: return count
-        return count
+            cells.append((r, c+count))
+        return count+1, cells
 
 
     def _first_char(self, template, r, c, dir):
@@ -75,17 +82,17 @@ class Game:
                 if template[r][c] == '#':
                     continue
 
-                num_d = self._slots_down(template, r, c)
-                num_h = self._slots_horz(template, r, c)
+                num_d, cellsd = self._slots_down(template, r, c)
+                num_h, cellsh = self._slots_horz(template, r, c)
                 cond = False
 
                 if num_d > 2 and self._first_char(template, r, c, "down"):
-                    p = Slot("D" + str(slot_num), (r, c), num_d)
+                    p = Slot("D" + str(slot_num), (r, c), num_d, cells=cellsd)
                     slots.append(p)
                     cond = True
 
                 if num_h > 2 and self._first_char(template, r, c, "horz"):
-                    p = Slot("H" + str(slot_num), (r, c), num_h)
+                    p = Slot("H" + str(slot_num), (r, c), num_h, cells=cellsh)
                     slots.append(p)
                     cond = True
 
@@ -94,11 +101,9 @@ class Game:
 
         return slots
 
-    def empty_grid(self, template: list[str]):
-        for s in self.slots:
-            s.word = ""
+    def empty_grid(self):
         self.words.clear()
-        self.grid = template.copy()
+        self.grid = self.templ.copy()
 
     def print_grid(self):
         for r in range(self.size):
@@ -109,16 +114,69 @@ class Game:
 class CwSolver:
     def __init__(self, game, words, seed: int | None = None):
         self.game = game
-        self.bylen = words.bylen #flatten_words(words_json)
-        self.index = words.index #build_index(self.bylen)
+        self.bylen = words.bylen
+        self.index = words.index
+        self.deadline = None
         self.rng = random.Random(seed)
     
     def solve(self):
         self._start_slots()
-        return self._backtrack()
+        self._backtrack()
 
-    def _backtrack(self):
-        if self.game.done: return True
+        solution = {
+                "slots": [{
+                    "id":   s.id,
+                    "coord":s.coord,
+                    "num":  s.num,
+                    "word": s.word,
+                    } for s in game.slots]
+                }
+
+        return solution
+
+    def solve_n(self, num: int = 1):
+        solutions = []
+        self._start_slots()
+        base = copy.deepcopy(self.game)
+
+        for _ in range(num):
+            self.solve_timeout(seconds=10, tries=5)
+            self.game.print_grid()
+            solutions.append({ 
+                "slots": [{ 
+                    "id": s.id,
+                    "coord":s.coord, 
+                    "num": s.num, 
+                    "word": s.word, 
+                    } for s in game.slots] 
+                })
+            self.game = copy.deepcopy(base)
+
+        return solutions
+
+    def solve_timeout(self, seconds: int, tries: int=5):
+        base = copy.deepcopy(self.game)
+        for t in range(tries):
+            self.game = copy.deepcopy(game)
+
+            self.deadline = time.perf_counter() + seconds
+            try:
+                ok = self._backtrack()
+                if ok:
+                    return True
+            except TimeoutError:
+                continue
+            finally:
+                self.deadline = None
+        return False
+
+    def _backtrack(self) -> bool:
+
+        if self.deadline is not None and time.perf_counter() >= self.deadline:
+            raise TimeoutError
+
+        if self.game.done: 
+            return True
 
         cands, slot = self._find_mrv()
         if slot is None or not cands:
@@ -137,21 +195,15 @@ class CwSolver:
             random.shuffle(lcv)
             lcv.sort(key=lambda t: t[0], reverse=True)
 
-            N = 5
-            if lcv and N > 0:
-                k = min(N, len(lcv))
-                th = lcv[k-1][0]
-                top  = [t for t in lcv if t[0] >= th]
-                rest = [t for t in lcv if t[0] < th]
-                random.shuffle(top)
-                lcv = top + rest
-
             for _, word in lcv:
                 changes = self._place(word, slot)
+
                 if changes is None:
                     continue            
+
                 if self._backtrack():
                     return True
+
                 self._unplace(slot, changes)
 
             return False
@@ -442,10 +494,32 @@ class WordsJson:
             bylen[int(L_str)] = acc
         return bylen
 
+
+def create_template_json():
+    numbers = [5,7,8,10,15]
+    slots = []
+    for n in numbers:
+        g = Game(n)
+        slots.append([{"id":l.id, 'size':l.num, 'coord':l.coord, 'cells':l.cells} for l in g.slots])
+
+    with open("data/jsons/tmpl.json", 'r') as file:
+        data = json.load(file)
+
+    for i in range(len(slots)):
+        data['templates'][i]['slots'] = slots[i]
+         
+    with open("data/jsons/tmpl.json", 'w') as file:
+        json.dump(data, file, ensure_ascii=False, indent=1)
+"""
 if __name__ == "__main__":
     words = WordsJson()
-    game = Game(size=7)
+    game = Game(size=15)
     solver = CwSolver(game, words)
-    ok = solver.solve()
-    print(ok)
-    game.print_grid()
+    payload = solver.solve_n(2)
+
+    try:
+        with open("data/jsons/sols.json",  "w", encoding="utf-8") as file:
+            json.dump(payload, file, ensure_ascii=False, indent=1)
+    except Exception:
+        raise
+"""
