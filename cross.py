@@ -112,10 +112,11 @@ class Game:
             print("")
 
 class CwSolver:
-    def __init__(self, game, words, seed: int | None = None):
-        self.game = game
-        self.bylen = words.bylen
-        self.index = words.index
+    def __init__(self, size, seed: int | None = None):
+        self.game = Game(size)
+        self.words = WordsJson()
+        self.bylen = self.words.bylen
+        self.index = self.words.index
         self.deadline = None
         self.rng = random.Random(seed)
     
@@ -123,14 +124,13 @@ class CwSolver:
         self._start_slots()
         self._backtrack()
 
-        solution = {
-                "slots": [{
+        solution = [{
                     "id":   s.id,
                     "coord":s.coord,
                     "num":  s.num,
                     "word": s.word,
-                    } for s in game.slots]
-                }
+                    } for s in self.game.slots]
+                   
 
         return solution
 
@@ -139,17 +139,16 @@ class CwSolver:
         self._start_slots()
         base = copy.deepcopy(self.game)
 
-        for _ in range(num):
+        for i in range(num):
             self.solve_timeout(seconds=10, tries=5)
             self.game.print_grid()
-            solutions.append({ 
-                "slots": [{ 
+            solutions.append([{ 
                     "id": s.id,
                     "coord":s.coord, 
                     "num": s.num, 
                     "word": s.word, 
-                    } for s in game.slots] 
-                })
+                    } for s in self.game.slots])
+
             self.game = copy.deepcopy(base)
 
         return solutions
@@ -157,7 +156,7 @@ class CwSolver:
     def solve_timeout(self, seconds: int, tries: int=5):
         base = copy.deepcopy(self.game)
         for t in range(tries):
-            self.game = copy.deepcopy(game)
+            self.game = copy.deepcopy(base)
 
             self.deadline = time.perf_counter() + seconds
             try:
@@ -510,12 +509,8 @@ def create_template_json():
          
     with open("data/jsons/tmpl.json", 'w') as file:
         json.dump(data, file, ensure_ascii=False, indent=1)
-"""
-if __name__ == "__main__":
-    words = WordsJson()
-    game = Game(size=15)
-    solver = CwSolver(game, words)
-    payload = solver.solve_n(2)
+
+def write_solutions(payload):
 
     try:
         with open("data/jsons/sols.json",  "w", encoding="utf-8") as file:
@@ -523,3 +518,9 @@ if __name__ == "__main__":
     except Exception:
         raise
 """
+if __name__ == "__main__":
+    solver = CwSolver(game, words)
+    payload = solver.solve_n(2)
+    write_solutions(payload)
+"""
+

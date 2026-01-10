@@ -10,9 +10,4 @@ const app = await createApp({
 	index: 0,
 });
 
-//const grids = await app.getGrids();
-app.renderGrid();
-//await app.loadWordlist();
-//app.bindUI();
-//app.selectTemplate(0);
-
+await app.renderGrid();

@@ -1,0 +1,92 @@
+[
+ {
+  "id": "D1",
+  "coord": [
+   0,
+   1
+  ],
+  "num": 5,
+  "word": "UBUCU"
+ },
+ {
+  "id": "H1",
+  "coord": [
+   0,
+   1
+  ],
+  "num": 3,
+  "word": "URA"
+ },
+ {
+  "id": "D2",
+  "coord": [
+   0,
+   2
+  ],
+  "num": 5,
+  "word": "REMAR"
+ },
+ {
+  "id": "D3",
+  "coord": [
+   0,
+   3
+  ],
+  "num": 5,
+  "word": "AREJO"
+ },
+ {
+  "id": "D4",
+  "coord": [
+   1,
+   0
+  ],
+  "num": 3,
+  "word": "IRA"
+ },
+ {
+  "id": "H4",
+  "coord": [
+   1,
+   0
+  ],
+  "num": 5,
+  "word": "IBERO"
+ },
+ {
+  "id": "D5",
+  "coord": [
+   1,
+   4
+  ],
+  "num": 3,
+  "word": "OSA"
+ },
+ {
+  "id": "H6",
+  "coord": [
+   2,
+   0
+  ],
+  "num": 5,
+  "word": "RUMES"
+ },
+ {
+  "id": "H7",
+  "coord": [
+   3,
+   0
+  ],
+  "num": 5,
+  "word": "ACAJA"
+ },
+ {
+  "id": "H8",
+  "coord": [
+   4,
+   1
+  ],
+  "num": 3,
+  "word": "URO"
+ }
+]
