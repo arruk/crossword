@@ -124,25 +124,27 @@ class CwSolver:
         self._start_slots()
         self._backtrack()
 
-        solution = [{
+        solution = { f"{self.game.size}" : 
+                    [[{
                     "id":   s.id,
                     "coord":s.coord,
                     "num":  s.num,
                     "word": s.word,
-                    } for s in self.game.slots]
+                    } for s in self.game.slots]]
+                   }
                    
 
         return solution
 
     def solve_n(self, num: int = 1):
-        solutions = []
+        solutions = {f"{self.game.size}" : []}
         self._start_slots()
         base = copy.deepcopy(self.game)
 
         for i in range(num):
             self.solve_timeout(seconds=10, tries=5)
             self.game.print_grid()
-            solutions.append([{ 
+            solutions[f"{self.game.size}"].append([{ 
                     "id": s.id,
                     "coord":s.coord, 
                     "num": s.num, 
@@ -510,13 +512,21 @@ def create_template_json():
     with open("data/jsons/tmpl.json", 'w') as file:
         json.dump(data, file, ensure_ascii=False, indent=1)
 
-def write_solutions(payload):
+def write_solutions(sizes: list = [5,7,8,10,15], amount: int = 2):
+
+    payload = {}
+
+    for n in sizes:
+        g = CwSolver(n)
+        payl = g.solve_n(amount)
+        payload[str(n)] = payl[str(n)]
 
     try:
         with open("data/jsons/sols.json",  "w", encoding="utf-8") as file:
             json.dump(payload, file, ensure_ascii=False, indent=1)
     except Exception:
         raise
+
 """
 if __name__ == "__main__":
     solver = CwSolver(game, words)

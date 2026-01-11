@@ -1,32 +1,60 @@
-export async function createApp({ gridEl, horClues, verClues, titleEl, nextBtn, solveBtn, index}) {
-	
-	let templates = await getTemplates();
-	let {grid, slots} = templates[index];
-	
-	let {num_sols, solutions} = await getSolutions();
-	let solution = solutions[0];
+export class CrossWordApp {
+	constructor({root = document} = {}) {
+		this.gridEl   = root.querySelector("#grid");
+		this.horClues = root.querySelector("#horClues");
+		this.verClues = root.querySelector("#verClues");
+		this.titleEl  = root.querySelector("#title");
+		this.nextBtn  = root.querySelector("#nextBtn");
+		this.solBtn   = root.querySelector("#solBtn");
+		this.qstInp   = root.querySelector("#qstInp");
+		this.qstBtn   = root.querySelector("#qstBtn");
+		this.awsLab   = root.querySelector("#awsLab");
 
-	unifySolution(slots, solution);
+		this.templates = [];
+		this.grid = null;
+		this.slots = [];
 
-	let highl = {};
+		this.solutions = [];
+		this.solution = [];
+		
+		this.tmplIndex = 0; 
+		this.solIndex = 0;
 
-	async function loadJsonFile(path){
+		this.highl = {};
+	}
+
+	async init(){
+
+		this.templates = await this.getTemplates();
+
+		const s = await this.getSolutions();
+		this.solutions = s.solutions;
+
+		this.clues = await this.getClues();
+
+	}
+
+	async loadJsonFile(path){
 		const file = await fetch(path);
-		if (!file.ok) throw new Error("HTTP ${file.status} em ${url}");
+		if (!file.ok) throw new Error("HTTP ${file.status} em ${file.url}");
 		return await file.json();
 	}
 
-	async function getSolutions(){
-		let data = await loadJsonFile("data/jsons/sols.json");
-		if(!Array.isArray(data?.[0])) data = [data];
+	async getSolutions(){
+		let data = await this.loadJsonFile("data/jsons/sols.json");
 		return { num_sols: data.length, solutions: data};
 	}
 
-	async function getTemplates(){
-		const data = await loadJsonFile("data/jsons/tmpl.json");
+	async getClues(){
+		const data = await this.loadJsonFile("data/jsons/clues.json");
+		return data.clues;
+	}
+
+	async getTemplates(){
+		const data = await this.loadJsonFile("data/jsons/tmpl.json");
 
 		if(!Array.isArray(data?.templates)){
-			throw new Error(`JSON sem 'templates'`);
+			throw new Error(`JSON sem 'this.templates'`);
 		}
 
 		return data.templates.map((t, i) => {
@@ -36,12 +64,12 @@ export async function createApp({ gridEl, horClues, verClues, titleEl, nextBtn, 
 		});
 	}
 
-	function unifySolution(slots, solution){
-		slots.forEach((s, i) => s.word = solution[i].word);
+	unifySolution(slots, solution){
+		this.slots.forEach((s, i) => s.word = this.solution[i]?.word ?? "");
 	}
 
-	function putCellsInSlots(){
-		slots.forEach((v, i) => {
+	putCellsInSlots(){
+		this.slots.forEach((v, i) => {
 			v['cells'] = [];
 			const [r, c] = v['coord'];
 			for(let i = 0; i<v.num; i++){
@@ -51,96 +79,100 @@ export async function createApp({ gridEl, horClues, verClues, titleEl, nextBtn, 
 		});
 	}
 
-	function getClue(id) {
-		return verClues.querySelector(`[data-slot-id="${id}"]`) ||
-			   horClues.querySelector(`[data-slot-id="${id}"]`);
+	getClue(id) {
+		return this.verClues.querySelector(`[data-slot-id="${id}"]`) ||
+			   this.horClues.querySelector(`[data-slot-id="${id}"]`);
 	}
 
-	function getCell(r, c) {
-		return gridEl.querySelector(`[data-r="${r}"][data-c="${c}"]`);
+	getCell(r, c) {
+		return this.gridEl.querySelector(`[data-r="${r}"][data-c="${c}"]`);
 	}
 
-	function moveFocus(r, c) {
-		const cell = getCell(r, c);
+	moveFocus(r, c) {
+		const cell = this.getCell(r, c);
 		if (cell && !cell.disabled) {
 			cell.focus();
-			toggleHighl(r, c);
+			this.toggleHighl(r, c);
 			return;
 		}
 	}
 
-	function moveOnce(r, c, sen){
-		const dir = highl?.slot.id[0] ?? 'H';
-		if (dir === 'H') moveFocus(r, c+sen);
-		else             moveFocus(r+sen, c);
+	moveOnce(r, c, sen){
+		const dir = this.highl?.slot.id[0] ?? 'H';
+		if (dir === 'H') this.moveFocus(r, c+sen);
+		else             this.moveFocus(r+sen, c);
 	}
 
-	function toggleHighl(r, c, dir=""){
-		const cell = getCell(r, c);
-		if ((cellInSlot(r, c, highl?.slot) && !(highl.cell[0]===r && highl.cell[1]===c) && (dir === "")) ||
-			(((highl?.cell?.[0]??-1)===r && (highl?.cell?.[1]??-1)===c) && (dir===highl?.slot?.id?.[0]??""))){
-			highl = {'slot': highl.slot, 'cell': [r, c] };
+	toggleHighl(r, c, dir=""){
+		const cell = this.getCell(r, c);
+		if ((this.cellInSlot(r, c, this.highl?.slot) && !(this.highl.cell[0]===r && this.highl.cell[1]===c) && (dir === "")) ||
+			(((this.highl?.cell?.[0]??-1)===r && (this.highl?.cell?.[1]??-1)===c) && (dir===this.highl?.slot?.id?.[0]??""))){
+			this.highl = {'slot': this.highl.slot, 'cell': [r, c] };
 			return;
 		}
 
 		let slot;
-		if (((!highl?.slot&& dir==="") || ((highl?.slot?.id?.[0]??"") === 'D' && dir==="") || dir==='H'))
-			slot = getSlotHead(r, c, 'H');
-		else if (dir === 'D' || highl.slot.id[0] === 'H')
-			slot = getSlotHead(r, c, 'D');
+		if (((!this.highl?.slot&& dir==="") || ((this.highl?.slot?.id?.[0]??"") === 'D' && dir==="") || dir==='H'))
+			slot = this.getSlotHead(r, c, 'H');
+		else if (dir === 'D' || this.highl.slot.id[0] === 'H')
+			slot = this.getSlotHead(r, c, 'D');
 
-		changeHighlSlot(highl?.slot, slot);
-		changeHighlClue(highl?.slot, slot);
-		highl = {'slot': slot, 'cell': [r, c] };
+		this.changeHighlSlot(this.highl?.slot, slot);
+		this.changeHighlClue(this.highl?.slot, slot);
+		this.highl = {'slot': slot, 'cell': [r, c] };
 	}
 
-	function changeHighlSlot(oldS, newS){
-		oldS?.cells.forEach((v, i) => getCell(v[0], v[1]).classList.remove("hl"));
-		newS?.cells.forEach((v, i) => getCell(v[0], v[1]).classList.add("hl"));
+	changeHighlSlot(oldS, newS){
+		oldS?.cells.forEach((v, i) => this.getCell(v[0], v[1]).classList.remove("hl"));
+		newS?.cells.forEach((v, i) => this.getCell(v[0], v[1]).classList.add("hl"));
 	}
 
-	function changeHighlClue(oldS, newS){
-		getClue(oldS?.id)?.classList.remove("active");
-		getClue(newS?.id)?.classList.add("active");
+	changeHighlClue(oldS, newS){
+		this.getClue(oldS?.id)?.classList.remove("active");
+		this.getClue(newS?.id)?.classList.add("active");
 	}
 
-	function cellInSlot(r, c, slot){
+	cellInSlot(r, c, slot){
 		return slot?.cells?.some(([rr, cc]) => rr === r && cc === c) ?? false;
 	}
 
-	function getSlotHead(r, c, dir){
+	getSlotHead(r, c, dir){
 		let s = 0;
 		if(dir === 'H'){
 			let i = c;
-			while (i > 0 && grid[r][i-1] !== '#') i--;	
-			while(s < slots.length &&
-				  (slots[s].coord[0] !== r || 
-				   slots[s].coord[1] !== i || 
-				   slots[s].id[0] !== dir)
+			while (i > 0 && this.grid[r][i-1] !== '#') i--;	
+			while(s < this.slots.length &&
+				  (this.slots[s].coord[0] !== r || 
+				   this.slots[s].coord[1] !== i || 
+				   this.slots[s].id[0] !== dir)
 				 ) s++;
 		} else {
 			let i = r;
-			while (i > 0 && grid[i-1][c] !== '#') i--;
-			while(s < slots.length &&
-				  (slots[s].coord[0] !== i || 
-				   slots[s].coord[1] !== c || 
-				   slots[s].id[0] !== dir)
+			while (i > 0 && this.grid[i-1][c] !== '#') i--;
+			while(s < this.slots.length &&
+				  (this.slots[s].coord[0] !== i || 
+				   this.slots[s].coord[1] !== c || 
+				   this.slots[s].id[0] !== dir)
 				 ) s++;
 		}
 
-		return slots[s];
+		return this.slots[s];
 	}
 
-	function verifyClue(r, c){
+	getWordClue(word){
+		return this.clues?.[word] ?? "";
+	}
+
+	verifyClue(r, c){
 		for (const dir of ['H', 'D']) {
-			const s = getSlotHead(r, c, dir);
-			const ok = s.cells.every((v, i) => getCell(v[0], v[1]).value === s.word[i]);
-			if (ok) getClue(s.id).classList.add("done");
-			else    getClue(s.id).classList.remove("done");
+			const s = this.getSlotHead(r, c, dir);
+			const ok = s.cells.every((v, i) => this.getCell(v[0], v[1]).value === (s?.word?.[i] ?? "#"));
+			if (ok) this.getClue(s.id).classList.add("done");
+			else    this.getClue(s.id).classList.remove("done");
 		}
 	}
 
-	function renderGridCell(chr, r, c){
+	renderGridCell(chr, r, c){
 		const elem = (chr == '#') ? document.createElement("div")  :
 									document.createElement("input");
 		if (chr == '#'){
@@ -156,7 +188,7 @@ export async function createApp({ gridEl, horClues, verClues, titleEl, nextBtn, 
 			elem.dataset.c = c;
 
 			elem.addEventListener("click", () => {
-				moveFocus(r,c);
+				this.moveFocus(r,c);
 			});
 
 			elem.addEventListener("input", (e) => {
@@ -166,68 +198,109 @@ export async function createApp({ gridEl, horClues, verClues, titleEl, nextBtn, 
 			elem.addEventListener("keydown", (e) => {
 				e.preventDefault(); 
 
-				if (e.key === "ArrowLeft")  moveFocus(r, c-1);
-				if (e.key === "ArrowRight") moveFocus(r, c+1); 
-				if (e.key === "ArrowUp")    moveFocus(r-1, c); 
-				if (e.key === "ArrowDown")  moveFocus(r+1, c);
+				if (e.key === "ArrowLeft")  this.moveFocus(r, c-1);
+				if (e.key === "ArrowRight") this.moveFocus(r, c+1); 
+				if (e.key === "ArrowUp")    this.moveFocus(r-1, c); 
+				if (e.key === "ArrowDown")  this.moveFocus(r+1, c);
 
 				if (e.key === "Backspace" && elem.value !== ""){
 					elem.value = "";
-					moveOnce(r, c, -1);
-					verifyClue(r,c);
+					this.moveOnce(r, c, -1);
+					this.verifyClue(r,c);
 					return;
 				} else if (e.key === "Backspace"){
-					moveOnce(r, c, -1);
+					this.moveOnce(r, c, -1);
 				}
 				
 				if (e.key.length == 1){
 					if(!/^[a-zA-Z]$/.test(e.key))
 						return;
 					elem.value = (e.key || "").toUpperCase();
-					moveOnce(r, c, 1);
+					this.moveOnce(r, c, 1);
 					// TODO: improve this verification, by maybe writing letters in cells
-					verifyClue(r,c);
+					this.verifyClue(r,c);
 				}
 			});
 		}
-		gridEl.appendChild(elem);
+		this.gridEl.appendChild(elem);
 	}
 
-	function renderClues(){
-		const nc = slots.length;
-		for (const s of slots){
+	renderClues(){
+		const nc = this.slots.length;
+		for (const s of this.slots){
+			
+			const clue = this.getWordClue(s.word);
+
 			const item = document.createElement("div");
 
 			item.className = "clue-item";
-			item.textContent = `${s.id[1]}${s.id[2] ?? ""}. (${s.id}) ${s.word}`;
+			item.textContent = `${s.id[1]}${s.id[2] ?? ""}. (${s.id}) ${clue}`;
 			item.dataset.num = s.id[1];
 			item.dataset.slotId = s.id;
 
 			item.addEventListener("click", () => {
-				toggleHighl(s.coord[0], s.coord[1], s.id[0]);
-				getCell(s.coord[0], s.coord[1]).focus();
+				this.toggleHighl(s.coord[0], s.coord[1], s.id[0]);
+				this.getCell(s.coord[0], s.coord[1]).focus();
 			});
 
-			const el = s.id[0] === 'H' ? horClues : verClues;
+			const el = s.id[0] === 'H' ? this.horClues : this.verClues;
 			el.appendChild(item);
 		}
 	}
 
-	async function renderGrid(){
+	renderGrid(index, sol){
 
-		const size = grid.length;
+		const t = this.templates[index];
+		this.grid = t.grid;
+		this.slots = t.slots;
 
-		gridEl.innerHTML = "";
-		gridEl.style.setProperty("--n", size);
+		this.solution = this.solutions[this.grid.length]?.[sol] ?? [];
+
+		this.highl = {};
+
+		this.unifySolution(this.slots, this.solution);
+		
+		const size = this.grid.length;
+
+		this.verClues.innerHTML = "";
+		this.horClues.innerHTML = "";
+		this.gridEl.innerHTML   = "";
+		this.gridEl.style.setProperty("--n", size);
 
 		for (let r=0; r < size; r++){
 			for (let c=0; c < size; c++){
-				const chr = grid[r][c];
-				renderGridCell(chr, r, c);
+				const chr = this.grid[r][c];
+				this.renderGridCell(chr, r, c);
 			}
 		}
-		renderClues();
+		this.renderClues();
 	}
 
-	return { renderGrid };
+	bindButtons(){
+		this.nextBtn.addEventListener("click", () => {
+			this.solIndex = 0;
+			this.tmplIndex = (this.tmplIndex + 1) % this.templates.length;
+			this.renderGrid(this.tmplIndex, this.solIndex);
+		});
+
+		this.solBtn.addEventListener("click", () => {
+			console.log(this.tmplIndex, this.templates[this.tmplIndex].grid.length);
+			this.solIndex = (this.solIndex + 1) % 
+				this.solutions[
+					this.templates[this.tmplIndex].grid.length
+				].length;
+			console.log(this.solIndex);
+			this.renderGrid(this.tmplIndex, this.solIndex);
+		});
+
+		this.qstBtn.addEventListener("click", () => {
+			const answer = this.slots.find(s => s.id === this.qstInp.value) ?? "nao encontrado";
+			this.awsLab.textContent = answer.word;
+		});
+
+	
+
+	}
+
+
 }
