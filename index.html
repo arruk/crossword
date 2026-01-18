@@ -48,14 +48,31 @@
 				background: #111;
 				border-color: #111;
 			}
+			.cell-wrap{ position: relative; }
 
+			.cell-wrap .cell{
+				width: 100%;
+				height: 100%;
+				box-sizing: border-box;
+				padding-top: 10px; /* abre espaço pro número */
+			}
+
+			.cell-num{
+				position: absolute;
+				top: 2px;
+				left: 3px;
+				font-size: 10px;
+				pointer-events: none;
+			}
 			.layout{
 				display: flex;
 				gap: 16px;
 				align-items: flex-start;
 			}
 			.clues{
-				min-width: 260px;
+				max-height: 400px;
+				overflow-y: auto;
+				overflow-x: hidden;
 				display: flex;
 				flex-direction: row;
 				gap: 32px;		

@@ -47,7 +47,8 @@ export class CrossWordApp {
 
 	async getClues(){
 		const data = await this.loadJsonFile("data/jsons/clues.json");
-		return data.clues;
+		//return data.clues;
+		return data;
 	}
 
 	async getTemplates(){
@@ -160,7 +161,7 @@ export class CrossWordApp {
 	}
 
 	getWordClue(word){
-		return this.clues?.[word] ?? "";
+		return this.clues?.[word].senses[0].glosses[0] ?? "";
 	}
 
 	verifyClue(r, c){
@@ -173,56 +174,66 @@ export class CrossWordApp {
 	}
 
 	renderGridCell(chr, r, c){
-		const elem = (chr == '#') ? document.createElement("div")  :
-									document.createElement("input");
 		if (chr == '#'){
+			const elem = document.createElement("div");
 			elem.className = "block";
 			elem.disabled = true;
-		} else {
-			elem.className = "cell";
-			
-			elem.maxLength = 1;
-			elem.inputMode = "text";
-			elem.autocomplete = "off";
-			elem.dataset.r = r;
-			elem.dataset.c = c;
-
-			elem.addEventListener("click", () => {
-				this.moveFocus(r,c);
-			});
-
-			elem.addEventListener("input", (e) => {
-				elem.value = (elem.value || "").toUpperCase();
-			});
-
-			elem.addEventListener("keydown", (e) => {
-				e.preventDefault(); 
-
-				if (e.key === "ArrowLeft")  this.moveFocus(r, c-1);
-				if (e.key === "ArrowRight") this.moveFocus(r, c+1); 
-				if (e.key === "ArrowUp")    this.moveFocus(r-1, c); 
-				if (e.key === "ArrowDown")  this.moveFocus(r+1, c);
-
-				if (e.key === "Backspace" && elem.value !== ""){
-					elem.value = "";
-					this.moveOnce(r, c, -1);
-					this.verifyClue(r,c);
-					return;
-				} else if (e.key === "Backspace"){
-					this.moveOnce(r, c, -1);
-				}
-				
-				if (e.key.length == 1){
-					if(!/^[a-zA-Z]$/.test(e.key))
-						return;
-					elem.value = (e.key || "").toUpperCase();
-					this.moveOnce(r, c, 1);
-					// TODO: improve this verification, by maybe writing letters in cells
-					this.verifyClue(r,c);
-				}
-			});
+			this.gridEl.appendChild(elem);
+			return;
 		}
-		this.gridEl.appendChild(elem);
+
+		const wrap = document.createElement("div");
+		wrap.className = "cell-wrap";
+
+		const num = document.createElement("span");
+		num.className = "cell-num";
+		wrap.appendChild(num);
+
+		const elem = document.createElement("input");
+		elem.className = "cell";
+		elem.maxLength = 1;
+		elem.inputMode = "text";
+		elem.autocomplete = "off";
+		elem.dataset.r = r;
+		elem.dataset.c = c;
+
+		elem.addEventListener("click", () => {
+			this.moveFocus(r,c);
+		});
+
+		elem.addEventListener("input", (e) => {
+			elem.value = (elem.value || "").toUpperCase();
+		});
+
+		elem.addEventListener("keydown", (e) => {
+			e.preventDefault(); 
+
+			if (e.key === "ArrowLeft")  this.moveFocus(r, c-1);
+			if (e.key === "ArrowRight") this.moveFocus(r, c+1); 
+			if (e.key === "ArrowUp")    this.moveFocus(r-1, c); 
+			if (e.key === "ArrowDown")  this.moveFocus(r+1, c);
+
+			if (e.key === "Backspace" && elem.value !== ""){
+				elem.value = "";
+				this.moveOnce(r, c, -1);
+				this.verifyClue(r,c);
+				return;
+			} else if (e.key === "Backspace"){
+				this.moveOnce(r, c, -1);
+			}
+			
+			if (e.key.length == 1){
+				if(!/^[a-zA-Z]$/.test(e.key))
+					return;
+				elem.value = (e.key || "").toUpperCase();
+				this.moveOnce(r, c, 1);
+				// TODO: improve this verification, by maybe writing letters in cells
+				this.verifyClue(r,c);
+			}
+		});
+
+		wrap.appendChild(elem);
+		this.gridEl.appendChild(wrap);
 	}
 
 	renderClues(){
@@ -238,10 +249,15 @@ export class CrossWordApp {
 			item.dataset.num = s.id[1];
 			item.dataset.slotId = s.id;
 
+			const cell = this.getCell(s.coord[0], s.coord[1]);
+			cell.closest(".cell-wrap").querySelector(".cell-num").textContent = s.id.slice(1);
+
 			item.addEventListener("click", () => {
 				this.toggleHighl(s.coord[0], s.coord[1], s.id[0]);
 				this.getCell(s.coord[0], s.coord[1]).focus();
 			});
+
+
 
 			const el = s.id[0] === 'H' ? this.horClues : this.verClues;
 			el.appendChild(item);
@@ -284,12 +300,10 @@ export class CrossWordApp {
 		});
 
 		this.solBtn.addEventListener("click", () => {
-			console.log(this.tmplIndex, this.templates[this.tmplIndex].grid.length);
 			this.solIndex = (this.solIndex + 1) % 
 				this.solutions[
 					this.templates[this.tmplIndex].grid.length
 				].length;
-			console.log(this.solIndex);
 			this.renderGrid(this.tmplIndex, this.solIndex);
 		});
 
@@ -297,10 +311,5 @@ export class CrossWordApp {
 			const answer = this.slots.find(s => s.id === this.qstInp.value) ?? "nao encontrado";
 			this.awsLab.textContent = answer.word;
 		});
-
-	
-
 	}
-
-
 }

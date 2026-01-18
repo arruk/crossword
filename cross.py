@@ -142,7 +142,7 @@ class CwSolver:
         base = copy.deepcopy(self.game)
 
         for i in range(num):
-            self.solve_timeout(seconds=10, tries=5)
+            self.solve_timeout(seconds=8, tries=20)
             self.game.print_grid()
             solutions[f"{self.game.size}"].append([{ 
                     "id": s.id,
@@ -486,12 +486,20 @@ class WordsJson:
             index[length] = pos
         return index
 
-    def flatten_words(self) -> dict[int, set[str]]:
+    def old_flatten_words(self) -> dict[int, set[str]]:
         bylen: dict[int, set[str]] = {}
         for L_str, diffs in self.words.items():
             acc: set[str] = set()
             for lst in diffs.values():
                 acc.update(lst)
+            bylen[int(L_str)] = acc
+        return bylen
+
+    def flatten_words(self) -> dict[int, set[str]]:
+        bylen: dict[int, set[str]] = {}
+        for L_str, ws in self.words.items():
+            acc: set[str] = set()
+            acc.update(ws)
             bylen[int(L_str)] = acc
         return bylen
 

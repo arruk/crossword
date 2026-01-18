@@ -8,7 +8,7 @@
      1
     ],
     "num": 5,
-    "word": "CAROA"
+    "word": "RUINA"
    },
    {
     "id": "H1",
@@ -17,7 +17,7 @@
      1
     ],
     "num": 3,
-    "word": "CAM"
+    "word": "REI"
    },
    {
     "id": "D2",
@@ -26,7 +26,7 @@
      2
     ],
     "num": 5,
-    "word": "AFILO"
+    "word": "EIVAR"
    },
    {
     "id": "D3",
@@ -35,7 +35,7 @@
      3
     ],
     "num": 5,
-    "word": "MECAS"
+    "word": "IVETE"
    },
    {
     "id": "D4",
@@ -44,7 +44,7 @@
      0
     ],
     "num": 3,
-    "word": "GES"
+    "word": "RNA"
    },
    {
     "id": "H4",
@@ -53,7 +53,7 @@
      0
     ],
     "num": 5,
-    "word": "GAFEM"
+    "word": "RUIVO"
    },
    {
     "id": "D5",
@@ -62,7 +62,7 @@
      4
     ],
     "num": 3,
-    "word": "MAU"
+    "word": "OLA"
    },
    {
     "id": "H6",
@@ -71,7 +71,7 @@
      0
     ],
     "num": 5,
-    "word": "ERICA"
+    "word": "NIVEL"
    },
    {
     "id": "H7",
@@ -80,7 +80,7 @@
      0
     ],
     "num": 5,
-    "word": "SOLAU"
+    "word": "ANATA"
    },
    {
     "id": "H8",
@@ -89,7 +89,7 @@
      1
     ],
     "num": 3,
-    "word": "AOS"
+    "word": "ARE"
    }
   ],
   [
@@ -100,7 +100,7 @@
      1
     ],
     "num": 5,
-    "word": "UMANS"
+    "word": "RELES"
    },
    {
     "id": "H1",
@@ -109,7 +109,7 @@
      1
     ],
     "num": 3,
-    "word": "UPA"
+    "word": "ROL"
    },
    {
     "id": "D2",
@@ -118,7 +118,7 @@
      2
     ],
     "num": 5,
-    "word": "PITAO"
+    "word": "ORIXA"
    },
    {
     "id": "D3",
@@ -127,7 +127,7 @@
      3
     ],
     "num": 5,
-    "word": "ATUIR"
+    "word": "LETAL"
    },
    {
     "id": "D4",
@@ -136,7 +136,7 @@
      0
     ],
     "num": 3,
-    "word": "ITA"
+    "word": "CEV"
    },
    {
     "id": "H4",
@@ -145,7 +145,7 @@
      0
     ],
     "num": 5,
-    "word": "IMITE"
+    "word": "CERES"
    },
    {
     "id": "D5",
@@ -154,7 +154,191 @@
      4
     ],
     "num": 3,
-    "word": "EIS"
+    "word": "SER"
+   },
+   {
+    "id": "H6",
+    "coord": [
+     2,
+     0
+    ],
+    "num": 5,
+    "word": "ELITE"
+   },
+   {
+    "id": "H7",
+    "coord": [
+     3,
+     0
+    ],
+    "num": 5,
+    "word": "VEXAR"
+   },
+   {
+    "id": "H8",
+    "coord": [
+     4,
+     1
+    ],
+    "num": 3,
+    "word": "SAL"
+   }
+  ],
+  [
+   {
+    "id": "D1",
+    "coord": [
+     0,
+     1
+    ],
+    "num": 5,
+    "word": "SALES"
+   },
+   {
+    "id": "H1",
+    "coord": [
+     0,
+     1
+    ],
+    "num": 3,
+    "word": "SAL"
+   },
+   {
+    "id": "D2",
+    "coord": [
+     0,
+     2
+    ],
+    "num": 5,
+    "word": "AGAVE"
+   },
+   {
+    "id": "D3",
+    "coord": [
+     0,
+     3
+    ],
+    "num": 5,
+    "word": "LEDOR"
+   },
+   {
+    "id": "D4",
+    "coord": [
+     1,
+     0
+    ],
+    "num": 3,
+    "word": "PAN"
+   },
+   {
+    "id": "H4",
+    "coord": [
+     1,
+     0
+    ],
+    "num": 5,
+    "word": "PAGER"
+   },
+   {
+    "id": "D5",
+    "coord": [
+     1,
+     4
+    ],
+    "num": 3,
+    "word": "RIA"
+   },
+   {
+    "id": "H6",
+    "coord": [
+     2,
+     0
+    ],
+    "num": 5,
+    "word": "ALADI"
+   },
+   {
+    "id": "H7",
+    "coord": [
+     3,
+     0
+    ],
+    "num": 5,
+    "word": "NEVOA"
+   },
+   {
+    "id": "H8",
+    "coord": [
+     4,
+     1
+    ],
+    "num": 3,
+    "word": "SER"
+   }
+  ],
+  [
+   {
+    "id": "D1",
+    "coord": [
+     0,
+     1
+    ],
+    "num": 5,
+    "word": "STAND"
+   },
+   {
+    "id": "H1",
+    "coord": [
+     0,
+     1
+    ],
+    "num": 3,
+    "word": "SPC"
+   },
+   {
+    "id": "D2",
+    "coord": [
+     0,
+     2
+    ],
+    "num": 5,
+    "word": "PUTAO"
+   },
+   {
+    "id": "D3",
+    "coord": [
+     0,
+     3
+    ],
+    "num": 5,
+    "word": "CAUIM"
+   },
+   {
+    "id": "D4",
+    "coord": [
+     1,
+     0
+    ],
+    "num": 3,
+    "word": "ATA"
+   },
+   {
+    "id": "H4",
+    "coord": [
+     1,
+     0
+    ],
+    "num": 5,
+    "word": "ATUAL"
+   },
+   {
+    "id": "D5",
+    "coord": [
+     1,
+     4
+    ],
+    "num": 3,
+    "word": "LIS"
    },
    {
     "id": "H6",
@@ -181,7 +365,7 @@
      1
     ],
     "num": 3,
-    "word": "SOR"
+    "word": "DOM"
    }
   ],
   [
@@ -192,7 +376,7 @@
      1
     ],
     "num": 5,
-    "word": "ARENA"
+    "word": "LINDE"
    },
    {
     "id": "H1",
@@ -201,7 +385,7 @@
      1
     ],
     "num": 3,
-    "word": "ANU"
+    "word": "LIS"
    },
    {
     "id": "D2",
@@ -210,7 +394,7 @@
      2
     ],
     "num": 5,
-    "word": "NINGI"
+    "word": "INDEX"
    },
    {
     "id": "D3",
@@ -219,7 +403,7 @@
      3
     ],
     "num": 5,
-    "word": "USTAO"
+    "word": "SARAU"
    },
    {
     "id": "D4",
@@ -228,7 +412,7 @@
      0
     ],
     "num": 3,
-    "word": "BIE"
+    "word": "FEI"
    },
    {
     "id": "H4",
@@ -237,7 +421,7 @@
      0
     ],
     "num": 5,
-    "word": "BRISA"
+    "word": "FINAM"
    },
    {
     "id": "D5",
@@ -246,7 +430,7 @@
      4
     ],
     "num": 3,
-    "word": "AOS"
+    "word": "MOR"
    },
    {
     "id": "H6",
@@ -255,7 +439,7 @@
      0
     ],
     "num": 5,
-    "word": "IENTO"
+    "word": "ENDRO"
    },
    {
     "id": "H7",
@@ -264,7 +448,7 @@
      0
     ],
     "num": 5,
-    "word": "ENGAS"
+    "word": "IDEAR"
    },
    {
     "id": "H8",
@@ -273,191 +457,7 @@
      1
     ],
     "num": 3,
-    "word": "AIO"
-   }
-  ],
-  [
-   {
-    "id": "D1",
-    "coord": [
-     0,
-     1
-    ],
-    "num": 5,
-    "word": "SOLES"
-   },
-   {
-    "id": "H1",
-    "coord": [
-     0,
-     1
-    ],
-    "num": 3,
-    "word": "SEU"
-   },
-   {
-    "id": "D2",
-    "coord": [
-     0,
-     2
-    ],
-    "num": 5,
-    "word": "ETEGO"
-   },
-   {
-    "id": "D3",
-    "coord": [
-     0,
-     3
-    ],
-    "num": 5,
-    "word": "URURI"
-   },
-   {
-    "id": "D4",
-    "coord": [
-     1,
-     0
-    ],
-    "num": 3,
-    "word": "COR"
-   },
-   {
-    "id": "H4",
-    "coord": [
-     1,
-     0
-    ],
-    "num": 5,
-    "word": "COTRA"
-   },
-   {
-    "id": "D5",
-    "coord": [
-     1,
-     4
-    ],
-    "num": 3,
-    "word": "ASA"
-   },
-   {
-    "id": "H6",
-    "coord": [
-     2,
-     0
-    ],
-    "num": 5,
-    "word": "OLEUS"
-   },
-   {
-    "id": "H7",
-    "coord": [
-     3,
-     0
-    ],
-    "num": 5,
-    "word": "REGRA"
-   },
-   {
-    "id": "H8",
-    "coord": [
-     4,
-     1
-    ],
-    "num": 3,
-    "word": "SOI"
-   }
-  ],
-  [
-   {
-    "id": "D1",
-    "coord": [
-     0,
-     1
-    ],
-    "num": 5,
-    "word": "CRONO"
-   },
-   {
-    "id": "H1",
-    "coord": [
-     0,
-     1
-    ],
-    "num": 3,
-    "word": "CAN"
-   },
-   {
-    "id": "D2",
-    "coord": [
-     0,
-     2
-    ],
-    "num": 5,
-    "word": "AGATI"
-   },
-   {
-    "id": "D3",
-    "coord": [
-     0,
-     3
-    ],
-    "num": 5,
-    "word": "NONAL"
-   },
-   {
-    "id": "D4",
-    "coord": [
-     1,
-     0
-    ],
-    "num": 3,
-    "word": "ABA"
-   },
-   {
-    "id": "H4",
-    "coord": [
-     1,
-     0
-    ],
-    "num": 5,
-    "word": "ARGOS"
-   },
-   {
-    "id": "D5",
-    "coord": [
-     1,
-     4
-    ],
-    "num": 3,
-    "word": "SAL"
-   },
-   {
-    "id": "H6",
-    "coord": [
-     2,
-     0
-    ],
-    "num": 5,
-    "word": "BOANA"
-   },
-   {
-    "id": "H7",
-    "coord": [
-     3,
-     0
-    ],
-    "num": 5,
-    "word": "ANTAL"
-   },
-   {
-    "id": "H8",
-    "coord": [
-     4,
-     1
-    ],
-    "num": 3,
-    "word": "OIL"
+    "word": "EXU"
    }
   ]
  ],
@@ -470,7 +470,7 @@
      2
     ],
     "num": 7,
-    "word": "HAMELIA"
+    "word": "DEFERIR"
    },
    {
     "id": "H1",
@@ -479,7 +479,7 @@
      2
     ],
     "num": 3,
-    "word": "HIM"
+    "word": "DAR"
    },
    {
     "id": "D2",
@@ -488,7 +488,7 @@
      3
     ],
     "num": 3,
-    "word": "IBA"
+    "word": "ALI"
    },
    {
     "id": "D3",
@@ -497,7 +497,7 @@
      4
     ],
     "num": 7,
-    "word": "MIRANAS"
+    "word": "RECITAL"
    },
    {
     "id": "D4",
@@ -506,7 +506,7 @@
      1
     ],
     "num": 5,
-    "word": "RAPAO"
+    "word": "REPOR"
    },
    {
     "id": "H4",
@@ -515,7 +515,7 @@
      1
     ],
     "num": 5,
-    "word": "RABIL"
+    "word": "RELER"
    },
    {
     "id": "D5",
@@ -524,7 +524,7 @@
      5
     ],
     "num": 5,
-    "word": "LATIR"
+    "word": "RIMEL"
    },
    {
     "id": "D6",
@@ -533,7 +533,7 @@
      0
     ],
     "num": 3,
-    "word": "CIA"
+    "word": "DDD"
    },
    {
     "id": "H6",
@@ -542,7 +542,7 @@
      0
     ],
     "num": 7,
-    "word": "CAMARAS"
+    "word": "DEFICIT"
    },
    {
     "id": "D7",
@@ -551,7 +551,7 @@
      6
     ],
     "num": 3,
-    "word": "SAO"
+    "word": "TCU"
    },
    {
     "id": "H8",
@@ -560,7 +560,7 @@
      0
     ],
     "num": 3,
-    "word": "IPE"
+    "word": "DPE"
    },
    {
     "id": "H9",
@@ -569,7 +569,7 @@
      4
     ],
     "num": 3,
-    "word": "ATA"
+    "word": "IMC"
    },
    {
     "id": "H10",
@@ -578,7 +578,7 @@
      0
     ],
     "num": 7,
-    "word": "AALENIO"
+    "word": "DOROTEU"
    },
    {
     "id": "D11",
@@ -587,7 +587,7 @@
      3
     ],
     "num": 3,
-    "word": "ERO"
+    "word": "OVO"
    },
    {
     "id": "H12",
@@ -596,7 +596,7 @@
      1
     ],
     "num": 5,
-    "word": "OIRAR"
+    "word": "RIVAL"
    },
    {
     "id": "H13",
@@ -605,7 +605,7 @@
      2
     ],
     "num": 3,
-    "word": "AOS"
+    "word": "ROL"
    }
   ],
   [
@@ -616,7 +616,7 @@
      2
     ],
     "num": 7,
-    "word": "ESSLING"
+    "word": "BENGALA"
    },
    {
     "id": "H1",
@@ -625,7 +625,7 @@
      2
     ],
     "num": 3,
-    "word": "ELE"
+    "word": "BAH"
    },
    {
     "id": "D2",
@@ -634,7 +634,7 @@
      3
     ],
     "num": 3,
-    "word": "LIS"
+    "word": "ALE"
    },
    {
     "id": "D3",
@@ -643,7 +643,7 @@
      4
     ],
     "num": 7,
-    "word": "ELECTOS"
+    "word": "HERDADE"
    },
    {
     "id": "D4",
@@ -652,7 +652,7 @@
      1
     ],
     "num": 5,
-    "word": "POACU"
+    "word": "BIELA"
    },
    {
     "id": "H4",
@@ -661,7 +661,7 @@
      1
     ],
     "num": 5,
-    "word": "PSILA"
+    "word": "BELEM"
    },
    {
     "id": "D5",
@@ -670,7 +670,7 @@
      5
     ],
     "num": 5,
-    "word": "AGEIA"
+    "word": "MAORI"
    },
    {
     "id": "D6",
@@ -679,7 +679,7 @@
      0
     ],
     "num": 3,
-    "word": "STA"
+    "word": "MEP"
    },
    {
     "id": "H6",
@@ -688,7 +688,7 @@
      0
     ],
     "num": 7,
-    "word": "SOSSEGO"
+    "word": "MINERAL"
    },
    {
     "id": "D7",
@@ -697,7 +697,7 @@
      6
     ],
     "num": 3,
-    "word": "ORA"
+    "word": "LSD"
    },
    {
     "id": "H8",
@@ -706,7 +706,7 @@
      0
     ],
     "num": 3,
-    "word": "TAL"
+    "word": "EEG"
    },
    {
     "id": "H9",
@@ -715,7 +715,7 @@
      4
     ],
     "num": 3,
-    "word": "CER"
+    "word": "DOS"
    },
    {
     "id": "H10",
@@ -724,7 +724,7 @@
      0
     ],
     "num": 7,
-    "word": "ACISTIA"
+    "word": "PLACARD"
    },
    {
     "id": "D11",
@@ -733,7 +733,7 @@
      3
     ],
     "num": 3,
-    "word": "SIA"
+    "word": "CAP"
    },
    {
     "id": "H12",
@@ -742,7 +742,7 @@
      1
     ],
     "num": 5,
-    "word": "UNIOA"
+    "word": "ALADI"
    },
    {
     "id": "H13",
@@ -751,7 +751,7 @@
      2
     ],
     "num": 3,
-    "word": "GAS"
+    "word": "APE"
    }
   ],
   [
@@ -762,7 +762,7 @@
      2
     ],
     "num": 7,
-    "word": "ARNECAN"
+    "word": "RELEGAR"
    },
    {
     "id": "H1",
@@ -771,7 +771,7 @@
      2
     ],
     "num": 3,
-    "word": "AMI"
+    "word": "RIC"
    },
    {
     "id": "D2",
@@ -780,7 +780,7 @@
      3
     ],
     "num": 3,
-    "word": "MAI"
+    "word": "IVA"
    },
    {
     "id": "D3",
@@ -789,7 +789,7 @@
      4
     ],
     "num": 7,
-    "word": "INTERNO"
+    "word": "CONVIVA"
    },
    {
     "id": "D4",
@@ -798,7 +798,7 @@
      1
     ],
     "num": 5,
-    "word": "GELAR"
+    "word": "NASAL"
    },
    {
     "id": "H4",
@@ -807,7 +807,7 @@
      1
     ],
     "num": 5,
-    "word": "GRANA"
+    "word": "NEVOA"
    },
    {
     "id": "D5",
@@ -816,7 +816,7 @@
      5
     ],
     "num": 5,
-    "word": "AIRAO"
+    "word": "ACIMA"
    },
    {
     "id": "D6",
@@ -825,7 +825,7 @@
      0
     ],
     "num": 3,
-    "word": "REN"
+    "word": "BAR"
    },
    {
     "id": "H6",
@@ -834,7 +834,7 @@
      0
     ],
     "num": 7,
-    "word": "RENITIR"
+    "word": "BALANCO"
    },
    {
     "id": "D7",
@@ -843,7 +843,7 @@
      6
     ],
     "num": 3,
-    "word": "ROR"
+    "word": "OLE"
    },
    {
     "id": "H8",
@@ -852,7 +852,7 @@
      0
     ],
     "num": 3,
-    "word": "ELE"
+    "word": "ASE"
    },
    {
     "id": "H9",
@@ -861,7 +861,7 @@
      4
     ],
     "num": 3,
-    "word": "ERO"
+    "word": "VIL"
    },
    {
     "id": "H10",
@@ -870,7 +870,7 @@
      0
     ],
     "num": 7,
-    "word": "NACARAR"
+    "word": "RAGTIME"
    },
    {
     "id": "D11",
@@ -879,7 +879,7 @@
      3
     ],
     "num": 3,
-    "word": "AMA"
+    "word": "TRE"
    },
    {
     "id": "H12",
@@ -888,7 +888,7 @@
      1
     ],
     "num": 5,
-    "word": "RAMNO"
+    "word": "LARVA"
    },
    {
     "id": "H13",
@@ -897,7 +897,7 @@
      2
     ],
     "num": 3,
-    "word": "NAO"
+    "word": "REA"
    }
   ],
   [
@@ -908,7 +908,7 @@
      2
     ],
     "num": 7,
-    "word": "SAMARRO"
+    "word": "PARTNER"
    },
    {
     "id": "H1",
@@ -917,7 +917,7 @@
      2
     ],
     "num": 3,
-    "word": "SUE"
+    "word": "PUM"
    },
    {
     "id": "D2",
@@ -926,7 +926,7 @@
      3
     ],
     "num": 3,
-    "word": "UMA"
+    "word": "UBA"
    },
    {
     "id": "D3",
@@ -935,7 +935,7 @@
      4
     ],
     "num": 7,
-    "word": "EBRIOSO"
+    "word": "MAGOADO"
    },
    {
     "id": "D4",
@@ -944,7 +944,7 @@
      1
     ],
     "num": 5,
-    "word": "CACAI"
+    "word": "ROCIM"
    },
    {
     "id": "H4",
@@ -953,7 +953,7 @@
      1
     ],
     "num": 5,
-    "word": "CAMBO"
+    "word": "RABAT"
    },
    {
     "id": "D5",
@@ -962,7 +962,7 @@
      5
     ],
     "num": 5,
-    "word": "OIDIO"
+    "word": "TEERA"
    },
    {
     "id": "D6",
@@ -971,7 +971,7 @@
      0
     ],
     "num": 3,
-    "word": "CAM"
+    "word": "VIP"
    },
    {
     "id": "H6",
@@ -980,7 +980,7 @@
      0
     ],
     "num": 7,
-    "word": "CAMARIM"
+    "word": "VORAGEM"
    },
    {
     "id": "D7",
@@ -989,7 +989,7 @@
      6
     ],
     "num": 3,
-    "word": "MAO"
+    "word": "MIO"
    },
    {
     "id": "H8",
@@ -998,7 +998,7 @@
      0
     ],
     "num": 3,
-    "word": "ACA"
+    "word": "ICT"
    },
    {
     "id": "H9",
@@ -1007,7 +1007,7 @@
      4
     ],
     "num": 3,
-    "word": "IDA"
+    "word": "OEI"
    },
    {
     "id": "H10",
@@ -1016,7 +1016,7 @@
      0
     ],
     "num": 7,
-    "word": "MARROIO"
+    "word": "PINCARO"
    },
    {
     "id": "D11",
@@ -1025,7 +1025,7 @@
      3
     ],
     "num": 3,
-    "word": "ROM"
+    "word": "CRI"
    },
    {
     "id": "H12",
@@ -1034,7 +1034,7 @@
      1
     ],
     "num": 5,
-    "word": "IROSO"
+    "word": "MERDA"
    },
    {
     "id": "H13",
@@ -1043,7 +1043,7 @@
      2
     ],
     "num": 3,
-    "word": "OMO"
+    "word": "RIO"
    }
   ],
   [
@@ -1054,7 +1054,7 @@
      2
     ],
     "num": 7,
-    "word": "AUDITOR"
+    "word": "PROCURA"
    },
    {
     "id": "H1",
@@ -1063,7 +1063,7 @@
      2
     ],
     "num": 3,
-    "word": "ATA"
+    "word": "PCC"
    },
    {
     "id": "D2",
@@ -1072,7 +1072,7 @@
      3
     ],
     "num": 3,
-    "word": "TEA"
+    "word": "CCJ"
    },
    {
     "id": "D3",
@@ -1081,7 +1081,7 @@
      4
     ],
     "num": 7,
-    "word": "ALCAGEM"
+    "word": "CHUPADO"
    },
    {
     "id": "D4",
@@ -1090,7 +1090,7 @@
      1
     ],
     "num": 5,
-    "word": "DINAR"
+    "word": "APIAI"
    },
    {
     "id": "H4",
@@ -1099,7 +1099,7 @@
      1
     ],
     "num": 5,
-    "word": "DUELO"
+    "word": "ARCHA"
    },
    {
     "id": "D5",
@@ -1108,7 +1108,7 @@
      5
     ],
     "num": 5,
-    "word": "OTHAO"
+    "word": "ACIDO"
    },
    {
     "id": "D6",
@@ -1117,7 +1117,7 @@
      0
     ],
     "num": 3,
-    "word": "DAL"
+    "word": "ISS"
    },
    {
     "id": "H6",
@@ -1126,70 +1126,70 @@
      0
     ],
     "num": 7,
-    "word": "DIDACTA"
+    "word": "IPOJUCA"
    },
    {
     "id": "D7",
     "coord": [
      2,
      6
+    ],
+    "num": 3,
+    "word": "AME"
+   },
+   {
+    "id": "H8",
+    "coord": [
+     3,
+     0
+    ],
+    "num": 3,
+    "word": "SIC"
+   },
+   {
+    "id": "H9",
+    "coord": [
+     3,
+     4
+    ],
+    "num": 3,
+    "word": "PIM"
+   },
+   {
+    "id": "H10",
+    "coord": [
+     4,
+     0
+    ],
+    "num": 7,
+    "word": "SAUDADE"
+   },
+   {
+    "id": "D11",
+    "coord": [
+     4,
+     3
+    ],
+    "num": 3,
+    "word": "DAI"
+   },
+   {
+    "id": "H12",
+    "coord": [
+     5,
+     1
+    ],
+    "num": 5,
+    "word": "IRADO"
+   },
+   {
+    "id": "H13",
+    "coord": [
+     6,
+     2
     ],
     "num": 3,
     "word": "AIO"
-   },
-   {
-    "id": "H8",
-    "coord": [
-     3,
-     0
-    ],
-    "num": 3,
-    "word": "ANI"
-   },
-   {
-    "id": "H9",
-    "coord": [
-     3,
-     4
-    ],
-    "num": 3,
-    "word": "AHI"
-   },
-   {
-    "id": "H10",
-    "coord": [
-     4,
-     0
-    ],
-    "num": 7,
-    "word": "LATAGAO"
-   },
-   {
-    "id": "D11",
-    "coord": [
-     4,
-     3
-    ],
-    "num": 3,
-    "word": "ASO"
-   },
-   {
-    "id": "H12",
-    "coord": [
-     5,
-     1
-    ],
-    "num": 5,
-    "word": "ROSEO"
-   },
-   {
-    "id": "H13",
-    "coord": [
-     6,
-     2
-    ],
-    "num": 3,
-    "word": "ROM"
    }
   ]
  ],
@@ -1202,7 +1202,7 @@
      2
     ],
     "num": 8,
-    "word": "DIFUSIVO"
+    "word": "ABRASIVO"
    },
    {
     "id": "H1",
@@ -1211,7 +1211,7 @@
      2
     ],
     "num": 4,
-    "word": "DORA"
+    "word": "ACHE"
    },
    {
     "id": "D2",
@@ -1220,7 +1220,7 @@
      3
     ],
     "num": 4,
-    "word": "OVEM"
+    "word": "CAIO"
    },
    {
     "id": "D3",
@@ -1229,7 +1229,7 @@
      4
     ],
     "num": 3,
-    "word": "REZ"
+    "word": "HIT"
    },
    {
     "id": "D4",
@@ -1238,7 +1238,7 @@
      5
     ],
     "num": 8,
-    "word": "ACARRADO"
+    "word": "EXIBICAO"
    },
    {
     "id": "D5",
@@ -1247,7 +1247,7 @@
      1
     ],
     "num": 6,
-    "word": "ANHUMA"
+    "word": "ACELGA"
    },
    {
     "id": "H5",
@@ -1256,7 +1256,7 @@
      1
     ],
     "num": 6,
-    "word": "AIVECA"
+    "word": "ABAIXO"
    },
    {
     "id": "D6",
@@ -1265,7 +1265,7 @@
      6
     ],
     "num": 6,
-    "word": "ADIADO"
+    "word": "OCULAR"
    },
    {
     "id": "D7",
@@ -1274,7 +1274,7 @@
      0
     ],
     "num": 4,
-    "word": "ENTE"
+    "word": "ALVA"
    },
    {
     "id": "H7",
@@ -1283,7 +1283,7 @@
      0
     ],
     "num": 8,
-    "word": "ENFEZADO"
+    "word": "ACRITICO"
    },
    {
     "id": "D8",
@@ -1292,7 +1292,7 @@
      7
     ],
     "num": 4,
-    "word": "ORLO"
+    "word": "OSLO"
    },
    {
     "id": "H9",
@@ -1301,7 +1301,7 @@
      0
     ],
     "num": 4,
-    "word": "NHUM"
+    "word": "LEAO"
    },
    {
     "id": "H10",
@@ -1310,7 +1310,7 @@
      5
     ],
     "num": 3,
-    "word": "RIR"
+    "word": "BUS"
    },
    {
     "id": "H11",
@@ -1319,7 +1319,7 @@
      0
     ],
     "num": 3,
-    "word": "TUS"
+    "word": "VLS"
    },
    {
     "id": "D12",
@@ -1328,7 +1328,7 @@
      4
     ],
     "num": 4,
-    "word": "ARAS"
+    "word": "BATS"
    },
    {
     "id": "H12",
@@ -1337,7 +1337,7 @@
      4
     ],
     "num": 4,
-    "word": "ARAL"
+    "word": "BILL"
    },
    {
     "id": "H13",
@@ -1346,7 +1346,7 @@
      0
     ],
     "num": 8,
-    "word": "EMIGRADO"
+    "word": "AGITACAO"
    },
    {
     "id": "D14",
@@ -1355,7 +1355,7 @@
      3
     ],
     "num": 3,
-    "word": "GES"
+    "word": "TAS"
    },
    {
     "id": "H15",
@@ -1364,7 +1364,7 @@
      1
     ],
     "num": 6,
-    "word": "AVEADO"
+    "word": "AVATAR"
    },
    {
     "id": "H16",
@@ -1384,7 +1384,7 @@
      2
     ],
     "num": 8,
-    "word": "COMPONER"
+    "word": "PERTINAZ"
    },
    {
     "id": "H1",
@@ -1393,7 +1393,7 @@
      2
     ],
     "num": 4,
-    "word": "COTA"
+    "word": "PACC"
    },
    {
     "id": "D2",
@@ -1402,7 +1402,7 @@
      3
     ],
     "num": 4,
-    "word": "ORBE"
+    "word": "ARRE"
    },
    {
     "id": "D3",
@@ -1411,7 +1411,7 @@
      4
     ],
     "num": 3,
-    "word": "TEU"
+    "word": "CEE"
    },
    {
     "id": "D4",
@@ -1420,7 +1420,7 @@
      5
     ],
     "num": 8,
-    "word": "ANEGRADO"
+    "word": "CARAIBAS"
    },
    {
     "id": "D5",
@@ -1429,7 +1429,7 @@
      1
     ],
     "num": 6,
-    "word": "MALVIS"
+    "word": "COUTAR"
    },
    {
     "id": "H5",
@@ -1438,7 +1438,7 @@
      1
     ],
     "num": 6,
-    "word": "MORENO"
+    "word": "CEREAL"
    },
    {
     "id": "D6",
@@ -1447,7 +1447,7 @@
      6
     ],
     "num": 6,
-    "word": "OREADE"
+    "word": "LIBRAR"
    },
    {
     "id": "D7",
@@ -1456,7 +1456,7 @@
      0
     ],
     "num": 4,
-    "word": "TAES"
+    "word": "CRUZ"
    },
    {
     "id": "H7",
@@ -1465,7 +1465,7 @@
      0
     ],
     "num": 8,
-    "word": "TAMBUERA"
+    "word": "CORRERIA"
    },
    {
     "id": "D8",
@@ -1474,7 +1474,7 @@
      7
     ],
     "num": 4,
-    "word": "ASNA"
+    "word": "ALAR"
    },
    {
     "id": "H9",
@@ -1483,7 +1483,7 @@
      0
     ],
     "num": 4,
-    "word": "ALPE"
+    "word": "RUTE"
    },
    {
     "id": "H10",
@@ -1492,7 +1492,7 @@
      5
     ],
     "num": 3,
-    "word": "GES"
+    "word": "ABL"
    },
    {
     "id": "H11",
@@ -1501,7 +1501,7 @@
      0
     ],
     "num": 3,
-    "word": "EVO"
+    "word": "UTI"
    },
    {
     "id": "D12",
@@ -1510,7 +1510,7 @@
      4
     ],
     "num": 4,
-    "word": "IRIZ"
+    "word": "PITU"
    },
    {
     "id": "H12",
@@ -1519,7 +1519,7 @@
      4
     ],
     "num": 4,
-    "word": "IRAN"
+    "word": "PIRA"
    },
    {
     "id": "H13",
@@ -1528,7 +1528,7 @@
      0
     ],
     "num": 8,
-    "word": "SINARADA"
+    "word": "ZANZIBAR"
    },
    {
     "id": "D14",
@@ -1537,7 +1537,7 @@
      3
     ],
     "num": 3,
-    "word": "ARE"
+    "word": "ZPE"
    },
    {
     "id": "H15",
@@ -1546,7 +1546,7 @@
      1
     ],
     "num": 6,
-    "word": "SERIDE"
+    "word": "RAPTAR"
    },
    {
     "id": "H16",
@@ -1555,7 +1555,7 @@
      2
     ],
     "num": 4,
-    "word": "REZO"
+    "word": "ZEUS"
    }
   ],
   [
@@ -1566,7 +1566,7 @@
      2
     ],
     "num": 8,
-    "word": "IGUALEZA"
+    "word": "GARDENIA"
    },
    {
     "id": "H1",
@@ -1575,7 +1575,7 @@
      2
     ],
     "num": 4,
-    "word": "IPIM"
+    "word": "GAFE"
    },
    {
     "id": "D2",
@@ -1584,7 +1584,7 @@
      3
     ],
     "num": 4,
-    "word": "PITO"
+    "word": "ARRE"
    },
    {
     "id": "D3",
@@ -1593,7 +1593,7 @@
      4
     ],
     "num": 3,
-    "word": "IDI"
+    "word": "FIA"
    },
    {
     "id": "D4",
@@ -1602,7 +1602,7 @@
      5
     ],
     "num": 8,
-    "word": "MANGOLAR"
+    "word": "ENRUGADO"
    },
    {
     "id": "D5",
@@ -1611,7 +1611,7 @@
      1
     ],
     "num": 6,
-    "word": "ALFOVA"
+    "word": "FEITOS"
    },
    {
     "id": "H5",
@@ -1620,7 +1620,7 @@
      1
     ],
     "num": 6,
-    "word": "AGIDAS"
+    "word": "FARINA"
    },
    {
     "id": "D6",
@@ -1629,7 +1629,7 @@
      6
     ],
     "num": 6,
-    "word": "SARNIR"
+    "word": "AIRADO"
    },
    {
     "id": "D7",
@@ -1638,7 +1638,7 @@
      0
     ],
     "num": 4,
-    "word": "GARU"
+    "word": "FLAT"
    },
    {
     "id": "H7",
@@ -1647,7 +1647,7 @@
      0
     ],
     "num": 8,
-    "word": "GLUTINAR"
+    "word": "FERRARIA"
    },
    {
     "id": "D8",
@@ -1656,7 +1656,7 @@
      7
     ],
     "num": 4,
-    "word": "RAIA"
+    "word": "AURA"
    },
    {
     "id": "H9",
@@ -1665,7 +1665,7 @@
      0
     ],
     "num": 4,
-    "word": "AFAO"
+    "word": "LIDE"
    },
    {
     "id": "H10",
@@ -1674,7 +1674,7 @@
      5
     ],
     "num": 3,
-    "word": "GRA"
+    "word": "URU"
    },
    {
     "id": "H11",
@@ -1683,7 +1683,7 @@
      0
     ],
     "num": 3,
-    "word": "ROL"
+    "word": "ATE"
    },
    {
     "id": "D12",
@@ -1692,7 +1692,7 @@
      4
     ],
     "num": 4,
-    "word": "MADI"
+    "word": "ALUA"
    },
    {
     "id": "H12",
@@ -1701,7 +1701,7 @@
      4
     ],
     "num": 4,
-    "word": "MONI"
+    "word": "AGAR"
    },
    {
     "id": "H13",
@@ -1710,7 +1710,7 @@
      0
     ],
     "num": 8,
-    "word": "UVEDALIA"
+    "word": "TONELADA"
    },
    {
     "id": "D14",
@@ -1719,7 +1719,7 @@
      3
     ],
     "num": 3,
-    "word": "DES"
+    "word": "ESC"
    },
    {
     "id": "H15",
@@ -1728,7 +1728,7 @@
      1
     ],
     "num": 6,
-    "word": "AZEDAR"
+    "word": "SISUDO"
    },
    {
     "id": "H16",
@@ -1737,7 +1737,7 @@
      2
     ],
     "num": 4,
-    "word": "ASIR"
+    "word": "ACAO"
    }
   ],
   [
@@ -1748,7 +1748,7 @@
      2
     ],
     "num": 8,
-    "word": "CARPANEL"
+    "word": "PARCERIA"
    },
    {
     "id": "H1",
@@ -1757,7 +1757,7 @@
      2
     ],
     "num": 4,
-    "word": "CAIM"
+    "word": "PACC"
    },
    {
     "id": "D2",
@@ -1766,7 +1766,7 @@
      3
     ],
     "num": 4,
-    "word": "ANDO"
+    "word": "ARTE"
    },
    {
     "id": "D3",
@@ -1775,7 +1775,7 @@
      4
     ],
     "num": 3,
-    "word": "IDA"
+    "word": "CRE"
    },
    {
     "id": "D4",
@@ -1784,7 +1784,7 @@
      5
     ],
     "num": 8,
-    "word": "MEGARICO"
+    "word": "CONCLAVE"
    },
    {
     "id": "D5",
@@ -1793,7 +1793,7 @@
      1
     ],
     "num": 6,
-    "word": "TOIRIL"
+    "word": "BALDAO"
    },
    {
     "id": "H5",
@@ -1802,7 +1802,7 @@
      1
     ],
     "num": 6,
-    "word": "TANDEM"
+    "word": "BARROS"
    },
    {
     "id": "D6",
@@ -1811,7 +1811,7 @@
      6
     ],
     "num": 6,
-    "word": "MECATE"
+    "word": "SONATA"
    },
    {
     "id": "D7",
@@ -1820,7 +1820,7 @@
      0
     ],
     "num": 4,
-    "word": "BRAS"
+    "word": "PAIM"
    },
    {
     "id": "H7",
@@ -1829,7 +1829,7 @@
      0
     ],
     "num": 8,
-    "word": "BORDAGEM"
+    "word": "PARTENON"
    },
    {
     "id": "D8",
@@ -1838,7 +1838,7 @@
      7
     ],
     "num": 4,
-    "word": "MULE"
+    "word": "NENO"
    },
    {
     "id": "H9",
@@ -1847,7 +1847,7 @@
      0
     ],
     "num": 4,
-    "word": "RIPO"
+    "word": "ALCE"
    },
    {
     "id": "H10",
@@ -1856,7 +1856,7 @@
      5
     ],
     "num": 3,
-    "word": "ACU"
+    "word": "CNE"
    },
    {
     "id": "H11",
@@ -1865,7 +1865,7 @@
      0
     ],
     "num": 3,
-    "word": "ARA"
+    "word": "IDE"
    },
    {
     "id": "D12",
@@ -1874,7 +1874,7 @@
      4
     ],
     "num": 4,
-    "word": "OSIA"
+    "word": "AGAR"
    },
    {
     "id": "H12",
@@ -1883,7 +1883,7 @@
      4
     ],
     "num": 4,
-    "word": "ORAL"
+    "word": "ALAN"
    },
    {
     "id": "H13",
@@ -1892,7 +1892,7 @@
      0
     ],
     "num": 8,
-    "word": "SINUSITE"
+    "word": "MARAGATO"
    },
    {
     "id": "D14",
@@ -1901,7 +1901,7 @@
      3
     ],
     "num": 3,
-    "word": "UDO"
+    "word": "ATP"
    },
    {
     "id": "H15",
@@ -1910,7 +1910,7 @@
      1
     ],
     "num": 6,
-    "word": "LEDICE"
+    "word": "OITAVA"
    },
    {
     "id": "H16",
@@ -1919,7 +1919,7 @@
      2
     ],
     "num": 4,
-    "word": "LOAO"
+    "word": "APRE"
    }
   ],
   [
@@ -1930,7 +1930,7 @@
      2
     ],
     "num": 8,
-    "word": "TARTUFIA"
+    "word": "CONCEBER"
    },
    {
     "id": "H1",
@@ -1939,7 +1939,7 @@
      2
     ],
     "num": 4,
-    "word": "TAOS"
+    "word": "CARA"
    },
    {
     "id": "D2",
@@ -1948,7 +1948,7 @@
      3
     ],
     "num": 4,
-    "word": "ARRO"
+    "word": "ALTA"
    },
    {
     "id": "D3",
@@ -1957,7 +1957,7 @@
      4
     ],
     "num": 3,
-    "word": "ONA"
+    "word": "RIR"
    },
    {
     "id": "D4",
@@ -1966,7 +1966,7 @@
      5
     ],
     "num": 8,
-    "word": "SAGUVATE"
+    "word": "ANACLETO"
    },
    {
     "id": "D5",
@@ -1975,7 +1975,7 @@
      1
     ],
     "num": 6,
-    "word": "CAUDAL"
+    "word": "COSTAS"
    },
    {
     "id": "H5",
@@ -1984,7 +1984,7 @@
      1
     ],
     "num": 6,
-    "word": "CARNAC"
+    "word": "COLINA"
    },
    {
     "id": "D6",
@@ -1993,7 +1993,7 @@
      6
     ],
     "num": 6,
-    "word": "CASELA"
+    "word": "AFOITO"
    },
    {
     "id": "D7",
@@ -2002,7 +2002,7 @@
      0
     ],
     "num": 4,
-    "word": "BRAS"
+    "word": "CIAR"
    },
    {
     "id": "H7",
@@ -2011,7 +2011,7 @@
      0
     ],
     "num": 8,
-    "word": "BARRAGAN"
+    "word": "CONTRAFE"
    },
    {
     "id": "D8",
@@ -2020,7 +2020,7 @@
      7
     ],
     "num": 4,
-    "word": "NOMA"
+    "word": "ESSE"
    },
    {
     "id": "H9",
@@ -2029,7 +2029,7 @@
      0
     ],
     "num": 4,
-    "word": "RUTO"
+    "word": "ISCA"
    },
    {
     "id": "H10",
@@ -2038,7 +2038,7 @@
      5
     ],
     "num": 3,
-    "word": "USO"
+    "word": "COS"
    },
    {
     "id": "H11",
@@ -2047,7 +2047,7 @@
      0
     ],
     "num": 3,
-    "word": "ADU"
+    "word": "ATE"
    },
    {
     "id": "D12",
@@ -2056,7 +2056,7 @@
      4
     ],
     "num": 4,
-    "word": "OCAR"
+    "word": "ENEM"
    },
    {
     "id": "H12",
@@ -2065,7 +2065,7 @@
      4
     ],
     "num": 4,
-    "word": "OVEM"
+    "word": "ELIS"
    },
    {
     "id": "H13",
@@ -2074,7 +2074,7 @@
      0
     ],
     "num": 8,
-    "word": "SAFUCALA"
+    "word": "RABANETE"
    },
    {
     "id": "D14",
@@ -2083,7 +2083,7 @@
      3
     ],
     "num": 3,
-    "word": "UBI"
+    "word": "ALE"
    },
    {
     "id": "H15",
@@ -2092,7 +2092,7 @@
      1
     ],
     "num": 6,
-    "word": "LIBATA"
+    "word": "SELETO"
    },
    {
     "id": "H16",
@@ -2101,7 +2101,7 @@
      2
     ],
     "num": 4,
-    "word": "AIRE"
+    "word": "REMO"
    }
   ]
  ],
@@ -2114,7 +2114,7 @@
      3
     ],
     "num": 6,
-    "word": "SIROCO"
+    "word": "SAPATA"
    },
    {
     "id": "H1",
@@ -2123,7 +2123,7 @@
      3
     ],
     "num": 4,
-    "word": "SIBA"
+    "word": "SUOR"
    },
    {
     "id": "D2",
@@ -2132,7 +2132,7 @@
      4
     ],
     "num": 5,
-    "word": "ITALO"
+    "word": "URUBU"
    },
    {
     "id": "D3",
@@ -2141,7 +2141,7 @@
      5
     ],
     "num": 4,
-    "word": "BABI"
+    "word": "OITO"
    },
    {
     "id": "D4",
@@ -2150,7 +2150,7 @@
      6
     ],
     "num": 3,
-    "word": "AVO"
+    "word": "RNA"
    },
    {
     "id": "D5",
@@ -2159,7 +2159,7 @@
      2
     ],
     "num": 8,
-    "word": "OUTONICO"
+    "word": "CELULOSE"
    },
    {
     "id": "H5",
@@ -2168,7 +2168,7 @@
      2
     ],
     "num": 6,
-    "word": "OITAVO"
+    "word": "CARINA"
    },
    {
     "id": "D6",
@@ -2177,7 +2177,7 @@
      7
     ],
     "num": 8,
-    "word": "OLEOLATO"
+    "word": "ADERECAR"
    },
    {
     "id": "D7",
@@ -2186,7 +2186,7 @@
      1
     ],
     "num": 6,
-    "word": "FABULA"
+    "word": "DIRETO"
    },
    {
     "id": "H7",
@@ -2195,7 +2195,7 @@
      1
     ],
     "num": 8,
-    "word": "FURABOLO"
+    "word": "DEPUTADO"
    },
    {
     "id": "D8",
@@ -2204,7 +2204,7 @@
      8
     ],
     "num": 6,
-    "word": "OLEIRO"
+    "word": "OFEGAR"
    },
    {
     "id": "D9",
@@ -2213,7 +2213,7 @@
      0
     ],
     "num": 4,
-    "word": "CATA"
+    "word": "SUSA"
    },
    {
     "id": "H9",
@@ -2222,7 +2222,7 @@
      0
     ],
     "num": 6,
-    "word": "CATOLI"
+    "word": "SILABO"
    },
    {
     "id": "H10",
@@ -2231,7 +2231,7 @@
      7
     ],
     "num": 3,
-    "word": "ELO"
+    "word": "EFC"
    },
    {
     "id": "D11",
@@ -2240,7 +2240,7 @@
      9
     ],
     "num": 4,
-    "word": "ORAO"
+    "word": "CIAO"
    },
    {
     "id": "H12",
@@ -2249,7 +2249,7 @@
      0
     ],
     "num": 5,
-    "word": "ABOCO"
+    "word": "URUTU"
    },
    {
     "id": "D13",
@@ -2258,7 +2258,7 @@
      6
     ],
     "num": 6,
-    "word": "DAMNAR"
+    "word": "GRITAR"
    },
    {
     "id": "H13",
@@ -2267,7 +2267,7 @@
      6
     ],
     "num": 4,
-    "word": "DOER"
+    "word": "GREI"
    },
    {
     "id": "H14",
@@ -2276,7 +2276,7 @@
      0
     ],
     "num": 4,
-    "word": "TUNO"
+    "word": "SELA"
    },
    {
     "id": "D15",
@@ -2285,7 +2285,7 @@
      5
     ],
     "num": 5,
-    "word": "TOESA"
+    "word": "PENCA"
    },
    {
     "id": "H15",
@@ -2294,7 +2294,7 @@
      5
     ],
     "num": 5,
-    "word": "TALIA"
+    "word": "PREGA"
    },
    {
     "id": "H16",
@@ -2303,7 +2303,7 @@
      0
     ],
     "num": 3,
-    "word": "ALI"
+    "word": "ATO"
    },
    {
     "id": "D17",
@@ -2312,7 +2312,7 @@
      4
     ],
     "num": 4,
-    "word": "CLIS"
+    "word": "FEIO"
    },
    {
     "id": "H17",
@@ -2321,7 +2321,7 @@
      4
     ],
     "num": 6,
-    "word": "COMARO"
+    "word": "FEICAO"
    },
    {
     "id": "H18",
@@ -2330,7 +2330,7 @@
      1
     ],
     "num": 8,
-    "word": "ACALENTO"
+    "word": "OSTENTAR"
    },
    {
     "id": "D19",
@@ -2339,7 +2339,7 @@
      3
     ],
     "num": 3,
-    "word": "ACA"
+    "word": "TRT"
    },
    {
     "id": "H20",
@@ -2348,7 +2348,7 @@
      2
     ],
     "num": 6,
-    "word": "OCISAO"
+    "word": "ERICAR"
    },
    {
     "id": "H21",
@@ -2357,7 +2357,7 @@
      3
     ],
     "num": 4,
-    "word": "ASAR"
+    "word": "TOAR"
    }
   ],
   [
@@ -2368,7 +2368,7 @@
      3
     ],
     "num": 6,
-    "word": "CHIOTE"
+    "word": "MALOCA"
    },
    {
     "id": "H1",
@@ -2377,7 +2377,7 @@
      3
     ],
     "num": 4,
-    "word": "CLUB"
+    "word": "MINC"
    },
    {
     "id": "D2",
@@ -2386,7 +2386,7 @@
      4
     ],
     "num": 5,
-    "word": "LERTA"
+    "word": "IMOTO"
    },
    {
     "id": "D3",
@@ -2395,7 +2395,7 @@
      5
     ],
     "num": 4,
-    "word": "UREA"
+    "word": "NONO"
    },
    {
     "id": "D4",
@@ -2404,7 +2404,7 @@
      6
     ],
     "num": 3,
-    "word": "BUL"
+    "word": "CEI"
    },
    {
     "id": "D5",
@@ -2413,7 +2413,7 @@
      2
     ],
     "num": 8,
-    "word": "CARIDOSA"
+    "word": "COLAPSAR"
    },
    {
     "id": "H5",
@@ -2422,7 +2422,7 @@
      2
     ],
     "num": 6,
-    "word": "CHERUB"
+    "word": "CAMOES"
    },
    {
     "id": "D6",
@@ -2431,7 +2431,7 @@
      7
     ],
     "num": 8,
-    "word": "BALANCIM"
+    "word": "SALARIAL"
    },
    {
     "id": "D7",
@@ -2440,7 +2440,7 @@
      1
     ],
     "num": 6,
-    "word": "CIFOSE"
+    "word": "CIPOAL"
    },
    {
     "id": "H7",
@@ -2449,7 +2449,7 @@
      1
     ],
     "num": 8,
-    "word": "CAIRELAR"
+    "word": "COLONIAL"
    },
    {
     "id": "D8",
@@ -2458,7 +2458,7 @@
      8
     ],
     "num": 6,
-    "word": "REGOAR"
+    "word": "LARGAR"
    },
    {
     "id": "D9",
@@ -2467,7 +2467,7 @@
      0
     ],
     "num": 4,
-    "word": "BOBA"
+    "word": "POST"
    },
    {
     "id": "H9",
@@ -2476,7 +2476,7 @@
      0
     ],
     "num": 6,
-    "word": "BIROTA"
+    "word": "PILOTO"
    },
    {
     "id": "H10",
@@ -2485,7 +2485,7 @@
      7
     ],
     "num": 3,
-    "word": "LER"
+    "word": "LAC"
    },
    {
     "id": "D11",
@@ -2494,7 +2494,7 @@
      9
     ],
     "num": 4,
-    "word": "RUNA"
+    "word": "CIAO"
    },
    {
     "id": "H12",
@@ -2503,7 +2503,7 @@
      0
     ],
     "num": 5,
-    "word": "OFITA"
+    "word": "OPACO"
    },
    {
     "id": "D13",
@@ -2512,7 +2512,7 @@
      6
     ],
     "num": 6,
-    "word": "CAUDEL"
+    "word": "BUGIAR"
    },
    {
     "id": "H13",
@@ -2521,7 +2521,7 @@
      6
     ],
     "num": 4,
-    "word": "CAGU"
+    "word": "BARI"
    },
    {
     "id": "H14",
@@ -2530,7 +2530,7 @@
      0
     ],
     "num": 4,
-    "word": "BODE"
+    "word": "SOPA"
    },
    {
     "id": "D15",
@@ -2539,7 +2539,7 @@
      5
     ],
     "num": 5,
-    "word": "CANGA"
+    "word": "PERUA"
    },
    {
     "id": "H15",
@@ -2548,7 +2548,7 @@
      5
     ],
     "num": 5,
-    "word": "CANON"
+    "word": "PURGA"
    },
    {
     "id": "H16",
@@ -2557,7 +2557,7 @@
      0
     ],
     "num": 3,
-    "word": "ASO"
+    "word": "TAS"
    },
    {
     "id": "D17",
@@ -2566,7 +2566,7 @@
      4
     ],
     "num": 4,
-    "word": "CIAR"
+    "word": "RUTE"
    },
    {
     "id": "H17",
@@ -2575,7 +2575,7 @@
      4
     ],
     "num": 6,
-    "word": "CAUCAA"
+    "word": "REGIAO"
    },
    {
     "id": "H18",
@@ -2584,7 +2584,7 @@
      1
     ],
     "num": 8,
-    "word": "ESCINDIR"
+    "word": "LAMURIAR"
    },
    {
     "id": "D19",
@@ -2593,7 +2593,7 @@
      3
     ],
     "num": 3,
-    "word": "CRO"
+    "word": "MIT"
    },
    {
     "id": "H20",
@@ -2602,7 +2602,7 @@
      2
     ],
     "num": 6,
-    "word": "ARAGEM"
+    "word": "RITUAL"
    },
    {
     "id": "H21",
@@ -2611,7 +2611,7 @@
      3
     ],
     "num": 4,
-    "word": "ORAL"
+    "word": "TEAR"
    }
   ],
   [
@@ -2622,7 +2622,7 @@
      3
     ],
     "num": 6,
-    "word": "PUNICO"
+    "word": "CHEFAO"
    },
    {
     "id": "H1",
@@ -2631,7 +2631,7 @@
      3
     ],
     "num": 4,
-    "word": "PREA"
+    "word": "CNOP"
    },
    {
     "id": "D2",
@@ -2640,7 +2640,7 @@
      4
     ],
     "num": 5,
-    "word": "RETRO"
+    "word": "NATAN"
    },
    {
     "id": "D3",
@@ -2649,7 +2649,7 @@
      5
     ],
     "num": 4,
-    "word": "ENEA"
+    "word": "OVER"
    },
    {
     "id": "D4",
@@ -2658,7 +2658,7 @@
      6
     ],
     "num": 3,
-    "word": "AIS"
+    "word": "PAX"
    },
    {
     "id": "D5",
@@ -2667,7 +2667,7 @@
      2
     ],
     "num": 8,
-    "word": "MAPURITI"
+    "word": "CRENDICE"
    },
    {
     "id": "H5",
@@ -2676,7 +2676,7 @@
      2
     ],
     "num": 6,
-    "word": "MUENIE"
+    "word": "CHAVAO"
    },
    {
     "id": "D6",
@@ -2685,7 +2685,7 @@
      7
     ],
     "num": 8,
-    "word": "EMPROADO"
+    "word": "OTIMIZAR"
    },
    {
     "id": "D7",
@@ -2694,7 +2694,7 @@
      1
     ],
     "num": 6,
-    "word": "PALREA"
+    "word": "PLEITO"
    },
    {
     "id": "H7",
@@ -2703,7 +2703,7 @@
      1
     ],
     "num": 8,
-    "word": "PANTESMA"
+    "word": "PRETEXTO"
    },
    {
     "id": "D8",
@@ -2712,7 +2712,7 @@
      8
     ],
     "num": 6,
-    "word": "AREADO"
+    "word": "OVACAO"
    },
    {
     "id": "D9",
@@ -2721,7 +2721,7 @@
      0
     ],
     "num": 4,
-    "word": "MUAR"
+    "word": "BREU"
    },
    {
     "id": "H9",
@@ -2730,7 +2730,7 @@
      0
     ],
     "num": 6,
-    "word": "MAPIRA"
+    "word": "BLEFAR"
    },
    {
     "id": "H10",
@@ -2739,7 +2739,7 @@
      7
     ],
     "num": 3,
-    "word": "PRO"
+    "word": "IVA"
    },
    {
     "id": "D11",
@@ -2748,7 +2748,7 @@
      9
     ],
     "num": 4,
-    "word": "ORIO"
+    "word": "ANAO"
    },
    {
     "id": "H12",
@@ -2757,7 +2757,7 @@
      0
     ],
     "num": 5,
-    "word": "ULUCO"
+    "word": "RENAN"
    },
    {
     "id": "D13",
@@ -2766,614 +2766,614 @@
      6
     ],
     "num": 6,
-    "word": "CHIATA"
+    "word": "INACAO"
    },
    {
     "id": "H13",
     "coord": [
      4,
      6
+    ],
+    "num": 4,
+    "word": "IMAN"
+   },
+   {
+    "id": "H14",
+    "coord": [
+     5,
+     0
+    ],
+    "num": 4,
+    "word": "EIDO"
+   },
+   {
+    "id": "D15",
+    "coord": [
+     5,
+     5
+    ],
+    "num": 5,
+    "word": "ALALC"
+   },
+   {
+    "id": "H15",
+    "coord": [
+     5,
+     5
+    ],
+    "num": 5,
+    "word": "ANICA"
+   },
+   {
+    "id": "H16",
+    "coord": [
+     6,
+     0
+    ],
+    "num": 3,
+    "word": "UTI"
+   },
+   {
+    "id": "D17",
+    "coord": [
+     6,
+     4
+    ],
+    "num": 4,
+    "word": "APOR"
+   },
+   {
+    "id": "H17",
+    "coord": [
+     6,
+     4
+    ],
+    "num": 6,
+    "word": "ALAZAO"
+   },
+   {
+    "id": "H18",
+    "coord": [
+     7,
+     1
+    ],
+    "num": 8,
+    "word": "OCUPACAO"
+   },
+   {
+    "id": "D19",
+    "coord": [
+     7,
+     3
+    ],
+    "num": 3,
+    "word": "UVA"
+   },
+   {
+    "id": "H20",
+    "coord": [
+     8,
+     2
+    ],
+    "num": 6,
+    "word": "EVOLAR"
+   },
+   {
+    "id": "H21",
+    "coord": [
+     9,
+     3
+    ],
+    "num": 4,
+    "word": "ARCO"
+   }
+  ],
+  [
+   {
+    "id": "D1",
+    "coord": [
+     0,
+     3
+    ],
+    "num": 6,
+    "word": "CURACA"
+   },
+   {
+    "id": "H1",
+    "coord": [
+     0,
+     3
+    ],
+    "num": 4,
+    "word": "CALI"
+   },
+   {
+    "id": "D2",
+    "coord": [
+     0,
+     4
+    ],
+    "num": 5,
+    "word": "AMENO"
+   },
+   {
+    "id": "D3",
+    "coord": [
+     0,
+     5
+    ],
+    "num": 4,
+    "word": "LONA"
+   },
+   {
+    "id": "D4",
+    "coord": [
+     0,
+     6
+    ],
+    "num": 3,
+    "word": "ING"
+   },
+   {
+    "id": "D5",
+    "coord": [
+     1,
+     2
+    ],
+    "num": 8,
+    "word": "DECIFRAR"
+   },
+   {
+    "id": "H5",
+    "coord": [
+     1,
+     2
+    ],
+    "num": 6,
+    "word": "DUMONT"
+   },
+   {
+    "id": "D6",
+    "coord": [
+     1,
+     7
+    ],
+    "num": 8,
+    "word": "TUCUNARE"
+   },
+   {
+    "id": "D7",
+    "coord": [
+     2,
+     1
+    ],
+    "num": 6,
+    "word": "MARROM"
+   },
+   {
+    "id": "H7",
+    "coord": [
+     2,
+     1
+    ],
+    "num": 8,
+    "word": "MERENGUE"
+   },
+   {
+    "id": "D8",
+    "coord": [
+     2,
+     8
+    ],
+    "num": 6,
+    "word": "EUROPA"
+   },
+   {
+    "id": "D9",
+    "coord": [
+     3,
+     0
+    ],
+    "num": 4,
+    "word": "STOP"
+   },
+   {
+    "id": "H9",
+    "coord": [
+     3,
+     0
+    ],
+    "num": 6,
+    "word": "SACANA"
+   },
+   {
+    "id": "H10",
+    "coord": [
+     3,
+     7
+    ],
+    "num": 3,
+    "word": "CUT"
+   },
+   {
+    "id": "D11",
+    "coord": [
+     3,
+     9
+    ],
+    "num": 4,
+    "word": "TORE"
+   },
+   {
+    "id": "H12",
+    "coord": [
+     4,
+     0
+    ],
+    "num": 5,
+    "word": "TRICO"
+   },
+   {
+    "id": "D13",
+    "coord": [
+     4,
+     6
+    ],
+    "num": 6,
+    "word": "MEDICI"
+   },
+   {
+    "id": "H13",
+    "coord": [
+     4,
+     6
+    ],
+    "num": 4,
+    "word": "MURO"
+   },
+   {
+    "id": "H14",
+    "coord": [
+     5,
+     0
+    ],
+    "num": 4,
+    "word": "ORFA"
+   },
+   {
+    "id": "D15",
+    "coord": [
+     5,
+     5
+    ],
+    "num": 5,
+    "word": "MOELA"
+   },
+   {
+    "id": "H15",
+    "coord": [
+     5,
+     5
+    ],
+    "num": 5,
+    "word": "MENOR"
+   },
+   {
+    "id": "H16",
+    "coord": [
+     6,
+     0
+    ],
+    "num": 3,
+    "word": "POR"
+   },
+   {
+    "id": "D17",
+    "coord": [
+     6,
+     4
+    ],
+    "num": 4,
+    "word": "RIAN"
+   },
+   {
+    "id": "H17",
+    "coord": [
+     6,
+     4
+    ],
+    "num": 6,
+    "word": "RODAPE"
+   },
+   {
+    "id": "H18",
+    "coord": [
+     7,
+     1
+    ],
+    "num": 8,
+    "word": "MACIEIRA"
+   },
+   {
+    "id": "D19",
+    "coord": [
+     7,
+     3
+    ],
+    "num": 3,
+    "word": "CEU"
+   },
+   {
+    "id": "H20",
+    "coord": [
+     8,
+     2
+    ],
+    "num": 6,
+    "word": "REALCE"
+   },
+   {
+    "id": "H21",
+    "coord": [
+     9,
+     3
+    ],
+    "num": 4,
+    "word": "UNAI"
+   }
+  ],
+  [
+   {
+    "id": "D1",
+    "coord": [
+     0,
+     3
+    ],
+    "num": 6,
+    "word": "MAROLA"
+   },
+   {
+    "id": "H1",
+    "coord": [
+     0,
+     3
+    ],
+    "num": 4,
+    "word": "MUCO"
+   },
+   {
+    "id": "D2",
+    "coord": [
+     0,
+     4
+    ],
+    "num": 5,
+    "word": "UVAIA"
+   },
+   {
+    "id": "D3",
+    "coord": [
+     0,
+     5
+    ],
+    "num": 4,
+    "word": "CABA"
+   },
+   {
+    "id": "D4",
+    "coord": [
+     0,
+     6
+    ],
+    "num": 3,
+    "word": "OLE"
+   },
+   {
+    "id": "D5",
+    "coord": [
+     1,
+     2
+    ],
+    "num": 8,
+    "word": "JAPONESA"
+   },
+   {
+    "id": "H5",
+    "coord": [
+     1,
+     2
+    ],
+    "num": 6,
+    "word": "JAVALI"
+   },
+   {
+    "id": "D6",
+    "coord": [
+     1,
+     7
+    ],
+    "num": 8,
+    "word": "INSERCAO"
+   },
+   {
+    "id": "D7",
+    "coord": [
+     2,
+     1
+    ],
+    "num": 6,
+    "word": "PICOLE"
+   },
+   {
+    "id": "H7",
+    "coord": [
+     2,
+     1
+    ],
+    "num": 8,
+    "word": "PARABENS"
+   },
+   {
+    "id": "D8",
+    "coord": [
+     2,
+     8
+    ],
+    "num": 6,
+    "word": "SOCCER"
+   },
+   {
+    "id": "D9",
+    "coord": [
+     3,
+     0
+    ],
+    "num": 4,
+    "word": "TATA"
+   },
+   {
+    "id": "H9",
+    "coord": [
+     3,
+     0
+    ],
+    "num": 6,
+    "word": "TIPOIA"
+   },
+   {
+    "id": "H10",
+    "coord": [
+     3,
+     7
+    ],
+    "num": 3,
+    "word": "SOM"
+   },
+   {
+    "id": "D11",
+    "coord": [
+     3,
+     9
+    ],
+    "num": 4,
+    "word": "MAOS"
+   },
+   {
+    "id": "H12",
+    "coord": [
+     4,
+     0
+    ],
+    "num": 5,
+    "word": "ACOLA"
+   },
+   {
+    "id": "D13",
+    "coord": [
+     4,
+     6
+    ],
+    "num": 6,
+    "word": "BARRIR"
+   },
+   {
+    "id": "H13",
+    "coord": [
+     4,
+     6
+    ],
+    "num": 4,
+    "word": "BECA"
+   },
+   {
+    "id": "H14",
+    "coord": [
+     5,
+     0
+    ],
+    "num": 4,
+    "word": "TONA"
+   },
+   {
+    "id": "D15",
+    "coord": [
+     5,
+     5
+    ],
+    "num": 5,
+    "word": "MERCE"
+   },
+   {
+    "id": "H15",
+    "coord": [
+     5,
+     5
+    ],
+    "num": 5,
+    "word": "MARCO"
+   },
+   {
+    "id": "H16",
+    "coord": [
+     6,
+     0
+    ],
+    "num": 3,
+    "word": "ALE"
+   },
+   {
+    "id": "D17",
+    "coord": [
+     6,
+     4
+    ],
+    "num": 4,
+    "word": "MIAR"
+   },
+   {
+    "id": "H17",
+    "coord": [
+     6,
+     4
+    ],
+    "num": 6,
+    "word": "MERCES"
+   },
+   {
+    "id": "H18",
+    "coord": [
+     7,
+     1
+    ],
+    "num": 8,
+    "word": "ESPIRRAR"
+   },
+   {
+    "id": "D19",
+    "coord": [
+     7,
+     3
+    ],
+    "num": 3,
+    "word": "PCC"
+   },
+   {
+    "id": "H20",
+    "coord": [
+     8,
+     2
+    ],
+    "num": 6,
+    "word": "ACACIO"
+   },
+   {
+    "id": "H21",
+    "coord": [
+     9,
+     3
     ],
     "num": 4,
     "word": "CRER"
-   },
-   {
-    "id": "H14",
-    "coord": [
-     5,
-     0
-    ],
-    "num": 4,
-    "word": "ARRO"
-   },
-   {
-    "id": "D15",
-    "coord": [
-     5,
-     5
-    ],
-    "num": 5,
-    "word": "ADOLI"
-   },
-   {
-    "id": "H15",
-    "coord": [
-     5,
-     5
-    ],
-    "num": 5,
-    "word": "AHOAI"
-   },
-   {
-    "id": "H16",
-    "coord": [
-     6,
-     0
-    ],
-    "num": 3,
-    "word": "REI"
-   },
-   {
-    "id": "D17",
-    "coord": [
-     6,
-     4
-    ],
-    "num": 4,
-    "word": "ANUS"
-   },
-   {
-    "id": "H17",
-    "coord": [
-     6,
-     4
-    ],
-    "num": 6,
-    "word": "ADIADO"
-   },
-   {
-    "id": "H18",
-    "coord": [
-     7,
-     1
-    ],
-    "num": 8,
-    "word": "ATANOADO"
-   },
-   {
-    "id": "D19",
-    "coord": [
-     7,
-     3
-    ],
-    "num": 3,
-    "word": "ANO"
-   },
-   {
-    "id": "H20",
-    "coord": [
-     8,
-     2
-    ],
-    "num": 6,
-    "word": "INULTO"
-   },
-   {
-    "id": "H21",
-    "coord": [
-     9,
-     3
-    ],
-    "num": 4,
-    "word": "OSIA"
-   }
-  ],
-  [
-   {
-    "id": "D1",
-    "coord": [
-     0,
-     3
-    ],
-    "num": 6,
-    "word": "MANSAO"
-   },
-   {
-    "id": "H1",
-    "coord": [
-     0,
-     3
-    ],
-    "num": 4,
-    "word": "MOAL"
-   },
-   {
-    "id": "D2",
-    "coord": [
-     0,
-     4
-    ],
-    "num": 5,
-    "word": "ORCAZ"
-   },
-   {
-    "id": "D3",
-    "coord": [
-     0,
-     5
-    ],
-    "num": 4,
-    "word": "ANAN"
-   },
-   {
-    "id": "D4",
-    "coord": [
-     0,
-     6
-    ],
-    "num": 3,
-    "word": "LAN"
-   },
-   {
-    "id": "D5",
-    "coord": [
-     1,
-     2
-    ],
-    "num": 8,
-    "word": "CAUCHINS"
-   },
-   {
-    "id": "H5",
-    "coord": [
-     1,
-     2
-    ],
-    "num": 6,
-    "word": "CARNAC"
-   },
-   {
-    "id": "D6",
-    "coord": [
-     1,
-     7
-    ],
-    "num": 8,
-    "word": "CAVILOSO"
-   },
-   {
-    "id": "D7",
-    "coord": [
-     2,
-     1
-    ],
-    "num": 6,
-    "word": "CORCHA"
-   },
-   {
-    "id": "H7",
-    "coord": [
-     2,
-     1
-    ],
-    "num": 8,
-    "word": "CANCANAN"
-   },
-   {
-    "id": "D8",
-    "coord": [
-     2,
-     8
-    ],
-    "num": 6,
-    "word": "NIBORA"
-   },
-   {
-    "id": "D9",
-    "coord": [
-     3,
-     0
-    ],
-    "num": 4,
-    "word": "LAIA"
-   },
-   {
-    "id": "H9",
-    "coord": [
-     3,
-     0
-    ],
-    "num": 6,
-    "word": "LOUSAN"
-   },
-   {
-    "id": "H10",
-    "coord": [
-     3,
-     7
-    ],
-    "num": 3,
-    "word": "VIO"
-   },
-   {
-    "id": "D11",
-    "coord": [
-     3,
-     9
-    ],
-    "num": 4,
-    "word": "OITI"
-   },
-   {
-    "id": "H12",
-    "coord": [
-     4,
-     0
-    ],
-    "num": 5,
-    "word": "ARCAZ"
-   },
-   {
-    "id": "D13",
-    "coord": [
-     4,
-     6
-    ],
-    "num": 6,
-    "word": "APTERO"
-   },
-   {
-    "id": "H13",
-    "coord": [
-     4,
-     6
-    ],
-    "num": 4,
-    "word": "AIBI"
-   },
-   {
-    "id": "H14",
-    "coord": [
-     5,
-     0
-    ],
-    "num": 4,
-    "word": "ICHO"
-   },
-   {
-    "id": "D15",
-    "coord": [
-     5,
-     5
-    ],
-    "num": 5,
-    "word": "UARIA"
-   },
-   {
-    "id": "H15",
-    "coord": [
-     5,
-     5
-    ],
-    "num": 5,
-    "word": "UPLOT"
-   },
-   {
-    "id": "H16",
-    "coord": [
-     6,
-     0
-    ],
-    "num": 3,
-    "word": "AHI"
-   },
-   {
-    "id": "D17",
-    "coord": [
-     6,
-     4
-    ],
-    "num": 4,
-    "word": "CATE"
-   },
-   {
-    "id": "H17",
-    "coord": [
-     6,
-     4
-    ],
-    "num": 6,
-    "word": "CATORI"
-   },
-   {
-    "id": "H18",
-    "coord": [
-     7,
-     1
-    ],
-    "num": 8,
-    "word": "ANDARESA"
-   },
-   {
-    "id": "D19",
-    "coord": [
-     7,
-     3
-    ],
-    "num": 3,
-    "word": "DAL"
-   },
-   {
-    "id": "H20",
-    "coord": [
-     8,
-     2
-    ],
-    "num": 6,
-    "word": "SATIRO"
-   },
-   {
-    "id": "H21",
-    "coord": [
-     9,
-     3
-    ],
-    "num": 4,
-    "word": "LEAO"
-   }
-  ],
-  [
-   {
-    "id": "D1",
-    "coord": [
-     0,
-     3
-    ],
-    "num": 6,
-    "word": "AGOURO"
-   },
-   {
-    "id": "H1",
-    "coord": [
-     0,
-     3
-    ],
-    "num": 4,
-    "word": "ARAL"
-   },
-   {
-    "id": "D2",
-    "coord": [
-     0,
-     4
-    ],
-    "num": 5,
-    "word": "ROMAO"
-   },
-   {
-    "id": "D3",
-    "coord": [
-     0,
-     5
-    ],
-    "num": 4,
-    "word": "ANEL"
-   },
-   {
-    "id": "D4",
-    "coord": [
-     0,
-     6
-    ],
-    "num": 3,
-    "word": "LAR"
-   },
-   {
-    "id": "D5",
-    "coord": [
-     1,
-     2
-    ],
-    "num": 8,
-    "word": "ALCURSAR"
-   },
-   {
-    "id": "H5",
-    "coord": [
-     1,
-     2
-    ],
-    "num": 6,
-    "word": "AGONAL"
-   },
-   {
-    "id": "D6",
-    "coord": [
-     1,
-     7
-    ],
-    "num": 8,
-    "word": "LAVAREDA"
-   },
-   {
-    "id": "D7",
-    "coord": [
-     2,
-     1
-    ],
-    "num": 6,
-    "word": "GRADIM"
-   },
-   {
-    "id": "H7",
-    "coord": [
-     2,
-     1
-    ],
-    "num": 8,
-    "word": "GLOMERAR"
-   },
-   {
-    "id": "D8",
-    "coord": [
-     2,
-     8
-    ],
-    "num": 6,
-    "word": "ROMANI"
-   },
-   {
-    "id": "D9",
-    "coord": [
-     3,
-     0
-    ],
-    "num": 4,
-    "word": "ATAL"
-   },
-   {
-    "id": "H9",
-    "coord": [
-     3,
-     0
-    ],
-    "num": 6,
-    "word": "ARCUAL"
-   },
-   {
-    "id": "H10",
-    "coord": [
-     3,
-     7
-    ],
-    "num": 3,
-    "word": "VOS"
-   },
-   {
-    "id": "D11",
-    "coord": [
-     3,
-     9
-    ],
-    "num": 4,
-    "word": "SERO"
-   },
-   {
-    "id": "H12",
-    "coord": [
-     4,
-     0
-    ],
-    "num": 5,
-    "word": "TAURO"
-   },
-   {
-    "id": "D13",
-    "coord": [
-     4,
-     6
-    ],
-    "num": 6,
-    "word": "FILITO"
-   },
-   {
-    "id": "H13",
-    "coord": [
-     4,
-     6
-    ],
-    "num": 4,
-    "word": "FAME"
-   },
-   {
-    "id": "H14",
-    "coord": [
-     5,
-     0
-    ],
-    "num": 4,
-    "word": "ADRO"
-   },
-   {
-    "id": "D15",
-    "coord": [
-     5,
-     5
-    ],
-    "num": 5,
-    "word": "GAVEA"
-   },
-   {
-    "id": "H15",
-    "coord": [
-     5,
-     5
-    ],
-    "num": 5,
-    "word": "GIRAR"
-   },
-   {
-    "id": "H16",
-    "coord": [
-     6,
-     0
-    ],
-    "num": 3,
-    "word": "LIS"
-   },
-   {
-    "id": "D17",
-    "coord": [
-     6,
-     4
-    ],
-    "num": 4,
-    "word": "GAPO"
-   },
-   {
-    "id": "H17",
-    "coord": [
-     6,
-     4
-    ],
-    "num": 6,
-    "word": "GALENO"
-   },
-   {
-    "id": "H18",
-    "coord": [
-     7,
-     1
-    ],
-    "num": 8,
-    "word": "MARAVIDI"
-   },
-   {
-    "id": "D19",
-    "coord": [
-     7,
-     3
-    ],
-    "num": 3,
-    "word": "RIL"
-   },
-   {
-    "id": "H20",
-    "coord": [
-     8,
-     2
-    ],
-    "num": 6,
-    "word": "RIPETA"
-   },
-   {
-    "id": "H21",
-    "coord": [
-     9,
-     3
-    ],
-    "num": 4,
-    "word": "LOAO"
    }
   ]
  ],
@@ -3386,7 +3386,7 @@
      0
     ],
     "num": 4,
-    "word": "ADAI"
+    "word": "ISCA"
    },
    {
     "id": "H1",
@@ -3395,7 +3395,7 @@
      0
     ],
     "num": 6,
-    "word": "ALCOOL"
+    "word": "IGUACU"
    },
    {
     "id": "D2",
@@ -3404,7 +3404,7 @@
      1
     ],
     "num": 4,
-    "word": "LILA"
+    "word": "GOAL"
    },
    {
     "id": "D3",
@@ -3413,7 +3413,7 @@
      2
     ],
     "num": 4,
-    "word": "CACO"
+    "word": "URRO"
    },
    {
     "id": "D4",
@@ -3422,7 +3422,7 @@
      3
     ],
     "num": 3,
-    "word": "OBA"
+    "word": "ARI"
    },
    {
     "id": "D5",
@@ -3431,7 +3431,7 @@
      4
     ],
     "num": 7,
-    "word": "OOLOGIA"
+    "word": "CIBORIO"
    },
    {
     "id": "D6",
@@ -3440,7 +3440,7 @@
      5
     ],
     "num": 5,
-    "word": "LOISA"
+    "word": "URUBU"
    },
    {
     "id": "D7",
@@ -3449,7 +3449,7 @@
      7
     ],
     "num": 3,
-    "word": "ALE"
+    "word": "BUG"
    },
    {
     "id": "H7",
@@ -3458,7 +3458,7 @@
      7
     ],
     "num": 4,
-    "word": "AFAN"
+    "word": "BAUS"
    },
    {
     "id": "D8",
@@ -3467,7 +3467,7 @@
      8
     ],
     "num": 4,
-    "word": "FUSO"
+    "word": "ARRE"
    },
    {
     "id": "D9",
@@ -3476,7 +3476,7 @@
      9
     ],
     "num": 5,
-    "word": "ATLAS"
+    "word": "UBERE"
    },
    {
     "id": "D10",
@@ -3485,7 +3485,7 @@
      10
     ],
     "num": 5,
-    "word": "NAIRE"
+    "word": "SELVA"
    },
    {
     "id": "D11",
@@ -3494,214 +3494,214 @@
      12
     ],
     "num": 4,
-    "word": "AUGA"
+    "word": "ANAC"
    },
    {
     "id": "H11",
     "coord": [
      0,
      12
-    ],
-    "num": 3,
-    "word": "AGA"
-   },
-   {
-    "id": "D12",
-    "coord": [
-     0,
-     13
-    ],
-    "num": 4,
-    "word": "GRAN"
-   },
-   {
-    "id": "D13",
-    "coord": [
-     0,
-     14
-    ],
-    "num": 4,
-    "word": "AURA"
-   },
-   {
-    "id": "H14",
-    "coord": [
-     1,
-     0
-    ],
-    "num": 6,
-    "word": "DIABOO"
-   },
-   {
-    "id": "H15",
-    "coord": [
-     1,
-     7
-    ],
-    "num": 4,
-    "word": "LUTA"
-   },
-   {
-    "id": "H16",
-    "coord": [
-     1,
-     12
-    ],
-    "num": 3,
-    "word": "URU"
-   },
-   {
-    "id": "H17",
-    "coord": [
-     2,
-     0
-    ],
-    "num": 6,
-    "word": "ALCALI"
-   },
-   {
-    "id": "H18",
-    "coord": [
-     2,
-     7
-    ],
-    "num": 8,
-    "word": "ESLINGAR"
-   },
-   {
-    "id": "D19",
-    "coord": [
-     2,
-     11
-    ],
-    "num": 5,
-    "word": "NIMIO"
-   },
-   {
-    "id": "H20",
-    "coord": [
-     3,
-     0
-    ],
-    "num": 3,
-    "word": "IAO"
-   },
-   {
-    "id": "H21",
-    "coord": [
-     3,
-     4
-    ],
-    "num": 3,
-    "word": "OSA"
-   },
-   {
-    "id": "D22",
-    "coord": [
-     3,
-     6
-    ],
-    "num": 7,
-    "word": "AMARENA"
-   },
-   {
-    "id": "H23",
-    "coord": [
-     3,
-     8
-    ],
-    "num": 7,
-    "word": "OARIANA"
-   },
-   {
-    "id": "D24",
-    "coord": [
-     4,
-     3
-    ],
-    "num": 3,
-    "word": "ARE"
-   },
-   {
-    "id": "H24",
-    "coord": [
-     4,
-     3
-    ],
-    "num": 5,
-    "word": "AGAMI"
-   },
-   {
-    "id": "D25",
-    "coord": [
-     4,
-     7
-    ],
-    "num": 7,
-    "word": "ISONEMA"
-   },
-   {
-    "id": "H26",
-    "coord": [
-     4,
-     9
-    ],
-    "num": 3,
-    "word": "SEM"
-   },
-   {
-    "id": "D27",
-    "coord": [
-     5,
-     0
-    ],
-    "num": 5,
-    "word": "SANCO"
-   },
-   {
-    "id": "H27",
-    "coord": [
-     5,
-     0
-    ],
-    "num": 5,
-    "word": "SUARI"
-   },
-   {
-    "id": "D28",
-    "coord": [
-     5,
-     1
-    ],
-    "num": 5,
-    "word": "UNHAR"
-   },
-   {
-    "id": "D29",
-    "coord": [
-     5,
-     2
-    ],
-    "num": 5,
-    "word": "ATOBA"
-   },
-   {
-    "id": "H30",
-    "coord": [
-     5,
-     6
     ],
     "num": 3,
     "word": "ASA"
    },
    {
+    "id": "D12",
+    "coord": [
+     0,
+     13
+    ],
+    "num": 4,
+    "word": "SEDA"
+   },
+   {
+    "id": "D13",
+    "coord": [
+     0,
+     14
+    ],
+    "num": 4,
+    "word": "ATOL"
+   },
+   {
+    "id": "H14",
+    "coord": [
+     1,
+     0
+    ],
+    "num": 6,
+    "word": "SORRIR"
+   },
+   {
+    "id": "H15",
+    "coord": [
+     1,
+     7
+    ],
+    "num": 4,
+    "word": "URBE"
+   },
+   {
+    "id": "H16",
+    "coord": [
+     1,
+     12
+    ],
+    "num": 3,
+    "word": "NET"
+   },
+   {
+    "id": "H17",
+    "coord": [
+     2,
+     0
+    ],
+    "num": 6,
+    "word": "CARIBU"
+   },
+   {
+    "id": "H18",
+    "coord": [
+     2,
+     7
+    ],
+    "num": 8,
+    "word": "GRELHADO"
+   },
+   {
+    "id": "D19",
+    "coord": [
+     2,
+     11
+    ],
+    "num": 5,
+    "word": "HADES"
+   },
+   {
+    "id": "H20",
+    "coord": [
+     3,
+     0
+    ],
+    "num": 3,
+    "word": "ALO"
+   },
+   {
+    "id": "H21",
+    "coord": [
+     3,
+     4
+    ],
+    "num": 3,
+    "word": "OBA"
+   },
+   {
+    "id": "D22",
+    "coord": [
+     3,
+     6
+    ],
+    "num": 7,
+    "word": "ATRACAO"
+   },
+   {
+    "id": "H23",
+    "coord": [
+     3,
+     8
+    ],
+    "num": 7,
+    "word": "ERVACAL"
+   },
+   {
+    "id": "D24",
+    "coord": [
+     4,
+     3
+    ],
+    "num": 3,
+    "word": "UTI"
+   },
+   {
+    "id": "H24",
+    "coord": [
+     4,
+     3
+    ],
+    "num": 5,
+    "word": "URUTU"
+   },
+   {
+    "id": "D25",
+    "coord": [
+     4,
+     7
+    ],
+    "num": 7,
+    "word": "UIRAUNA"
+   },
+   {
+    "id": "H26",
+    "coord": [
+     4,
+     9
+    ],
+    "num": 3,
+    "word": "EAD"
+   },
+   {
+    "id": "D27",
+    "coord": [
+     5,
+     0
+    ],
+    "num": 5,
+    "word": "IMOTO"
+   },
+   {
+    "id": "H27",
+    "coord": [
+     5,
+     0
+    ],
+    "num": 5,
+    "word": "IRATI"
+   },
+   {
+    "id": "D28",
+    "coord": [
+     5,
+     1
+    ],
+    "num": 5,
+    "word": "RIMAR"
+   },
+   {
+    "id": "D29",
+    "coord": [
+     5,
+     2
+    ],
+    "num": 5,
+    "word": "ALALC"
+   },
+   {
+    "id": "H30",
+    "coord": [
+     5,
+     6
+    ],
+    "num": 3,
+    "word": "RIC"
+   },
+   {
     "id": "D31",
     "coord": [
      5,
      8
     ],
     "num": 7,
-    "word": "ARAGANO"
+    "word": "CIRCULO"
    },
    {
     "id": "H32",
@@ -3710,7 +3710,7 @@
      11
     ],
     "num": 4,
-    "word": "ITUA"
+    "word": "EMIR"
    },
    {
     "id": "D33",
@@ -3719,7 +3719,7 @@
      12
     ],
     "num": 5,
-    "word": "TRAER"
+    "word": "MACAE"
    },
    {
     "id": "D34",
@@ -3728,7 +3728,7 @@
      13
     ],
     "num": 5,
-    "word": "UARIA"
+    "word": "IVANA"
    },
    {
     "id": "D35",
@@ -3737,7 +3737,7 @@
      14
     ],
     "num": 5,
-    "word": "ANOSO"
+    "word": "REPOR"
    },
    {
     "id": "H36",
@@ -3746,7 +3746,7 @@
      0
     ],
     "num": 10,
-    "word": "ANTEAURORA"
+    "word": "MILIONARIO"
    },
    {
     "id": "D37",
@@ -3755,7 +3755,7 @@
      5
     ],
     "num": 3,
-    "word": "UVA"
+    "word": "NAC"
    },
    {
     "id": "D38",
@@ -3764,7 +3764,7 @@
      9
     ],
     "num": 3,
-    "word": "ALA"
+    "word": "OIA"
    },
    {
     "id": "H39",
@@ -3773,7 +3773,7 @@
      11
     ],
     "num": 4,
-    "word": "ORAN"
+    "word": "SAVE"
    },
    {
     "id": "H40",
@@ -3782,7 +3782,7 @@
      0
     ],
     "num": 3,
-    "word": "NHO"
+    "word": "OMA"
    },
    {
     "id": "H41",
@@ -3791,7 +3791,7 @@
      5
     ],
     "num": 5,
-    "word": "VENAL"
+    "word": "ACARI"
    },
    {
     "id": "H42",
@@ -3800,7 +3800,7 @@
      12
     ],
     "num": 3,
-    "word": "ARO"
+    "word": "CAP"
    },
    {
     "id": "H43",
@@ -3809,106 +3809,106 @@
      0
     ],
     "num": 4,
-    "word": "CABA"
+    "word": "TALO"
    },
    {
     "id": "D44",
     "coord": [
      8,
      3
-    ],
-    "num": 5,
-    "word": "AOPLO"
-   },
-   {
-    "id": "H45",
-    "coord": [
-     8,
-     5
-    ],
-    "num": 10,
-    "word": "ANEGALHEIS"
-   },
-   {
-    "id": "D46",
-    "coord": [
-     8,
-     10
-    ],
-    "num": 7,
-    "word": "LACADOR"
-   },
-   {
-    "id": "D47",
-    "coord": [
-     8,
-     11
-    ],
-    "num": 3,
-    "word": "HIO"
-   },
-   {
-    "id": "H48",
-    "coord": [
-     9,
-     0
-    ],
-    "num": 4,
-    "word": "ORAO"
-   },
-   {
-    "id": "H49",
-    "coord": [
-     9,
-     6
-    ],
-    "num": 3,
-    "word": "AMA"
-   },
-   {
-    "id": "H50",
-    "coord": [
-     9,
-     10
-    ],
-    "num": 5,
-    "word": "AIRAO"
-   },
-   {
-    "id": "H51",
-    "coord": [
-     10,
-     3
-    ],
-    "num": 3,
-    "word": "PEO"
-   },
-   {
-    "id": "D52",
-    "coord": [
-     10,
-     4
-    ],
-    "num": 5,
-    "word": "ERICA"
-   },
-   {
-    "id": "D53",
-    "coord": [
-     10,
-     5
     ],
     "num": 5,
     "word": "OASIS"
    },
    {
+    "id": "H45",
+    "coord": [
+     8,
+     5
+    ],
+    "num": 10,
+    "word": "CAUCASIANO"
+   },
+   {
+    "id": "D46",
+    "coord": [
+     8,
+     10
+    ],
+    "num": 7,
+    "word": "SACIADO"
+   },
+   {
+    "id": "D47",
+    "coord": [
+     8,
+     11
+    ],
+    "num": 3,
+    "word": "IPE"
+   },
+   {
+    "id": "H48",
+    "coord": [
+     9,
+     0
+    ],
+    "num": 4,
+    "word": "ORCA"
+   },
+   {
+    "id": "H49",
+    "coord": [
+     9,
+     6
+    ],
+    "num": 3,
+    "word": "ONU"
+   },
+   {
+    "id": "H50",
+    "coord": [
+     9,
+     10
+    ],
+    "num": 5,
+    "word": "APEAR"
+   },
+   {
+    "id": "H51",
+    "coord": [
+     10,
+     3
+    ],
+    "num": 3,
+    "word": "SOB"
+   },
+   {
+    "id": "D52",
+    "coord": [
+     10,
+     4
+    ],
+    "num": 5,
+    "word": "OCASO"
+   },
+   {
+    "id": "D53",
+    "coord": [
+     10,
+     5
+    ],
+    "num": 5,
+    "word": "BOTAR"
+   },
+   {
     "id": "H54",
     "coord": [
      10,
      7
     ],
     "num": 5,
-    "word": "ANACO"
+    "word": "ALICE"
    },
    {
     "id": "D55",
@@ -3917,7 +3917,7 @@
      9
     ],
     "num": 5,
-    "word": "ARILO"
+    "word": "IEMEN"
    },
    {
     "id": "D56",
@@ -3926,7 +3926,7 @@
      0
     ],
     "num": 4,
-    "word": "CRIS"
+    "word": "AVOS"
    },
    {
     "id": "H56",
@@ -3935,7 +3935,7 @@
      0
     ],
     "num": 7,
-    "word": "CHALRAR"
+    "word": "ANGICOS"
    },
    {
     "id": "D57",
@@ -3944,7 +3944,7 @@
      1
     ],
     "num": 4,
-    "word": "HEMO"
+    "word": "NEVE"
    },
    {
     "id": "D58",
@@ -3953,7 +3953,7 @@
      2
     ],
     "num": 4,
-    "word": "APOR"
+    "word": "GROU"
    },
    {
     "id": "D59",
@@ -3962,7 +3962,7 @@
      6
     ],
     "num": 4,
-    "word": "RAPA"
+    "word": "SIMA"
    },
    {
     "id": "H60",
@@ -3971,7 +3971,7 @@
      8
     ],
     "num": 3,
-    "word": "ORA"
+    "word": "OEI"
    },
    {
     "id": "D61",
@@ -3980,7 +3980,7 @@
      12
     ],
     "num": 4,
-    "word": "ALOR"
+    "word": "RITA"
    },
    {
     "id": "H61",
@@ -3989,7 +3989,7 @@
      12
     ],
     "num": 3,
-    "word": "AOS"
+    "word": "RET"
    },
    {
     "id": "D62",
@@ -3998,7 +3998,7 @@
      13
     ],
     "num": 4,
-    "word": "OITI"
+    "word": "ECAD"
    },
    {
     "id": "D63",
@@ -4007,7 +4007,7 @@
      14
     ],
     "num": 4,
-    "word": "SOAO"
+    "word": "TALA"
    },
    {
     "id": "H64",
@@ -4016,306 +4016,306 @@
      0
     ],
     "num": 8,
-    "word": "REPOISAR"
+    "word": "VERSATIL"
    },
    {
     "id": "D65",
     "coord": [
      12,
      7
+    ],
+    "num": 3,
+    "word": "LER"
+   },
+   {
+    "id": "H66",
+    "coord": [
+     12,
+     9
+    ],
+    "num": 6,
+    "word": "MAGICA"
+   },
+   {
+    "id": "D67",
+    "coord": [
+     12,
+     11
+    ],
+    "num": 3,
+    "word": "GIM"
+   },
+   {
+    "id": "H68",
+    "coord": [
+     13,
+     0
+    ],
+    "num": 3,
+    "word": "OVO"
+   },
+   {
+    "id": "H69",
+    "coord": [
+     13,
+     4
+    ],
+    "num": 4,
+    "word": "SAME"
+   },
+   {
+    "id": "H70",
+    "coord": [
+     13,
+     9
+    ],
+    "num": 6,
+    "word": "EDITAL"
+   },
+   {
+    "id": "H71",
+    "coord": [
+     14,
+     0
+    ],
+    "num": 3,
+    "word": "SEU"
+   },
+   {
+    "id": "H72",
+    "coord": [
+     14,
+     4
+    ],
+    "num": 4,
+    "word": "ORAR"
+   },
+   {
+    "id": "H73",
+    "coord": [
+     14,
+     9
+    ],
+    "num": 6,
+    "word": "NOMADA"
+   }
+  ],
+  [
+   {
+    "id": "D1",
+    "coord": [
+     0,
+     0
+    ],
+    "num": 4,
+    "word": "ALAR"
+   },
+   {
+    "id": "H1",
+    "coord": [
+     0,
+     0
+    ],
+    "num": 6,
+    "word": "ANANAS"
+   },
+   {
+    "id": "D2",
+    "coord": [
+     0,
+     1
+    ],
+    "num": 4,
+    "word": "NACO"
+   },
+   {
+    "id": "D3",
+    "coord": [
+     0,
+     2
+    ],
+    "num": 4,
+    "word": "AZAR"
+   },
+   {
+    "id": "D4",
+    "coord": [
+     0,
+     3
+    ],
+    "num": 3,
+    "word": "NAM"
+   },
+   {
+    "id": "D5",
+    "coord": [
+     0,
+     4
+    ],
+    "num": 7,
+    "word": "ARACATI"
+   },
+   {
+    "id": "D6",
+    "coord": [
+     0,
+     5
+    ],
+    "num": 5,
+    "word": "SARAR"
+   },
+   {
+    "id": "D7",
+    "coord": [
+     0,
+     7
+    ],
+    "num": 3,
+    "word": "RAC"
+   },
+   {
+    "id": "H7",
+    "coord": [
+     0,
+     7
+    ],
+    "num": 4,
+    "word": "RASA"
+   },
+   {
+    "id": "D8",
+    "coord": [
+     0,
+     8
+    ],
+    "num": 4,
+    "word": "ANAC"
+   },
+   {
+    "id": "D9",
+    "coord": [
+     0,
+     9
+    ],
+    "num": 5,
+    "word": "SINOP"
+   },
+   {
+    "id": "D10",
+    "coord": [
+     0,
+     10
+    ],
+    "num": 5,
+    "word": "ALALC"
+   },
+   {
+    "id": "D11",
+    "coord": [
+     0,
+     12
+    ],
+    "num": 4,
+    "word": "CAIS"
+   },
+   {
+    "id": "H11",
+    "coord": [
+     0,
+     12
+    ],
+    "num": 3,
+    "word": "CFT"
+   },
+   {
+    "id": "D12",
+    "coord": [
+     0,
+     13
+    ],
+    "num": 4,
+    "word": "FUAS"
+   },
+   {
+    "id": "D13",
+    "coord": [
+     0,
+     14
+    ],
+    "num": 4,
+    "word": "TESO"
+   },
+   {
+    "id": "H14",
+    "coord": [
+     1,
+     0
+    ],
+    "num": 6,
+    "word": "LAZARA"
+   },
+   {
+    "id": "H15",
+    "coord": [
+     1,
+     7
+    ],
+    "num": 4,
+    "word": "ANIL"
+   },
+   {
+    "id": "H16",
+    "coord": [
+     1,
+     12
+    ],
+    "num": 3,
+    "word": "AUE"
+   },
+   {
+    "id": "H17",
+    "coord": [
+     2,
+     0
+    ],
+    "num": 6,
+    "word": "ACAMAR"
+   },
+   {
+    "id": "H18",
+    "coord": [
+     2,
+     7
+    ],
+    "num": 8,
+    "word": "CANARIAS"
+   },
+   {
+    "id": "D19",
+    "coord": [
+     2,
+     11
+    ],
+    "num": 5,
+    "word": "ROBOT"
+   },
+   {
+    "id": "H20",
+    "coord": [
+     3,
+     0
     ],
     "num": 3,
     "word": "ROR"
    },
    {
-    "id": "H66",
-    "coord": [
-     12,
-     9
-    ],
-    "num": 6,
-    "word": "IDALIO"
-   },
-   {
-    "id": "D67",
-    "coord": [
-     12,
-     11
-    ],
-    "num": 3,
-    "word": "ARA"
-   },
-   {
-    "id": "H68",
-    "coord": [
-     13,
-     0
-    ],
-    "num": 3,
-    "word": "IMO"
-   },
-   {
-    "id": "H69",
-    "coord": [
-     13,
-     4
-    ],
-    "num": 4,
-    "word": "CIPO"
-   },
-   {
-    "id": "H70",
-    "coord": [
-     13,
-     9
-    ],
-    "num": 6,
-    "word": "LOROTA"
-   },
-   {
-    "id": "H71",
-    "coord": [
-     14,
-     0
-    ],
-    "num": 3,
-    "word": "SOR"
-   },
-   {
-    "id": "H72",
-    "coord": [
-     14,
-     4
-    ],
-    "num": 4,
-    "word": "ASAR"
-   },
-   {
-    "id": "H73",
-    "coord": [
-     14,
-     9
-    ],
-    "num": 6,
-    "word": "ORARIO"
-   }
-  ],
-  [
-   {
-    "id": "D1",
-    "coord": [
-     0,
-     0
-    ],
-    "num": 4,
-    "word": "ARAS"
-   },
-   {
-    "id": "H1",
-    "coord": [
-     0,
-     0
-    ],
-    "num": 6,
-    "word": "ANACAN"
-   },
-   {
-    "id": "D2",
-    "coord": [
-     0,
-     1
-    ],
-    "num": 4,
-    "word": "NELE"
-   },
-   {
-    "id": "D3",
-    "coord": [
-     0,
-     2
-    ],
-    "num": 4,
-    "word": "ADUR"
-   },
-   {
-    "id": "D4",
-    "coord": [
-     0,
-     3
-    ],
-    "num": 3,
-    "word": "CAM"
-   },
-   {
-    "id": "D5",
-    "coord": [
-     0,
-     4
-    ],
-    "num": 7,
-    "word": "ADERNAR"
-   },
-   {
-    "id": "D6",
-    "coord": [
-     0,
-     5
-    ],
-    "num": 5,
-    "word": "NANAI"
-   },
-   {
-    "id": "D7",
-    "coord": [
-     0,
-     7
-    ],
-    "num": 3,
-    "word": "IMA"
-   },
-   {
-    "id": "H7",
-    "coord": [
-     0,
-     7
-    ],
-    "num": 4,
-    "word": "ISCA"
-   },
-   {
-    "id": "D8",
-    "coord": [
-     0,
-     8
-    ],
-    "num": 4,
-    "word": "SIDA"
-   },
-   {
-    "id": "D9",
-    "coord": [
-     0,
-     9
-    ],
-    "num": 5,
-    "word": "CLORI"
-   },
-   {
-    "id": "D10",
-    "coord": [
-     0,
-     10
-    ],
-    "num": 5,
-    "word": "AUSTE"
-   },
-   {
-    "id": "D11",
-    "coord": [
-     0,
-     12
-    ],
-    "num": 4,
-    "word": "UVAL"
-   },
-   {
-    "id": "H11",
-    "coord": [
-     0,
-     12
-    ],
-    "num": 3,
-    "word": "UNO"
-   },
-   {
-    "id": "D12",
-    "coord": [
-     0,
-     13
-    ],
-    "num": 4,
-    "word": "NADA"
-   },
-   {
-    "id": "D13",
-    "coord": [
-     0,
-     14
-    ],
-    "num": 4,
-    "word": "OLOR"
-   },
-   {
-    "id": "H14",
-    "coord": [
-     1,
-     0
-    ],
-    "num": 6,
-    "word": "REDADA"
-   },
-   {
-    "id": "H15",
-    "coord": [
-     1,
-     7
-    ],
-    "num": 4,
-    "word": "MILU"
-   },
-   {
-    "id": "H16",
-    "coord": [
-     1,
-     12
-    ],
-    "num": 3,
-    "word": "VAL"
-   },
-   {
-    "id": "H17",
-    "coord": [
-     2,
-     0
-    ],
-    "num": 6,
-    "word": "ALUMEN"
-   },
-   {
-    "id": "H18",
-    "coord": [
-     2,
-     7
-    ],
-    "num": 8,
-    "word": "ADOSSADO"
-   },
-   {
-    "id": "D19",
-    "coord": [
-     2,
-     11
-    ],
-    "num": 5,
-    "word": "SOILA"
-   },
-   {
-    "id": "H20",
-    "coord": [
-     3,
-     0
-    ],
-    "num": 3,
-    "word": "SER"
-   },
-   {
     "id": "H21",
     "coord": [
      3,
      4
     ],
     "num": 3,
-    "word": "RAS"
+    "word": "CAT"
    },
    {
     "id": "D22",
@@ -4324,7 +4324,7 @@
      6
     ],
     "num": 7,
-    "word": "SOIERIA"
+    "word": "TAPEROA"
    },
    {
     "id": "H23",
@@ -4333,7 +4333,7 @@
      8
     ],
     "num": 7,
-    "word": "ARTOLAR"
+    "word": "COLOSSO"
    },
    {
     "id": "D24",
@@ -4342,7 +4342,7 @@
      3
     ],
     "num": 3,
-    "word": "UDO"
+    "word": "CRU"
    },
    {
     "id": "H24",
@@ -4351,7 +4351,7 @@
      3
     ],
     "num": 5,
-    "word": "UNIOA"
+    "word": "CARAS"
    },
    {
     "id": "D25",
@@ -4360,7 +4360,7 @@
      7
     ],
     "num": 7,
-    "word": "AZINAGA"
+    "word": "SOTURNO"
    },
    {
     "id": "H26",
@@ -4369,7 +4369,7 @@
      9
     ],
     "num": 3,
-    "word": "IEI"
+    "word": "PCB"
    },
    {
     "id": "D27",
@@ -4378,7 +4378,7 @@
      0
     ],
     "num": 5,
-    "word": "TEUBA"
+    "word": "SALEM"
    },
    {
     "id": "H27",
@@ -4387,7 +4387,7 @@
      0
     ],
     "num": 5,
-    "word": "TEADA"
+    "word": "START"
    },
    {
     "id": "D28",
@@ -4396,7 +4396,7 @@
      1
     ],
     "num": 5,
-    "word": "ENGOS"
+    "word": "TRETA"
    },
    {
     "id": "D29",
@@ -4405,7 +4405,7 @@
      2
     ],
     "num": 5,
-    "word": "ATENS"
+    "word": "AQUEM"
    },
    {
     "id": "H30",
@@ -4414,7 +4414,7 @@
      6
     ],
     "num": 3,
-    "word": "IZA"
+    "word": "POP"
    },
    {
     "id": "D31",
@@ -4423,1568 +4423,124 @@
      8
     ],
     "num": 7,
-    "word": "ARAGANO"
+    "word": "PATUSCO"
    },
    {
     "id": "H32",
     "coord": [
      5,
      11
-    ],
-    "num": 4,
-    "word": "LOCA"
-   },
-   {
-    "id": "D33",
-    "coord": [
-     5,
-     12
-    ],
-    "num": 5,
-    "word": "ORAGO"
-   },
-   {
-    "id": "D34",
-    "coord": [
-     5,
-     13
-    ],
-    "num": 5,
-    "word": "CUBRE"
-   },
-   {
-    "id": "D35",
-    "coord": [
-     5,
-     14
-    ],
-    "num": 5,
-    "word": "AMUAR"
-   },
-   {
-    "id": "H36",
-    "coord": [
-     6,
-     0
-    ],
-    "num": 10,
-    "word": "ENTORNEIRO"
-   },
-   {
-    "id": "D37",
-    "coord": [
-     6,
-     5
-    ],
-    "num": 3,
-    "word": "NOS"
-   },
-   {
-    "id": "D38",
-    "coord": [
-     6,
-     9
-    ],
-    "num": 3,
-    "word": "ORO"
-   },
-   {
-    "id": "H39",
-    "coord": [
-     6,
-     11
-    ],
-    "num": 4,
-    "word": "ARUM"
-   },
-   {
-    "id": "H40",
-    "coord": [
-     7,
-     0
-    ],
-    "num": 3,
-    "word": "UGE"
-   },
-   {
-    "id": "H41",
-    "coord": [
-     7,
-     5
-    ],
-    "num": 5,
-    "word": "ORNAR"
-   },
-   {
-    "id": "H42",
-    "coord": [
-     7,
-     12
-    ],
-    "num": 3,
-    "word": "ABU"
-   },
-   {
-    "id": "H43",
-    "coord": [
-     8,
-     0
-    ],
-    "num": 4,
-    "word": "BOND"
-   },
-   {
-    "id": "D44",
-    "coord": [
-     8,
-     3
-    ],
-    "num": 5,
-    "word": "DECER"
-   },
-   {
-    "id": "H45",
-    "coord": [
-     8,
-     5
-    ],
-    "num": 10,
-    "word": "SIAGONAGRA"
-   },
-   {
-    "id": "D46",
-    "coord": [
-     8,
-     10
-    ],
-    "num": 7,
-    "word": "NASALAR"
-   },
-   {
-    "id": "D47",
-    "coord": [
-     8,
-     11
-    ],
-    "num": 3,
-    "word": "APA"
-   },
-   {
-    "id": "H48",
-    "coord": [
-     9,
-     0
-    ],
-    "num": 4,
-    "word": "ASSE"
-   },
-   {
-    "id": "H49",
-    "coord": [
-     9,
-     6
-    ],
-    "num": 3,
-    "word": "AGA"
-   },
-   {
-    "id": "H50",
-    "coord": [
-     9,
-     10
-    ],
-    "num": 5,
-    "word": "APOER"
-   },
-   {
-    "id": "H51",
-    "coord": [
-     10,
-     3
-    ],
-    "num": 3,
-    "word": "CAA"
-   },
-   {
-    "id": "D52",
-    "coord": [
-     10,
-     4
-    ],
-    "num": 5,
-    "word": "AIRES"
-   },
-   {
-    "id": "D53",
-    "coord": [
-     10,
-     5
-    ],
-    "num": 5,
-    "word": "ARECA"
-   },
-   {
-    "id": "H54",
-    "coord": [
-     10,
-     7
-    ],
-    "num": 5,
-    "word": "ANESA"
-   },
-   {
-    "id": "D55",
-    "coord": [
-     10,
-     9
-    ],
-    "num": 5,
-    "word": "EPICO"
-   },
-   {
-    "id": "D56",
-    "coord": [
-     11,
-     0
-    ],
-    "num": 4,
-    "word": "SOCO"
-   },
-   {
-    "id": "H56",
-    "coord": [
-     11,
-     0
-    ],
-    "num": 7,
-    "word": "SALEIRA"
-   },
-   {
-    "id": "D57",
-    "coord": [
-     11,
-     1
-    ],
-    "num": 4,
-    "word": "ATIM"
-   },
-   {
-    "id": "D58",
-    "coord": [
-     11,
-     2
-    ],
-    "num": 4,
-    "word": "LOAO"
-   },
-   {
-    "id": "D59",
-    "coord": [
-     11,
-     6
-    ],
-    "num": 4,
-    "word": "AIAR"
-   },
-   {
-    "id": "H60",
-    "coord": [
-     11,
-     8
-    ],
-    "num": 3,
-    "word": "OPA"
-   },
-   {
-    "id": "D61",
-    "coord": [
-     11,
-     12
-    ],
-    "num": 4,
-    "word": "ICOR"
-   },
-   {
-    "id": "H61",
-    "coord": [
-     11,
-     12
-    ],
-    "num": 3,
-    "word": "IDI"
-   },
-   {
-    "id": "D62",
-    "coord": [
-     11,
-     13
-    ],
-    "num": 4,
-    "word": "DALI"
-   },
-   {
-    "id": "D63",
-    "coord": [
-     11,
-     14
-    ],
-    "num": 4,
-    "word": "IOIO"
-   },
-   {
-    "id": "H64",
-    "coord": [
-     12,
-     0
-    ],
-    "num": 8,
-    "word": "OTORREIA"
-   },
-   {
-    "id": "D65",
-    "coord": [
-     12,
-     7
-    ],
-    "num": 3,
-    "word": "ARU"
-   },
-   {
-    "id": "H66",
-    "coord": [
-     12,
-     9
-    ],
-    "num": 6,
-    "word": "ILACAO"
-   },
-   {
-    "id": "D67",
-    "coord": [
-     12,
-     11
-    ],
-    "num": 3,
-    "word": "ATA"
-   },
-   {
-    "id": "H68",
-    "coord": [
-     13,
-     0
-    ],
-    "num": 3,
-    "word": "CIA"
-   },
-   {
-    "id": "H69",
-    "coord": [
-     13,
-     4
-    ],
-    "num": 4,
-    "word": "ECAR"
-   },
-   {
-    "id": "H70",
-    "coord": [
-     13,
-     9
-    ],
-    "num": 6,
-    "word": "CATOLI"
-   },
-   {
-    "id": "H71",
-    "coord": [
-     14,
-     0
-    ],
-    "num": 3,
-    "word": "OMO"
-   },
-   {
-    "id": "H72",
-    "coord": [
-     14,
-     4
-    ],
-    "num": 4,
-    "word": "SARU"
-   },
-   {
-    "id": "H73",
-    "coord": [
-     14,
-     9
-    ],
-    "num": 6,
-    "word": "ORARIO"
-   }
-  ],
-  [
-   {
-    "id": "D1",
-    "coord": [
-     0,
-     0
-    ],
-    "num": 4,
-    "word": "RAPA"
-   },
-   {
-    "id": "H1",
-    "coord": [
-     0,
-     0
-    ],
-    "num": 6,
-    "word": "RABICA"
-   },
-   {
-    "id": "D2",
-    "coord": [
-     0,
-     1
-    ],
-    "num": 4,
-    "word": "ABAR"
-   },
-   {
-    "id": "D3",
-    "coord": [
-     0,
-     2
-    ],
-    "num": 4,
-    "word": "BAHE"
-   },
-   {
-    "id": "D4",
-    "coord": [
-     0,
-     3
-    ],
-    "num": 3,
-    "word": "IDA"
-   },
-   {
-    "id": "D5",
-    "coord": [
-     0,
-     4
-    ],
-    "num": 7,
-    "word": "CINTRAN"
-   },
-   {
-    "id": "D6",
-    "coord": [
-     0,
-     5
-    ],
-    "num": 5,
-    "word": "ARGAU"
-   },
-   {
-    "id": "D7",
-    "coord": [
-     0,
-     7
-    ],
-    "num": 3,
-    "word": "IPU"
-   },
-   {
-    "id": "H7",
-    "coord": [
-     0,
-     7
-    ],
-    "num": 4,
-    "word": "ICOS"
-   },
-   {
-    "id": "D8",
-    "coord": [
-     0,
-     8
-    ],
-    "num": 4,
-    "word": "CANA"
-   },
-   {
-    "id": "D9",
-    "coord": [
-     0,
-     9
-    ],
-    "num": 5,
-    "word": "OLINA"
-   },
-   {
-    "id": "D10",
-    "coord": [
-     0,
-     10
-    ],
-    "num": 5,
-    "word": "SACAL"
-   },
-   {
-    "id": "D11",
-    "coord": [
-     0,
-     12
-    ],
-    "num": 4,
-    "word": "BULA"
-   },
-   {
-    "id": "H11",
-    "coord": [
-     0,
-     12
-    ],
-    "num": 3,
-    "word": "BIO"
-   },
-   {
-    "id": "D12",
-    "coord": [
-     0,
-     13
-    ],
-    "num": 4,
-    "word": "IROS"
-   },
-   {
-    "id": "D13",
-    "coord": [
-     0,
-     14
-    ],
-    "num": 4,
-    "word": "OURA"
-   },
-   {
-    "id": "H14",
-    "coord": [
-     1,
-     0
-    ],
-    "num": 6,
-    "word": "ABADIR"
-   },
-   {
-    "id": "H15",
-    "coord": [
-     1,
-     7
-    ],
-    "num": 4,
-    "word": "PALA"
-   },
-   {
-    "id": "H16",
-    "coord": [
-     1,
-     12
-    ],
-    "num": 3,
-    "word": "URU"
-   },
-   {
-    "id": "H17",
-    "coord": [
-     2,
-     0
-    ],
-    "num": 6,
-    "word": "PAHANG"
-   },
-   {
-    "id": "H18",
-    "coord": [
-     2,
-     7
-    ],
-    "num": 8,
-    "word": "UNICOLOR"
-   },
-   {
-    "id": "D19",
-    "coord": [
-     2,
-     11
-    ],
-    "num": 5,
-    "word": "OBITO"
-   },
-   {
-    "id": "H20",
-    "coord": [
-     3,
-     0
-    ],
-    "num": 3,
-    "word": "ARE"
-   },
-   {
-    "id": "H21",
-    "coord": [
-     3,
-     4
-    ],
-    "num": 3,
-    "word": "TAM"
-   },
-   {
-    "id": "D22",
-    "coord": [
-     3,
-     6
-    ],
-    "num": 7,
-    "word": "MONEROM"
-   },
-   {
-    "id": "H23",
-    "coord": [
-     3,
-     8
-    ],
-    "num": 7,
-    "word": "ANABASA"
-   },
-   {
-    "id": "D24",
-    "coord": [
-     4,
-     3
-    ],
-    "num": 3,
-    "word": "CRE"
-   },
-   {
-    "id": "H24",
-    "coord": [
-     4,
-     3
-    ],
-    "num": 5,
-    "word": "CRUOR"
-   },
-   {
-    "id": "D25",
-    "coord": [
-     4,
-     7
-    ],
-    "num": 7,
-    "word": "RESABIO"
-   },
-   {
-    "id": "H26",
-    "coord": [
-     4,
-     9
-    ],
-    "num": 3,
-    "word": "ALI"
-   },
-   {
-    "id": "D27",
-    "coord": [
-     5,
-     0
-    ],
-    "num": 5,
-    "word": "ADINO"
-   },
-   {
-    "id": "H27",
-    "coord": [
-     5,
-     0
-    ],
-    "num": 5,
-    "word": "ABARA"
-   },
-   {
-    "id": "D28",
-    "coord": [
-     5,
-     1
-    ],
-    "num": 5,
-    "word": "BETAR"
-   },
-   {
-    "id": "D29",
-    "coord": [
-     5,
-     2
-    ],
-    "num": 5,
-    "word": "ASADA"
-   },
-   {
-    "id": "H30",
-    "coord": [
-     5,
-     6
-    ],
-    "num": 3,
-    "word": "NEM"
-   },
-   {
-    "id": "D31",
-    "coord": [
-     5,
-     8
-    ],
-    "num": 7,
-    "word": "MATROCO"
-   },
-   {
-    "id": "H32",
-    "coord": [
-     5,
-     11
-    ],
-    "num": 4,
-    "word": "TAES"
-   },
-   {
-    "id": "D33",
-    "coord": [
-     5,
-     12
-    ],
-    "num": 5,
-    "word": "ASSAN"
-   },
-   {
-    "id": "D34",
-    "coord": [
-     5,
-     13
-    ],
-    "num": 5,
-    "word": "ETANO"
-   },
-   {
-    "id": "D35",
-    "coord": [
-     5,
-     14
-    ],
-    "num": 5,
-    "word": "SELOA"
-   },
-   {
-    "id": "H36",
-    "coord": [
-     6,
-     0
-    ],
-    "num": 10,
-    "word": "DESENTESAR"
-   },
-   {
-    "id": "D37",
-    "coord": [
-     6,
-     5
-    ],
-    "num": 3,
-    "word": "TUS"
-   },
-   {
-    "id": "D38",
-    "coord": [
-     6,
-     9
-    ],
-    "num": 3,
-    "word": "ROE"
-   },
-   {
-    "id": "H39",
-    "coord": [
-     6,
-     11
-    ],
-    "num": 4,
-    "word": "OSTE"
-   },
-   {
-    "id": "H40",
-    "coord": [
-     7,
-     0
-    ],
-    "num": 3,
-    "word": "ITA"
-   },
-   {
-    "id": "H41",
-    "coord": [
-     7,
-     5
-    ],
-    "num": 5,
-    "word": "URATO"
-   },
-   {
-    "id": "H42",
-    "coord": [
-     7,
-     12
-    ],
-    "num": 3,
-    "word": "SAL"
-   },
-   {
-    "id": "H43",
-    "coord": [
-     8,
-     0
-    ],
-    "num": 4,
-    "word": "NADO"
-   },
-   {
-    "id": "D44",
-    "coord": [
-     8,
-     3
-    ],
-    "num": 5,
-    "word": "OLENO"
-   },
-   {
-    "id": "H45",
-    "coord": [
-     8,
-     5
-    ],
-    "num": 10,
-    "word": "SOBRESSANO"
-   },
-   {
-    "id": "D46",
-    "coord": [
-     8,
-     10
-    ],
-    "num": 7,
-    "word": "SCALIDO"
-   },
-   {
-    "id": "D47",
-    "coord": [
-     8,
-     11
-    ],
-    "num": 3,
-    "word": "SAN"
-   },
-   {
-    "id": "H48",
-    "coord": [
-     9,
-     0
-    ],
-    "num": 4,
-    "word": "ORAL"
-   },
-   {
-    "id": "H49",
-    "coord": [
-     9,
-     6
-    ],
-    "num": 3,
-    "word": "MIO"
-   },
-   {
-    "id": "H50",
-    "coord": [
-     9,
-     10
-    ],
-    "num": 5,
-    "word": "CANOA"
-   },
-   {
-    "id": "H51",
-    "coord": [
-     10,
-     3
-    ],
-    "num": 3,
-    "word": "EIS"
-   },
-   {
-    "id": "D52",
-    "coord": [
-     10,
-     4
-    ],
-    "num": 5,
-    "word": "ICTUS"
-   },
-   {
-    "id": "D53",
-    "coord": [
-     10,
-     5
-    ],
-    "num": 5,
-    "word": "SAETA"
-   },
-   {
-    "id": "H54",
-    "coord": [
-     10,
-     7
-    ],
-    "num": 5,
-    "word": "OCTAN"
-   },
-   {
-    "id": "D55",
-    "coord": [
-     10,
-     9
-    ],
-    "num": 5,
-    "word": "TICAO"
-   },
-   {
-    "id": "D56",
-    "coord": [
-     11,
-     0
-    ],
-    "num": 4,
-    "word": "APAN"
-   },
-   {
-    "id": "H56",
-    "coord": [
-     11,
-     0
-    ],
-    "num": 7,
-    "word": "AVENCAL"
-   },
-   {
-    "id": "D57",
-    "coord": [
-     11,
-     1
-    ],
-    "num": 4,
-    "word": "VIDO"
-   },
-   {
-    "id": "D58",
-    "coord": [
-     11,
-     2
-    ],
-    "num": 4,
-    "word": "ENEA"
-   },
-   {
-    "id": "D59",
-    "coord": [
-     11,
-     6
-    ],
-    "num": 4,
-    "word": "LARA"
-   },
-   {
-    "id": "H60",
-    "coord": [
-     11,
-     8
-    ],
-    "num": 3,
-    "word": "OIL"
-   },
-   {
-    "id": "D61",
-    "coord": [
-     11,
-     12
-    ],
-    "num": 4,
-    "word": "MENI"
-   },
-   {
-    "id": "H61",
-    "coord": [
-     11,
-     12
-    ],
-    "num": 3,
-    "word": "MIM"
-   },
-   {
-    "id": "D62",
-    "coord": [
-     11,
-     13
-    ],
-    "num": 4,
-    "word": "IRAN"
-   },
-   {
-    "id": "D63",
-    "coord": [
-     11,
-     14
-    ],
-    "num": 4,
-    "word": "MORA"
-   },
-   {
-    "id": "H64",
-    "coord": [
-     12,
-     0
-    ],
-    "num": 8,
-    "word": "PINOTEAR"
-   },
-   {
-    "id": "D65",
-    "coord": [
-     12,
-     7
-    ],
-    "num": 3,
-    "word": "RER"
-   },
-   {
-    "id": "H66",
-    "coord": [
-     12,
-     9
-    ],
-    "num": 6,
-    "word": "CIPERO"
-   },
-   {
-    "id": "D67",
-    "coord": [
-     12,
-     11
-    ],
-    "num": 3,
-    "word": "PAN"
-   },
-   {
-    "id": "H68",
-    "coord": [
-     13,
-     0
-    ],
-    "num": 3,
-    "word": "ADE"
-   },
-   {
-    "id": "H69",
-    "coord": [
-     13,
-     4
-    ],
-    "num": 4,
-    "word": "UTRE"
-   },
-   {
-    "id": "H70",
-    "coord": [
-     13,
-     9
-    ],
-    "num": 6,
-    "word": "ADANAR"
-   },
-   {
-    "id": "H71",
-    "coord": [
-     14,
-     0
-    ],
-    "num": 3,
-    "word": "NOA"
-   },
-   {
-    "id": "H72",
-    "coord": [
-     14,
-     4
-    ],
-    "num": 4,
-    "word": "SAAR"
-   },
-   {
-    "id": "H73",
-    "coord": [
-     14,
-     9
-    ],
-    "num": 6,
-    "word": "OONINA"
-   }
-  ],
-  [
-   {
-    "id": "D1",
-    "coord": [
-     0,
-     0
-    ],
-    "num": 4,
-    "word": "ERSA"
-   },
-   {
-    "id": "H1",
-    "coord": [
-     0,
-     0
-    ],
-    "num": 6,
-    "word": "EFUSAL"
-   },
-   {
-    "id": "D2",
-    "coord": [
-     0,
-     1
-    ],
-    "num": 4,
-    "word": "FIEL"
-   },
-   {
-    "id": "D3",
-    "coord": [
-     0,
-     2
-    ],
-    "num": 4,
-    "word": "UVRE"
-   },
-   {
-    "id": "D4",
-    "coord": [
-     0,
-     3
-    ],
-    "num": 3,
-    "word": "SOI"
-   },
-   {
-    "id": "D5",
-    "coord": [
-     0,
-     4
-    ],
-    "num": 7,
-    "word": "ALGUMIA"
-   },
-   {
-    "id": "D6",
-    "coord": [
-     0,
-     5
-    ],
-    "num": 5,
-    "word": "LIAME"
-   },
-   {
-    "id": "D7",
-    "coord": [
-     0,
-     7
-    ],
-    "num": 3,
-    "word": "GAS"
-   },
-   {
-    "id": "H7",
-    "coord": [
-     0,
-     7
-    ],
-    "num": 4,
-    "word": "GRAN"
-   },
-   {
-    "id": "D8",
-    "coord": [
-     0,
-     8
-    ],
-    "num": 4,
-    "word": "ROEL"
-   },
-   {
-    "id": "D9",
-    "coord": [
-     0,
-     9
-    ],
-    "num": 5,
-    "word": "ARBIM"
-   },
-   {
-    "id": "D10",
-    "coord": [
-     0,
-     10
-    ],
-    "num": 5,
-    "word": "NAIBE"
-   },
-   {
-    "id": "D11",
-    "coord": [
-     0,
-     12
-    ],
-    "num": 4,
-    "word": "UTIL"
-   },
-   {
-    "id": "H11",
-    "coord": [
-     0,
-     12
-    ],
-    "num": 3,
-    "word": "UPA"
-   },
-   {
-    "id": "D12",
-    "coord": [
-     0,
-     13
-    ],
-    "num": 4,
-    "word": "PARO"
-   },
-   {
-    "id": "D13",
-    "coord": [
-     0,
-     14
-    ],
-    "num": 4,
-    "word": "AMAS"
-   },
-   {
-    "id": "H14",
-    "coord": [
-     1,
-     0
-    ],
-    "num": 6,
-    "word": "RIVOLI"
-   },
-   {
-    "id": "H15",
-    "coord": [
-     1,
-     7
-    ],
-    "num": 4,
-    "word": "AORA"
-   },
-   {
-    "id": "H16",
-    "coord": [
-     1,
-     12
-    ],
-    "num": 3,
-    "word": "TAM"
-   },
-   {
-    "id": "H17",
-    "coord": [
-     2,
-     0
-    ],
-    "num": 6,
-    "word": "SERIGA"
-   },
-   {
-    "id": "H18",
-    "coord": [
-     2,
-     7
-    ],
-    "num": 8,
-    "word": "SEBIPIRA"
-   },
-   {
-    "id": "D19",
-    "coord": [
-     2,
-     11
-    ],
-    "num": 5,
-    "word": "POLIR"
-   },
-   {
-    "id": "H20",
-    "coord": [
-     3,
-     0
-    ],
-    "num": 3,
-    "word": "ALE"
-   },
-   {
-    "id": "H21",
-    "coord": [
-     3,
-     4
-    ],
-    "num": 3,
-    "word": "UMA"
-   },
-   {
-    "id": "D22",
-    "coord": [
-     3,
-     6
-    ],
-    "num": 7,
-    "word": "ASARONA"
-   },
-   {
-    "id": "H23",
-    "coord": [
-     3,
-     8
-    ],
-    "num": 7,
-    "word": "LIBOLOS"
-   },
-   {
-    "id": "D24",
-    "coord": [
-     4,
-     3
-    ],
-    "num": 3,
-    "word": "TAL"
-   },
-   {
-    "id": "H24",
-    "coord": [
-     4,
-     3
-    ],
-    "num": 5,
-    "word": "TMESE"
-   },
-   {
-    "id": "D25",
-    "coord": [
-     4,
-     7
-    ],
-    "num": 7,
-    "word": "ENOLINA"
-   },
-   {
-    "id": "H26",
-    "coord": [
-     4,
-     9
-    ],
-    "num": 3,
-    "word": "MEL"
-   },
-   {
-    "id": "D27",
-    "coord": [
-     5,
-     0
-    ],
-    "num": 5,
-    "word": "UPLOT"
-   },
-   {
-    "id": "H27",
-    "coord": [
-     5,
-     0
-    ],
-    "num": 5,
-    "word": "UACAI"
-   },
-   {
-    "id": "D28",
-    "coord": [
-     5,
-     1
-    ],
-    "num": 5,
-    "word": "AHIVA"
-   },
-   {
-    "id": "D29",
-    "coord": [
-     5,
-     2
-    ],
-    "num": 5,
-    "word": "CASAL"
-   },
-   {
-    "id": "H30",
-    "coord": [
-     5,
-     6
-    ],
-    "num": 3,
-    "word": "ANO"
-   },
-   {
-    "id": "D31",
-    "coord": [
-     5,
-     8
-    ],
-    "num": 7,
-    "word": "OSIRIDE"
-   },
-   {
-    "id": "H32",
-    "coord": [
-     5,
-     11
-    ],
-    "num": 4,
-    "word": "ICAR"
-   },
-   {
-    "id": "D33",
-    "coord": [
-     5,
-     12
-    ],
-    "num": 5,
-    "word": "COLIR"
-   },
-   {
-    "id": "D34",
-    "coord": [
-     5,
-     13
-    ],
-    "num": 5,
-    "word": "ABATE"
-   },
-   {
-    "id": "D35",
-    "coord": [
-     5,
-     14
-    ],
-    "num": 5,
-    "word": "RENAO"
-   },
-   {
-    "id": "H36",
-    "coord": [
-     6,
-     0
-    ],
-    "num": 10,
-    "word": "PHALACROSE"
-   },
-   {
-    "id": "D37",
-    "coord": [
-     6,
-     5
-    ],
-    "num": 3,
-    "word": "CEO"
-   },
-   {
-    "id": "D38",
-    "coord": [
-     6,
-     9
-    ],
-    "num": 3,
-    "word": "EOO"
-   },
-   {
-    "id": "H39",
-    "coord": [
-     6,
-     11
-    ],
-    "num": 4,
-    "word": "ROBE"
-   },
-   {
-    "id": "H40",
-    "coord": [
-     7,
-     0
-    ],
-    "num": 3,
-    "word": "LIS"
-   },
-   {
-    "id": "H41",
-    "coord": [
-     7,
-     5
-    ],
-    "num": 5,
-    "word": "EOLIO"
-   },
-   {
-    "id": "H42",
-    "coord": [
-     7,
-     12
-    ],
-    "num": 3,
-    "word": "LAN"
-   },
-   {
-    "id": "H43",
-    "coord": [
-     8,
-     0
     ],
     "num": 4,
     "word": "OVAL"
    },
    {
+    "id": "D33",
+    "coord": [
+     5,
+     12
+    ],
+    "num": 5,
+    "word": "VULTO"
+   },
+   {
+    "id": "D34",
+    "coord": [
+     5,
+     13
+    ],
+    "num": 5,
+    "word": "ATUAR"
+   },
+   {
+    "id": "D35",
+    "coord": [
+     5,
+     14
+    ],
+    "num": 5,
+    "word": "LUZIA"
+   },
+   {
+    "id": "H36",
+    "coord": [
+     6,
+     0
+    ],
+    "num": 10,
+    "word": "ARQUITETAR"
+   },
+   {
+    "id": "D37",
+    "coord": [
+     6,
+     5
+    ],
+    "num": 3,
+    "word": "TUC"
+   },
+   {
+    "id": "D38",
+    "coord": [
+     6,
+     9
+    ],
+    "num": 3,
+    "word": "RUM"
+   },
+   {
+    "id": "H39",
+    "coord": [
+     6,
+     11
+    ],
+    "num": 4,
+    "word": "TUTU"
+   },
+   {
+    "id": "H40",
+    "coord": [
+     7,
+     0
+    ],
+    "num": 3,
+    "word": "LEU"
+   },
+   {
+    "id": "H41",
+    "coord": [
+     7,
+     5
+    ],
+    "num": 5,
+    "word": "URUTU"
+   },
+   {
+    "id": "H42",
+    "coord": [
+     7,
+     12
+    ],
+    "num": 3,
+    "word": "LUZ"
+   },
+   {
+    "id": "H43",
+    "coord": [
+     8,
+     0
+    ],
+    "num": 4,
+    "word": "ETER"
+   },
+   {
     "id": "D44",
     "coord": [
      8,
      3
     ],
     "num": 5,
-    "word": "LIVRA"
+    "word": "RASTA"
    },
    {
     "id": "H45",
@@ -5993,7 +4549,7 @@
      5
     ],
     "num": 10,
-    "word": "ONIROCRITA"
+    "word": "CORUMBATAI"
    },
    {
     "id": "D46",
@@ -6002,7 +4558,7 @@
      10
     ],
     "num": 7,
-    "word": "CABOUPA"
+    "word": "BARCACA"
    },
    {
     "id": "D47",
@@ -6011,7 +4567,7 @@
      11
     ],
     "num": 3,
-    "word": "RUA"
+    "word": "AGA"
    },
    {
     "id": "H48",
@@ -6020,7 +4576,7 @@
      0
     ],
     "num": 4,
-    "word": "TALI"
+    "word": "MAMA"
    },
    {
     "id": "H49",
@@ -6029,7 +4585,7 @@
      6
     ],
     "num": 3,
-    "word": "ANI"
+    "word": "ANS"
    },
    {
     "id": "H50",
@@ -6038,7 +4594,7 @@
      10
     ],
     "num": 5,
-    "word": "AUREO"
+    "word": "AGORA"
    },
    {
     "id": "H51",
@@ -6047,7 +4603,7 @@
      3
     ],
     "num": 3,
-    "word": "VER"
+    "word": "SNI"
    },
    {
     "id": "D52",
@@ -6056,7 +4612,7 @@
      4
     ],
     "num": 5,
-    "word": "ERROR"
+    "word": "NARIZ"
    },
    {
     "id": "D53",
@@ -6065,7 +4621,7 @@
      5
     ],
     "num": 5,
-    "word": "RANCO"
+    "word": "IPERO"
    },
    {
     "id": "H54",
@@ -6074,7 +4630,7 @@
      7
     ],
     "num": 5,
-    "word": "ADUBA"
+    "word": "OCARA"
    },
    {
     "id": "D55",
@@ -6083,7 +4639,7 @@
      9
     ],
     "num": 5,
-    "word": "URDIR"
+    "word": "AIPIM"
    },
    {
     "id": "D56",
@@ -6092,7 +4648,7 @@
      0
     ],
     "num": 4,
-    "word": "APAR"
+    "word": "PACC"
    },
    {
     "id": "H56",
@@ -6101,7 +4657,7 @@
      0
     ],
     "num": 7,
-    "word": "AFERRAR"
+    "word": "PONTAPE"
    },
    {
     "id": "D57",
@@ -6110,7 +4666,7 @@
      1
     ],
     "num": 4,
-    "word": "FIGO"
+    "word": "OQUE"
    },
    {
     "id": "D58",
@@ -6119,7 +4675,7 @@
      2
     ],
     "num": 4,
-    "word": "ECAR"
+    "word": "NUME"
    },
    {
     "id": "D59",
@@ -6128,7 +4684,7 @@
      6
     ],
     "num": 4,
-    "word": "REIS"
+    "word": "ELAN"
    },
    {
     "id": "H60",
@@ -6137,7 +4693,7 @@
      8
     ],
     "num": 3,
-    "word": "ERO"
+    "word": "OIC"
    },
    {
     "id": "D61",
@@ -6146,7 +4702,7 @@
      12
     ],
     "num": 4,
-    "word": "MAMA"
+    "word": "AIPO"
    },
    {
     "id": "H61",
@@ -6155,7 +4711,7 @@
      12
     ],
     "num": 3,
-    "word": "MAL"
+    "word": "APA"
    },
    {
     "id": "D62",
@@ -6164,7 +4720,7 @@
      13
     ],
     "num": 4,
-    "word": "ADEN"
+    "word": "PAUL"
    },
    {
     "id": "D63",
@@ -6173,7 +4729,7 @@
      14
     ],
     "num": 4,
-    "word": "LOAO"
+    "word": "ARIA"
    },
    {
     "id": "H64",
@@ -6182,7 +4738,7 @@
      0
     ],
     "num": 8,
-    "word": "PICARNEL"
+    "word": "AQUARELA"
    },
    {
     "id": "D65",
@@ -6191,7 +4747,7 @@
      7
     ],
     "num": 3,
-    "word": "LOA"
+    "word": "AIA"
    },
    {
     "id": "H66",
@@ -6200,7 +4756,7 @@
      9
     ],
     "num": 6,
-    "word": "DUCADO"
+    "word": "PALIAR"
    },
    {
     "id": "D67",
@@ -6209,7 +4765,7 @@
      11
     ],
     "num": 3,
-    "word": "COI"
+    "word": "LAR"
    },
    {
     "id": "H68",
@@ -6218,7 +4774,7 @@
      0
     ],
     "num": 3,
-    "word": "AGA"
+    "word": "CUM"
    },
    {
     "id": "H69",
@@ -6227,7 +4783,7 @@
      4
     ],
     "num": 4,
-    "word": "OCIO"
+    "word": "IRAI"
    },
    {
     "id": "H70",
@@ -6236,7 +4792,7 @@
      9
     ],
     "num": 6,
-    "word": "IPOMEA"
+    "word": "ICAPUI"
    },
    {
     "id": "H71",
@@ -6245,7 +4801,7 @@
      0
     ],
     "num": 3,
-    "word": "ROR"
+    "word": "CEE"
    },
    {
     "id": "H72",
@@ -6254,7 +4810,7 @@
      4
     ],
     "num": 4,
-    "word": "ROSA"
+    "word": "ZONA"
    },
    {
     "id": "H73",
@@ -6263,7 +4819,7 @@
      9
     ],
     "num": 6,
-    "word": "RAIANO"
+    "word": "MAROLA"
    }
   ],
   [
@@ -6274,7 +4830,7 @@
      0
     ],
     "num": 4,
-    "word": "ASCA"
+    "word": "PIRA"
    },
    {
     "id": "H1",
@@ -6283,7 +4839,7 @@
      0
     ],
     "num": 6,
-    "word": "AMENTA"
+    "word": "PENSAO"
    },
    {
     "id": "D2",
@@ -6292,7 +4848,7 @@
      1
     ],
     "num": 4,
-    "word": "MURO"
+    "word": "ETOS"
    },
    {
     "id": "D3",
@@ -6301,7 +4857,7 @@
      2
     ],
     "num": 4,
-    "word": "ERES"
+    "word": "NUCA"
    },
    {
     "id": "D4",
@@ -6310,7 +4866,7 @@
      3
     ],
     "num": 3,
-    "word": "NUM"
+    "word": "SAI"
    },
    {
     "id": "D5",
@@ -6319,7 +4875,7 @@
      4
     ],
     "num": 7,
-    "word": "TROVOAR"
+    "word": "ACARAJE"
    },
    {
     "id": "D6",
@@ -6328,7 +4884,7 @@
      5
     ],
     "num": 5,
-    "word": "AURIR"
+    "word": "OUREM"
    },
    {
     "id": "D7",
@@ -6337,7 +4893,7 @@
      7
     ],
     "num": 3,
-    "word": "SAL"
+    "word": "BEM"
    },
    {
     "id": "H7",
@@ -6346,7 +4902,7 @@
      7
     ],
     "num": 4,
-    "word": "SOSA"
+    "word": "BIBA"
    },
    {
     "id": "D8",
@@ -6355,7 +4911,7 @@
      8
     ],
     "num": 4,
-    "word": "OTIM"
+    "word": "INEP"
    },
    {
     "id": "D9",
@@ -6364,7 +4920,7 @@
      9
     ],
     "num": 5,
-    "word": "SEQUI"
+    "word": "BETIM"
    },
    {
     "id": "D10",
@@ -6373,7 +4929,7 @@
      10
     ],
     "num": 5,
-    "word": "AMURA"
+    "word": "AMAPA"
    },
    {
     "id": "D11",
@@ -6382,7 +4938,7 @@
      12
     ],
     "num": 4,
-    "word": "MACE"
+    "word": "PROL"
    },
    {
     "id": "H11",
@@ -6391,7 +4947,7 @@
      12
     ],
     "num": 3,
-    "word": "MEL"
+    "word": "PFL"
    },
    {
     "id": "D12",
@@ -6400,7 +4956,7 @@
      13
     ],
     "num": 4,
-    "word": "ETAL"
+    "word": "FERA"
    },
    {
     "id": "D13",
@@ -6409,7 +4965,7 @@
      14
     ],
     "num": 4,
-    "word": "LEOA"
+    "word": "LUAR"
    },
    {
     "id": "H14",
@@ -6418,7 +4974,7 @@
      0
     ],
     "num": 6,
-    "word": "SURURU"
+    "word": "ITUACU"
    },
    {
     "id": "H15",
@@ -6427,7 +4983,7 @@
      7
     ],
     "num": 4,
-    "word": "ATEM"
+    "word": "ENEM"
    },
    {
     "id": "H16",
@@ -6436,7 +4992,7 @@
      12
     ],
     "num": 3,
-    "word": "ATE"
+    "word": "REU"
    },
    {
     "id": "H17",
@@ -6445,7 +5001,7 @@
      0
     ],
     "num": 6,
-    "word": "CREMOR"
+    "word": "ROCIAR"
    },
    {
     "id": "H18",
@@ -6454,7 +5010,7 @@
      7
     ],
     "num": 8,
-    "word": "LIQUACAO"
+    "word": "METAFORA"
    },
    {
     "id": "D19",
@@ -6463,7 +5019,7 @@
      11
     ],
     "num": 5,
-    "word": "AZOTO"
+    "word": "FINAM"
    },
    {
     "id": "H20",
@@ -6472,7 +5028,7 @@
      0
     ],
     "num": 3,
-    "word": "AOS"
+    "word": "ASA"
    },
    {
     "id": "H21",
@@ -6481,7 +5037,7 @@
      4
     ],
     "num": 3,
-    "word": "VIR"
+    "word": "REP"
    },
    {
     "id": "D22",
@@ -6490,7 +5046,7 @@
      6
     ],
     "num": 7,
-    "word": "RECEBER"
+    "word": "PITEIRA"
    },
    {
     "id": "H23",
@@ -6499,7 +5055,7 @@
      8
     ],
     "num": 7,
-    "word": "MURZELA"
+    "word": "PIPILAR"
    },
    {
     "id": "D24",
@@ -6508,7 +5064,7 @@
      3
     ],
     "num": 3,
-    "word": "PRO"
+    "word": "TRF"
    },
    {
     "id": "H24",
@@ -6517,7 +5073,7 @@
      3
     ],
     "num": 5,
-    "word": "POREM"
+    "word": "TAMIL"
    },
    {
     "id": "D25",
@@ -6526,7 +5082,7 @@
      7
     ],
     "num": 7,
-    "word": "MACAGEM"
+    "word": "LANCADA"
    },
    {
     "id": "H26",
@@ -6535,7 +5091,7 @@
      9
     ],
     "num": 3,
-    "word": "IAO"
+    "word": "MAN"
    },
    {
     "id": "D27",
@@ -6544,7 +5100,7 @@
      0
     ],
     "num": 5,
-    "word": "PRAIA"
+    "word": "ACARA"
    },
    {
     "id": "H27",
@@ -6553,7 +5109,7 @@
      0
     ],
     "num": 5,
-    "word": "PIARA"
+    "word": "ALERJ"
    },
    {
     "id": "D28",
@@ -6562,7 +5118,7 @@
      1
     ],
     "num": 5,
-    "word": "IENTO"
+    "word": "LOPES"
    },
    {
     "id": "D29",
@@ -6571,7 +5127,7 @@
      2
     ],
     "num": 5,
-    "word": "AFIAR"
+    "word": "ENFIM"
    },
    {
     "id": "H30",
@@ -6580,7 +5136,7 @@
      6
     ],
     "num": 3,
-    "word": "CAM"
+    "word": "TAI"
    },
    {
     "id": "D31",
@@ -6589,7 +5145,7 @@
      8
     ],
     "num": 7,
-    "word": "MEPURUS"
+    "word": "ITARARE"
    },
    {
     "id": "H32",
@@ -6598,7 +5154,7 @@
      11
     ],
     "num": 4,
-    "word": "TOAR"
+    "word": "ABIN"
    },
    {
     "id": "D33",
@@ -6607,7 +5163,7 @@
      12
     ],
     "num": 5,
-    "word": "ONDAR"
+    "word": "BILAC"
    },
    {
     "id": "D34",
@@ -6616,7 +5172,7 @@
      13
     ],
     "num": 5,
-    "word": "AZEDO"
+    "word": "IRARA"
    },
    {
     "id": "D35",
@@ -6625,7 +5181,7 @@
      14
     ],
     "num": 5,
-    "word": "RELER"
+    "word": "NOCAO"
    },
    {
     "id": "H36",
@@ -6634,7 +5190,7 @@
      0
     ],
     "num": 10,
-    "word": "REFORNECER"
+    "word": "CONFERENTE"
    },
    {
     "id": "D37",
@@ -6643,7 +5199,7 @@
      5
     ],
     "num": 3,
-    "word": "NAS"
+    "word": "RNA"
    },
    {
     "id": "D38",
@@ -6652,7 +5208,7 @@
      9
     ],
     "num": 3,
-    "word": "ROR"
+    "word": "ERA"
    },
    {
     "id": "H39",
@@ -6661,7 +5217,7 @@
      11
     ],
     "num": 4,
-    "word": "ONZE"
+    "word": "MIRO"
    },
    {
     "id": "H40",
@@ -6670,7 +5226,7 @@
      0
     ],
     "num": 3,
-    "word": "ANI"
+    "word": "APF"
    },
    {
     "id": "H41",
@@ -6679,7 +5235,7 @@
      5
     ],
     "num": 5,
-    "word": "ABAPO"
+    "word": "NICAR"
    },
    {
     "id": "H42",
@@ -6688,7 +5244,7 @@
      12
     ],
     "num": 3,
-    "word": "DEL"
+    "word": "LAC"
    },
    {
     "id": "H43",
@@ -6697,7 +5253,7 @@
      0
     ],
     "num": 4,
-    "word": "ITAN"
+    "word": "REIS"
    },
    {
     "id": "D44",
@@ -6706,7 +5262,7 @@
      3
     ],
     "num": 5,
-    "word": "NAGAR"
+    "word": "SAFRA"
    },
    {
     "id": "H45",
@@ -6715,7 +5271,7 @@
      5
     ],
     "num": 10,
-    "word": "SEGURIDADE"
+    "word": "ARARAQUARA"
    },
    {
     "id": "D46",
@@ -6724,7 +5280,7 @@
      10
     ],
     "num": 7,
-    "word": "ISONOMO"
+    "word": "QUIETAR"
    },
    {
     "id": "D47",
@@ -6733,7 +5289,7 @@
      11
     ],
     "num": 3,
-    "word": "DOM"
+    "word": "UNA"
    },
    {
     "id": "H48",
@@ -6742,7 +5298,7 @@
      0
     ],
     "num": 4,
-    "word": "AORA"
+    "word": "ASMA"
    },
    {
     "id": "H49",
@@ -6751,7 +5307,7 @@
      6
     ],
     "num": 3,
-    "word": "RER"
+    "word": "ADA"
    },
    {
     "id": "H50",
@@ -6760,7 +5316,7 @@
      10
     ],
     "num": 5,
-    "word": "SOROR"
+    "word": "UNCAO"
    },
    {
     "id": "H51",
@@ -6769,7 +5325,7 @@
      3
     ],
     "num": 3,
-    "word": "GAS"
+    "word": "FIA"
    },
    {
     "id": "D52",
@@ -6778,7 +5334,7 @@
      4
     ],
     "num": 5,
-    "word": "ADIGE"
+    "word": "IEMEN"
    },
    {
     "id": "D53",
@@ -6787,7 +5343,7 @@
      5
     ],
     "num": 5,
-    "word": "SOMAR"
+    "word": "ATILA"
    },
    {
     "id": "H54",
@@ -6796,7 +5352,7 @@
      7
     ],
     "num": 5,
-    "word": "MUTOM"
+    "word": "AREIA"
    },
    {
     "id": "D55",
@@ -6805,7 +5361,7 @@
      9
     ],
     "num": 5,
-    "word": "TAMIL"
+    "word": "ELITE"
    },
    {
     "id": "D56",
@@ -6814,7 +5370,7 @@
      0
     ],
     "num": 4,
-    "word": "CLUB"
+    "word": "EDIR"
    },
    {
     "id": "H56",
@@ -6823,7 +5379,7 @@
      0
     ],
     "num": 7,
-    "word": "CRIADOR"
+    "word": "ESCRETE"
    },
    {
     "id": "D57",
@@ -6832,7 +5388,7 @@
      1
     ],
     "num": 4,
-    "word": "RAGU"
+    "word": "SISA"
    },
    {
     "id": "D58",
@@ -6841,7 +5397,7 @@
      2
     ],
     "num": 4,
-    "word": "ICAS"
+    "word": "CNOP"
    },
    {
     "id": "D59",
@@ -6850,7 +5406,7 @@
      6
     ],
     "num": 4,
-    "word": "RALE"
+    "word": "ECAD"
    },
    {
     "id": "H60",
@@ -6859,7 +5415,7 @@
      8
     ],
     "num": 3,
-    "word": "SAN"
+    "word": "ELE"
    },
    {
     "id": "D61",
@@ -6868,7 +5424,7 @@
      12
     ],
     "num": 4,
-    "word": "VIES"
+    "word": "ALAR"
    },
    {
     "id": "H61",
@@ -6877,7 +5433,7 @@
      12
     ],
     "num": 3,
-    "word": "VOS"
+    "word": "ABC"
    },
    {
     "id": "D62",
@@ -6886,7 +5442,7 @@
      13
     ],
     "num": 4,
-    "word": "OCRA"
+    "word": "BIBI"
    },
    {
     "id": "D63",
@@ -6895,7 +5451,7 @@
      14
     ],
     "num": 4,
-    "word": "SAIO"
+    "word": "CAIO"
    },
    {
     "id": "H64",
@@ -6904,7 +5460,7 @@
      0
     ],
     "num": 8,
-    "word": "LACRIMAL"
+    "word": "DINAMICA"
    },
    {
     "id": "D65",
@@ -6913,7 +5469,7 @@
      7
     ],
     "num": 3,
-    "word": "LEO"
+    "word": "ANO"
    },
    {
     "id": "H66",
@@ -6922,7 +5478,7 @@
      9
     ],
     "num": 6,
-    "word": "MOAICA"
+    "word": "ITALIA"
    },
    {
     "id": "D67",
@@ -6931,7 +5487,7 @@
      11
     ],
     "num": 3,
-    "word": "ABU"
+    "word": "ANA"
    },
    {
     "id": "H68",
@@ -6940,7 +5496,7 @@
      0
     ],
     "num": 3,
-    "word": "UGA"
+    "word": "ISO"
    },
    {
     "id": "H69",
@@ -6949,7 +5505,7 @@
      4
     ],
     "num": 4,
-    "word": "GALE"
+    "word": "ELAN"
    },
    {
     "id": "H70",
@@ -6958,7 +5514,7 @@
      9
     ],
     "num": 6,
-    "word": "IMBERI"
+    "word": "TANABI"
    },
    {
     "id": "H71",
@@ -6967,7 +5523,7 @@
      0
     ],
     "num": 3,
-    "word": "BUS"
+    "word": "RAP"
    },
    {
     "id": "H72",
@@ -6976,7 +5532,7 @@
      4
     ],
     "num": 4,
-    "word": "EREO"
+    "word": "NADO"
    },
    {
     "id": "H73",
@@ -6985,7 +5541,1451 @@
      9
     ],
     "num": 6,
-    "word": "LOUSAO"
+    "word": "ERARIO"
+   }
+  ],
+  [
+   {
+    "id": "D1",
+    "coord": [
+     0,
+     0
+    ],
+    "num": 4,
+    "word": "AMAR"
+   },
+   {
+    "id": "H1",
+    "coord": [
+     0,
+     0
+    ],
+    "num": 6,
+    "word": "ALASCA"
+   },
+   {
+    "id": "D2",
+    "coord": [
+     0,
+     1
+    ],
+    "num": 4,
+    "word": "LORO"
+   },
+   {
+    "id": "D3",
+    "coord": [
+     0,
+     2
+    ],
+    "num": 4,
+    "word": "ANIL"
+   },
+   {
+    "id": "D4",
+    "coord": [
+     0,
+     3
+    ],
+    "num": 3,
+    "word": "SGA"
+   },
+   {
+    "id": "D5",
+    "coord": [
+     0,
+     4
+    ],
+    "num": 7,
+    "word": "CONTUSO"
+   },
+   {
+    "id": "D6",
+    "coord": [
+     0,
+     5
+    ],
+    "num": 5,
+    "word": "ALESP"
+   },
+   {
+    "id": "D7",
+    "coord": [
+     0,
+     7
+    ],
+    "num": 3,
+    "word": "SEI"
+   },
+   {
+    "id": "H7",
+    "coord": [
+     0,
+     7
+    ],
+    "num": 4,
+    "word": "SOER"
+   },
+   {
+    "id": "D8",
+    "coord": [
+     0,
+     8
+    ],
+    "num": 4,
+    "word": "OITI"
+   },
+   {
+    "id": "D9",
+    "coord": [
+     0,
+     9
+    ],
+    "num": 5,
+    "word": "ETANO"
+   },
+   {
+    "id": "D10",
+    "coord": [
+     0,
+     10
+    ],
+    "num": 5,
+    "word": "RAIVA"
+   },
+   {
+    "id": "D11",
+    "coord": [
+     0,
+     12
+    ],
+    "num": 4,
+    "word": "APUD"
+   },
+   {
+    "id": "H11",
+    "coord": [
+     0,
+     12
+    ],
+    "num": 3,
+    "word": "ARI"
+   },
+   {
+    "id": "D12",
+    "coord": [
+     0,
+     13
+    ],
+    "num": 4,
+    "word": "RABI"
+   },
+   {
+    "id": "D13",
+    "coord": [
+     0,
+     14
+    ],
+    "num": 4,
+    "word": "ICAR"
+   },
+   {
+    "id": "H14",
+    "coord": [
+     1,
+     0
+    ],
+    "num": 6,
+    "word": "MONGOL"
+   },
+   {
+    "id": "H15",
+    "coord": [
+     1,
+     7
+    ],
+    "num": 4,
+    "word": "EITA"
+   },
+   {
+    "id": "H16",
+    "coord": [
+     1,
+     12
+    ],
+    "num": 3,
+    "word": "PAC"
+   },
+   {
+    "id": "H17",
+    "coord": [
+     2,
+     0
+    ],
+    "num": 6,
+    "word": "ARIANE"
+   },
+   {
+    "id": "H18",
+    "coord": [
+     2,
+     7
+    ],
+    "num": 8,
+    "word": "ITAITUBA"
+   },
+   {
+    "id": "D19",
+    "coord": [
+     2,
+     11
+    ],
+    "num": 5,
+    "word": "TABUA"
+   },
+   {
+    "id": "H20",
+    "coord": [
+     3,
+     0
+    ],
+    "num": 3,
+    "word": "ROL"
+   },
+   {
+    "id": "H21",
+    "coord": [
+     3,
+     4
+    ],
+    "num": 3,
+    "word": "TST"
+   },
+   {
+    "id": "D22",
+    "coord": [
+     3,
+     6
+    ],
+    "num": 7,
+    "word": "TUCURUI"
+   },
+   {
+    "id": "H23",
+    "coord": [
+     3,
+     8
+    ],
+    "num": 7,
+    "word": "INVADIR"
+   },
+   {
+    "id": "D24",
+    "coord": [
+     4,
+     3
+    ],
+    "num": 3,
+    "word": "LAC"
+   },
+   {
+    "id": "H24",
+    "coord": [
+     4,
+     3
+    ],
+    "num": 5,
+    "word": "LUPUS"
+   },
+   {
+    "id": "D25",
+    "coord": [
+     4,
+     7
+    ],
+    "num": 7,
+    "word": "SENADOR"
+   },
+   {
+    "id": "H26",
+    "coord": [
+     4,
+     9
+    ],
+    "num": 3,
+    "word": "OAB"
+   },
+   {
+    "id": "D27",
+    "coord": [
+     5,
+     0
+    ],
+    "num": 5,
+    "word": "ODIAR"
+   },
+   {
+    "id": "H27",
+    "coord": [
+     5,
+     0
+    ],
+    "num": 5,
+    "word": "OSEAS"
+   },
+   {
+    "id": "D28",
+    "coord": [
+     5,
+     1
+    ],
+    "num": 5,
+    "word": "SENRA"
+   },
+   {
+    "id": "D29",
+    "coord": [
+     5,
+     2
+    ],
+    "num": 5,
+    "word": "ESGAR"
+   },
+   {
+    "id": "H30",
+    "coord": [
+     5,
+     6
+    ],
+    "num": 3,
+    "word": "CEM"
+   },
+   {
+    "id": "D31",
+    "coord": [
+     5,
+     8
+    ],
+    "num": 7,
+    "word": "MAMONAS"
+   },
+   {
+    "id": "H32",
+    "coord": [
+     5,
+     11
+    ],
+    "num": 4,
+    "word": "UFSC"
+   },
+   {
+    "id": "D33",
+    "coord": [
+     5,
+     12
+    ],
+    "num": 5,
+    "word": "FICAR"
+   },
+   {
+    "id": "D34",
+    "coord": [
+     5,
+     13
+    ],
+    "num": 5,
+    "word": "SPORT"
+   },
+   {
+    "id": "D35",
+    "coord": [
+     5,
+     14
+    ],
+    "num": 5,
+    "word": "COROA"
+   },
+   {
+    "id": "H36",
+    "coord": [
+     6,
+     0
+    ],
+    "num": 10,
+    "word": "DESCOMUNAL"
+   },
+   {
+    "id": "D37",
+    "coord": [
+     6,
+     5
+    ],
+    "num": 3,
+    "word": "MAS"
+   },
+   {
+    "id": "D38",
+    "coord": [
+     6,
+     9
+    ],
+    "num": 3,
+    "word": "LER"
+   },
+   {
+    "id": "H39",
+    "coord": [
+     6,
+     11
+    ],
+    "num": 4,
+    "word": "AIPO"
+   },
+   {
+    "id": "H40",
+    "coord": [
+     7,
+     0
+    ],
+    "num": 3,
+    "word": "ING"
+   },
+   {
+    "id": "H41",
+    "coord": [
+     7,
+     5
+    ],
+    "num": 5,
+    "word": "ARAME"
+   },
+   {
+    "id": "H42",
+    "coord": [
+     7,
+     12
+    ],
+    "num": 3,
+    "word": "COR"
+   },
+   {
+    "id": "H43",
+    "coord": [
+     8,
+     0
+    ],
+    "num": 4,
+    "word": "ARAR"
+   },
+   {
+    "id": "D44",
+    "coord": [
+     8,
+     3
+    ],
+    "num": 5,
+    "word": "ROSES"
+   },
+   {
+    "id": "H45",
+    "coord": [
+     8,
+     5
+    ],
+    "num": 10,
+    "word": "SUDORIPARO"
+   },
+   {
+    "id": "D46",
+    "coord": [
+     8,
+     10
+    ],
+    "num": 7,
+    "word": "IMATURO"
+   },
+   {
+    "id": "D47",
+    "coord": [
+     8,
+     11
+    ],
+    "num": 3,
+    "word": "PAZ"
+   },
+   {
+    "id": "H48",
+    "coord": [
+     9,
+     0
+    ],
+    "num": 4,
+    "word": "RARO"
+   },
+   {
+    "id": "H49",
+    "coord": [
+     9,
+     6
+    ],
+    "num": 3,
+    "word": "ION"
+   },
+   {
+    "id": "H50",
+    "coord": [
+     9,
+     10
+    ],
+    "num": 5,
+    "word": "MARTA"
+   },
+   {
+    "id": "H51",
+    "coord": [
+     10,
+     3
+    ],
+    "num": 3,
+    "word": "STA"
+   },
+   {
+    "id": "D52",
+    "coord": [
+     10,
+     4
+    ],
+    "num": 5,
+    "word": "TOTAL"
+   },
+   {
+    "id": "D53",
+    "coord": [
+     10,
+     5
+    ],
+    "num": 5,
+    "word": "ALADI"
+   },
+   {
+    "id": "H54",
+    "coord": [
+     10,
+     7
+    ],
+    "num": 5,
+    "word": "RAPAZ"
+   },
+   {
+    "id": "D55",
+    "coord": [
+     10,
+     9
+    ],
+    "num": 5,
+    "word": "PECAR"
+   },
+   {
+    "id": "D56",
+    "coord": [
+     11,
+     0
+    ],
+    "num": 4,
+    "word": "ACEM"
+   },
+   {
+    "id": "H56",
+    "coord": [
+     11,
+     0
+    ],
+    "num": 7,
+    "word": "AUREOLA"
+   },
+   {
+    "id": "D57",
+    "coord": [
+     11,
+     1
+    ],
+    "num": 4,
+    "word": "URRO"
+   },
+   {
+    "id": "D58",
+    "coord": [
+     11,
+     2
+    ],
+    "num": 4,
+    "word": "REAL"
+   },
+   {
+    "id": "D59",
+    "coord": [
+     11,
+     6
+    ],
+    "num": 4,
+    "word": "ADIR"
+   },
+   {
+    "id": "H60",
+    "coord": [
+     11,
+     8
+    ],
+    "num": 3,
+    "word": "SET"
+   },
+   {
+    "id": "D61",
+    "coord": [
+     11,
+     12
+    ],
+    "num": 4,
+    "word": "RAID"
+   },
+   {
+    "id": "H61",
+    "coord": [
+     11,
+     12
+    ],
+    "num": 3,
+    "word": "RES"
+   },
+   {
+    "id": "D62",
+    "coord": [
+     11,
+     13
+    ],
+    "num": 4,
+    "word": "ERMO"
+   },
+   {
+    "id": "D63",
+    "coord": [
+     11,
+     14
+    ],
+    "num": 4,
+    "word": "SUOR"
+   },
+   {
+    "id": "H64",
+    "coord": [
+     12,
+     0
+    ],
+    "num": 8,
+    "word": "CRESTADO"
+   },
+   {
+    "id": "D65",
+    "coord": [
+     12,
+     7
+    ],
+    "num": 3,
+    "word": "OLA"
+   },
+   {
+    "id": "H66",
+    "coord": [
+     12,
+     9
+    ],
+    "num": 6,
+    "word": "CUMARU"
+   },
+   {
+    "id": "D67",
+    "coord": [
+     12,
+     11
+    ],
+    "num": 3,
+    "word": "MRE"
+   },
+   {
+    "id": "H68",
+    "coord": [
+     13,
+     0
+    ],
+    "num": 3,
+    "word": "ERA"
+   },
+   {
+    "id": "H69",
+    "coord": [
+     13,
+     4
+    ],
+    "num": 4,
+    "word": "ADIL"
+   },
+   {
+    "id": "H70",
+    "coord": [
+     13,
+     9
+    ],
+    "num": 6,
+    "word": "ARRIMO"
+   },
+   {
+    "id": "H71",
+    "coord": [
+     14,
+     0
+    ],
+    "num": 3,
+    "word": "MOL"
+   },
+   {
+    "id": "H72",
+    "coord": [
+     14,
+     4
+    ],
+    "num": 4,
+    "word": "LIRA"
+   },
+   {
+    "id": "H73",
+    "coord": [
+     14,
+     9
+    ],
+    "num": 6,
+    "word": "ROEDOR"
+   }
+  ],
+  [
+   {
+    "id": "D1",
+    "coord": [
+     0,
+     0
+    ],
+    "num": 4,
+    "word": "INGA"
+   },
+   {
+    "id": "H1",
+    "coord": [
+     0,
+     0
+    ],
+    "num": 6,
+    "word": "INCOLA"
+   },
+   {
+    "id": "D2",
+    "coord": [
+     0,
+     1
+    ],
+    "num": 4,
+    "word": "NEON"
+   },
+   {
+    "id": "D3",
+    "coord": [
+     0,
+     2
+    ],
+    "num": 4,
+    "word": "CUIA"
+   },
+   {
+    "id": "D4",
+    "coord": [
+     0,
+     3
+    ],
+    "num": 3,
+    "word": "ORA"
+   },
+   {
+    "id": "D5",
+    "coord": [
+     0,
+     4
+    ],
+    "num": 7,
+    "word": "LANSING"
+   },
+   {
+    "id": "D6",
+    "coord": [
+     0,
+     5
+    ],
+    "num": 5,
+    "word": "ALALC"
+   },
+   {
+    "id": "D7",
+    "coord": [
+     0,
+     7
+    ],
+    "num": 3,
+    "word": "FIM"
+   },
+   {
+    "id": "H7",
+    "coord": [
+     0,
+     7
+    ],
+    "num": 4,
+    "word": "FEBO"
+   },
+   {
+    "id": "D8",
+    "coord": [
+     0,
+     8
+    ],
+    "num": 4,
+    "word": "ECAD"
+   },
+   {
+    "id": "D9",
+    "coord": [
+     0,
+     9
+    ],
+    "num": 5,
+    "word": "BASIC"
+   },
+   {
+    "id": "D10",
+    "coord": [
+     0,
+     10
+    ],
+    "num": 5,
+    "word": "ORCAR"
+   },
+   {
+    "id": "D11",
+    "coord": [
+     0,
+     12
+    ],
+    "num": 4,
+    "word": "OCRE"
+   },
+   {
+    "id": "H11",
+    "coord": [
+     0,
+     12
+    ],
+    "num": 3,
+    "word": "OFF"
+   },
+   {
+    "id": "D12",
+    "coord": [
+     0,
+     13
+    ],
+    "num": 4,
+    "word": "FLAT"
+   },
+   {
+    "id": "D13",
+    "coord": [
+     0,
+     14
+    ],
+    "num": 4,
+    "word": "FARO"
+   },
+   {
+    "id": "H14",
+    "coord": [
+     1,
+     0
+    ],
+    "num": 6,
+    "word": "NEURAL"
+   },
+   {
+    "id": "H15",
+    "coord": [
+     1,
+     7
+    ],
+    "num": 4,
+    "word": "ICAR"
+   },
+   {
+    "id": "H16",
+    "coord": [
+     1,
+     12
+    ],
+    "num": 3,
+    "word": "CLA"
+   },
+   {
+    "id": "H17",
+    "coord": [
+     2,
+     0
+    ],
+    "num": 6,
+    "word": "GOIANA"
+   },
+   {
+    "id": "H18",
+    "coord": [
+     2,
+     7
+    ],
+    "num": 8,
+    "word": "MASCARAR"
+   },
+   {
+    "id": "D19",
+    "coord": [
+     2,
+     11
+    ],
+    "num": 5,
+    "word": "ALESP"
+   },
+   {
+    "id": "H20",
+    "coord": [
+     3,
+     0
+    ],
+    "num": 3,
+    "word": "ANA"
+   },
+   {
+    "id": "H21",
+    "coord": [
+     3,
+     4
+    ],
+    "num": 3,
+    "word": "SLC"
+   },
+   {
+    "id": "D22",
+    "coord": [
+     3,
+     6
+    ],
+    "num": 7,
+    "word": "CHILENO"
+   },
+   {
+    "id": "H23",
+    "coord": [
+     3,
+     8
+    ],
+    "num": 7,
+    "word": "DIALETO"
+   },
+   {
+    "id": "D24",
+    "coord": [
+     4,
+     3
+    ],
+    "num": 3,
+    "word": "PAN"
+   },
+   {
+    "id": "H24",
+    "coord": [
+     4,
+     3
+    ],
+    "num": 5,
+    "word": "PICHE"
+   },
+   {
+    "id": "D25",
+    "coord": [
+     4,
+     7
+    ],
+    "num": 7,
+    "word": "ETILICO"
+   },
+   {
+    "id": "H26",
+    "coord": [
+     4,
+     9
+    ],
+    "num": 3,
+    "word": "CRE"
+   },
+   {
+    "id": "D27",
+    "coord": [
+     5,
+     0
+    ],
+    "num": 5,
+    "word": "NEGAR"
+   },
+   {
+    "id": "H27",
+    "coord": [
+     5,
+     0
+    ],
+    "num": 5,
+    "word": "NATAN"
+   },
+   {
+    "id": "D28",
+    "coord": [
+     5,
+     1
+    ],
+    "num": 5,
+    "word": "AVISO"
+   },
+   {
+    "id": "D29",
+    "coord": [
+     5,
+     2
+    ],
+    "num": 5,
+    "word": "TALIM"
+   },
+   {
+    "id": "H30",
+    "coord": [
+     5,
+     6
+    ],
+    "num": 3,
+    "word": "ITA"
+   },
+   {
+    "id": "D31",
+    "coord": [
+     5,
+     8
+    ],
+    "num": 7,
+    "word": "ACICATE"
+   },
+   {
+    "id": "H32",
+    "coord": [
+     5,
+     11
+    ],
+    "num": 4,
+    "word": "SIMA"
+   },
+   {
+    "id": "D33",
+    "coord": [
+     5,
+     12
+    ],
+    "num": 5,
+    "word": "IRANI"
+   },
+   {
+    "id": "D34",
+    "coord": [
+     5,
+     13
+    ],
+    "num": 5,
+    "word": "MONTA"
+   },
+   {
+    "id": "D35",
+    "coord": [
+     5,
+     14
+    ],
+    "num": 5,
+    "word": "ALPES"
+   },
+   {
+    "id": "H36",
+    "coord": [
+     6,
+     0
+    ],
+    "num": 10,
+    "word": "EVANGELICO"
+   },
+   {
+    "id": "D37",
+    "coord": [
+     6,
+     5
+    ],
+    "num": 3,
+    "word": "EXU"
+   },
+   {
+    "id": "D38",
+    "coord": [
+     6,
+     9
+    ],
+    "num": 3,
+    "word": "OMA"
+   },
+   {
+    "id": "H39",
+    "coord": [
+     6,
+     11
+    ],
+    "num": 4,
+    "word": "PROL"
+   },
+   {
+    "id": "H40",
+    "coord": [
+     7,
+     0
+    ],
+    "num": 3,
+    "word": "GIL"
+   },
+   {
+    "id": "H41",
+    "coord": [
+     7,
+     5
+    ],
+    "num": 5,
+    "word": "XELIM"
+   },
+   {
+    "id": "H42",
+    "coord": [
+     7,
+     12
+    ],
+    "num": 3,
+    "word": "ANP"
+   },
+   {
+    "id": "H43",
+    "coord": [
+     8,
+     0
+    ],
+    "num": 4,
+    "word": "ASIA"
+   },
+   {
+    "id": "D44",
+    "coord": [
+     8,
+     3
+    ],
+    "num": 5,
+    "word": "AEREO"
+   },
+   {
+    "id": "H45",
+    "coord": [
+     8,
+     5
+    ],
+    "num": 10,
+    "word": "UNICAMENTE"
+   },
+   {
+    "id": "D46",
+    "coord": [
+     8,
+     10
+    ],
+    "num": 7,
+    "word": "METANOL"
+   },
+   {
+    "id": "D47",
+    "coord": [
+     8,
+     11
+    ],
+    "num": 3,
+    "word": "ELE"
+   },
+   {
+    "id": "H48",
+    "coord": [
+     9,
+     0
+    ],
+    "num": 4,
+    "word": "ROME"
+   },
+   {
+    "id": "H49",
+    "coord": [
+     9,
+     6
+    ],
+    "num": 3,
+    "word": "OCA"
+   },
+   {
+    "id": "H50",
+    "coord": [
+     9,
+     10
+    ],
+    "num": 5,
+    "word": "ELIAS"
+   },
+   {
+    "id": "H51",
+    "coord": [
+     10,
+     3
+    ],
+    "num": 3,
+    "word": "RUM"
+   },
+   {
+    "id": "D52",
+    "coord": [
+     10,
+     4
+    ],
+    "num": 5,
+    "word": "UNCAO"
+   },
+   {
+    "id": "D53",
+    "coord": [
+     10,
+     5
+    ],
+    "num": 5,
+    "word": "MIAMI"
+   },
+   {
+    "id": "H54",
+    "coord": [
+     10,
+     7
+    ],
+    "num": 5,
+    "word": "OTITE"
+   },
+   {
+    "id": "D55",
+    "coord": [
+     10,
+     9
+    ],
+    "num": 5,
+    "word": "ICONE"
+   },
+   {
+    "id": "D56",
+    "coord": [
+     11,
+     0
+    ],
+    "num": 4,
+    "word": "EIRA"
+   },
+   {
+    "id": "H56",
+    "coord": [
+     11,
+     0
+    ],
+    "num": 7,
+    "word": "EUGENIA"
+   },
+   {
+    "id": "D57",
+    "coord": [
+     11,
+     1
+    ],
+    "num": 4,
+    "word": "UTIL"
+   },
+   {
+    "id": "D58",
+    "coord": [
+     11,
+     2
+    ],
+    "num": 4,
+    "word": "GARI"
+   },
+   {
+    "id": "D59",
+    "coord": [
+     11,
+     6
+    ],
+    "num": 4,
+    "word": "ARAR"
+   },
+   {
+    "id": "H60",
+    "coord": [
+     11,
+     8
+    ],
+    "num": 3,
+    "word": "ECA"
+   },
+   {
+    "id": "D61",
+    "coord": [
+     11,
+     12
+    ],
+    "num": 4,
+    "word": "UFMG"
+   },
+   {
+    "id": "H61",
+    "coord": [
+     11,
+     12
+    ],
+    "num": 3,
+    "word": "UIP"
+   },
+   {
+    "id": "D62",
+    "coord": [
+     11,
+     13
+    ],
+    "num": 4,
+    "word": "IRAI"
+   },
+   {
+    "id": "D63",
+    "coord": [
+     11,
+     14
+    ],
+    "num": 4,
+    "word": "PELO"
+   },
+   {
+    "id": "H64",
+    "coord": [
+     12,
+     0
+    ],
+    "num": 8,
+    "word": "ITAOCARA"
+   },
+   {
+    "id": "D65",
+    "coord": [
+     12,
+     7
+    ],
+    "num": 3,
+    "word": "ARO"
+   },
+   {
+    "id": "H66",
+    "coord": [
+     12,
+     9
+    ],
+    "num": 6,
+    "word": "ONOFRE"
+   },
+   {
+    "id": "D67",
+    "coord": [
+     12,
+     11
+    ],
+    "num": 3,
+    "word": "ORO"
+   },
+   {
+    "id": "H68",
+    "coord": [
+     13,
+     0
+    ],
+    "num": 3,
+    "word": "RIR"
+   },
+   {
+    "id": "H69",
+    "coord": [
+     13,
+     4
+    ],
+    "num": 4,
+    "word": "AMAR"
+   },
+   {
+    "id": "H70",
+    "coord": [
+     13,
+     9
+    ],
+    "num": 6,
+    "word": "NORMAL"
+   },
+   {
+    "id": "H71",
+    "coord": [
+     14,
+     0
+    ],
+    "num": 3,
+    "word": "ALI"
+   },
+   {
+    "id": "H72",
+    "coord": [
+     14,
+     4
+    ],
+    "num": 4,
+    "word": "OIRO"
+   },
+   {
+    "id": "H73",
+    "coord": [
+     14,
+     9
+    ],
+    "num": 6,
+    "word": "ELOGIO"
    }
   ]
  ]
