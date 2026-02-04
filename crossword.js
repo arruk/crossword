@@ -3,7 +3,8 @@ export class CrossWordApp {
 		this.gridEl   = root.querySelector("#grid");
 		this.horClues = root.querySelector("#horClues");
 		this.verClues = root.querySelector("#verClues");
-		this.titleEl  = root.querySelector("#title");
+		this.templEl  = root.querySelector("#templ");
+		this.problEl  = root.querySelector("#probl");
 		this.nextBtn  = root.querySelector("#nextBtn");
 		this.solBtn   = root.querySelector("#solBtn");
 		this.qstInp   = root.querySelector("#qstInp");
@@ -131,6 +132,7 @@ export class CrossWordApp {
 	changeHighlClue(oldS, newS){
 		this.getClue(oldS?.id)?.classList.remove("active");
 		this.getClue(newS?.id)?.classList.add("active");
+		this.getClue(newS?.id).scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
 	}
 
 	cellInSlot(r, c, slot){
@@ -269,6 +271,9 @@ export class CrossWordApp {
 		const t = this.templates[index];
 		this.grid = t.grid;
 		this.slots = t.slots;
+
+	  	this.templEl.textContent = `Template ${index+1}`;
+		this.problEl.textContent = `Solucao ${sol+1}`;
 
 		this.solution = this.solutions[this.grid.length]?.[sol] ?? [];
 

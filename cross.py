@@ -143,7 +143,7 @@ class CwSolver:
 
         for i in range(num):
             self.solve_timeout(seconds=8, tries=20)
-            self.game.print_grid()
+            #self.game.print_grid()
             solutions[f"{self.game.size}"].append([{ 
                     "id": s.id,
                     "coord":s.coord, 
